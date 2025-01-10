@@ -1,0 +1,660 @@
+---
+title: "Data cleaning of SPH publications by gender"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r,include = FALSE}
+# read in data with gender variable created in gender_script.R
+library(readr)
+#install.packages("stringdist")
+library(stringdist)
+library(dplyr)
+library(tidyverse)
+library(tidyr)
+library(stringr)
+```
+
+```{r}
+dat_complete <- read_csv("../interim/clean_data_job_title.csv")
+```
+
+Checking what needs to be updated:
+```{r}
+dat_complete %>%
+  filter(is.na(author_position) | is.na(individual_position)) %>%
+  group_by(author_position, individual_position) %>% 
+  summarise(n=n()) 
+
+# 2936 rows with no individual position, 5 of these are alphabetical. Need to backfill
+# 2931 rows 
+```
+Goal: Find missing author positions
+
+```{r}
+dat <- dat_complete %>% filter(is.na(author_position))
+```
+
+```{r}
+dat <- dat %>% mutate(last_name = tolower(last_name),
+                      Authors.OR.Authors.Contributors = tolower(dat$Authors.OR.Authors.Contributors))
+
+dat$Name <- gsub("\\([^\\)]+\\)", "", dat$Name)
+dat$Name <- gsub("\\.", "", dat$Name)
+
+# Getting initials and ignoring names in brackets
+get_initials <- function(name){
+  # get first name
+  f_name_initials <- unlist(str_split(name, ","))[2]
+  
+  # remove brackets in name
+  f_name_initials_no_bracks <- str_replace(f_name_initials, "\\s*\\([^\\)]+\\)", "")
+  
+  # get initials
+  initials <- paste(unlist(str_extract_all(f_name_initials_no_bracks, "[A-Z]+")), collapse="")
+
+  initials <- tolower(initials)
+
+  return (initials)
+}
+
+dat["initials"] <- sapply(dat$Name, get_initials)
+
+```
+
+```{r}
+# Checking if the author is contained
+dat %>%
+  mutate(contained = str_detect(Authors.OR.Authors.Contributors, paste("\\b", last_name, "\\b", sep=""))) %>% 
+  group_by(contained) %>%
+  summarise(n=n())
+
+  # use a for readability
+dat <- dat %>% mutate(a = Authors.OR.Authors.Contributors,
+              a = ifelse(ID == 1242860, str_replace(a, "sukriti kc", "kc s"), a),
+              a = ifelse(ID == 765517,  str_replace(a, "v. kontis", "kontis v"), a),
+              a = ifelse(ID %in% c(1232767, 1236027, 1268038),  str_replace(a, "derqui-fernandez", "derqui"), a),
+              a = ifelse(ID == 1236495,  str_replace(a, "fernandez nd", "derqui n"), a),
+              a = ifelse(ID %in% c(730067,784991,836293,1245688,1254631),
+                     str_replace(a, "basáñez", "basanez"), a),
+              a =ifelse(ID == 1102318,
+                     str_replace(a, "sophie", "day s"), a),
+              a =ifelse(ID == 1211532,
+                     str_replace(a, "paul a", "aylin pp"), a),
+              a = ifelse(ID == 1267073,
+                     str_replace(a, "bórquez a", "borquez a"), a),
+              a = ifelse(ID %in% c(701393,1292899,1294145,1314809),
+                     str_replace(a, "rönn mm", "ronn mm"), a),
+              a = ifelse(ID %in% c(667243,667244,780930,789999,799470,799665,810476,818433,833469,1004979,1010203,1023392,1045098,1047570,1047575,1047576,1049484,1049492,1049609,1050908,1059592,1063510,1064284,1064569,1065894,1067005,1067006,1067007,1069186,1069358,1072956,1072957,1087312,1091640,1093751,1100891,1107232,1116313,1116782,1118639,1130793,1131469,1133625,1136245,1145855,1145856,1146930,1147846,1148242,1148243,1148504,1155517,1158732,1169722,1170354,1174377,1179337,1179356,1199981,1206521,1208329,1209995,1212772,1214018,1220366,1220916,1221845,1223265,1226430,1227371,1232757,1234781,1235266,1235267,1235622,1237925,1238537,1239003,1240333,1240531,1240775,1245464,1263862,1269201,1269202,1271296,1272638,1273871,1274309,1277216,1277217,1278881,1292552,1315344,1315345),
+                     str_replace(a, "car lt", "tudor car l"), a),
+              a = ifelse(ID %in% c(630338,751198,757198,776643,814931,1083212,1133188,1147741,1206647,1225195,1277602,1294533),
+                     str_replace(a, "griep lmo", "oude griep lm"), a),
+              a = ifelse(ID == 755730,
+                     str_replace(a, "garcia lm", "monje garcia l"), a),
+              a = ifelse(ID == 690133,
+                     str_replace(a, "segura m", "segura lepe mp"), a),
+              a = ifelse(ID == 791334,
+                     str_replace(a, "martinez ar", "rodriguez martinez a"), a),
+              a = ifelse(ID %in% c(701990,717069,760357,784991,810602,833517,833518,833519,833521,833522,833523,836293,886203,886204,886206,976725,976728,981464,1001367,1084524,1093990,1099618,1118368,1131286,1145000,1155468,1155706,1155765,1158690,1167814,1169601,1174569,1174877,1175531,1177757,1179842,1181078,1181618,1182124,1189849,1189886,1193410,1195147,1196231,1197088,1202844,1206639,1211285,1211525,1217726,1224112,1226889,1227459,1234245,1235770,1245688,1254418,1258689,1267291,1278804, 1184684),
+                     str_replace(a, "cucunubá", "cucunuba perez"), a),
+                            a = ifelse(ID %in% c(701990,717069,760357,784991,810602,833517,833518,833519,833521,833522,833523,836293,886203,886204,886206,976725,976728,981464,1001367,1084524,1093990,1099618,1118368,1131286,1145000,1155468,1155706,1155765,1158690,1167814,1169601,1174569,1174877,1175531,1177757,1179842,1181078,1181618,1182124,1189849,1189886,1193410,1195147,1196231,1197088,1202844,1206639,1211285,1211525,1217726,1224112,1226889,1227459,1234245,1235770,1245688,1254418,1258689,1267291,1278804, 1196618),
+                     str_replace(a, "cucunuba", "cucunuba perez"), a),
+               a = ifelse(ID %in% c(814816,820061,1069150,1132846,1175601,1204049,1208342,1218539,1234245,1245688,1267291),
+                     str_replace(a, "dixon ma", "dixon-zegeye mas"), a),
+              a = ifelse(ID %in% c(890313,890327,890403,897969,959298,1118635,1187725,1193410,1202844,1240018),
+                     str_replace(a, "nascimento ff", "ferreira do nascimento"), a),
+              a =  ifelse(ID %in% c(1181078, 1197234,890403,897969,959298,1118635,1187725,1193410,1202844,1240018),
+                     str_replace(a, "mesa do", "olivera mesa d"), a),
+              a =   ifelse(ID == 1174132,
+                     str_replace(a, "yamamoto hq", "quezada yamamoto h"), a),
+              a = ifelse(ID == 1165644,
+                     str_replace(a, "delisle tg", "georgious-delisle t"), a),
+              a = ifelse(ID %in% c(1060823,1060825,1060826,1060827,1060828,1060829,1060830,1060832,1228068,1256963),
+                     str_replace(a, "van kn", "nguyen vk"), a),
+              a = ifelse(ID %in% c(1154504,1154550,1154551),
+                     str_replace(a, "y h", "han y"), a),
+              a = ifelse(ID == 1167206,
+                     str_replace(a, "bina r", "ram b"), a),
+              a = ifelse(ID %in% c(1194212, 1274326),
+                     str_replace(a, "daniels bc", "cracknell daniels bn"), a),
+              a = ifelse(ID == 1286578,
+                     str_replace(a, "frank k", "kelly f"), a),
+              a = ifelse(ID == 1306415,
+                     str_replace(a, "d d", "dajnak d"), a),
+              a = ifelse(ID == 1065862,
+                     str_replace(a, "tuan v", "vu tv"), a),
+              a = ifelse(ID%in% c(1135943, 1196535),
+                     str_replace(a, "tuan vv", "vu tv"), a),
+              a = ifelse(ID%in% c(1226593, 1258749),
+                     str_replace(a, "wright hr", "rapp wright hl"), a),
+              a = ifelse(ID%in% c(1153587, 1153588, 1165212, 1162463, 1167577,
+                                  1183803, 1201967, 1204151,1204158,1219913,
+                                  1252154,1262982),
+                     str_replace(a, "candido", "da silva candido"), a),
+              a = ifelse(ID %in% c(1262980,1262982),
+                     str_replace(a, "cândido", "da silva candido"), a),
+              a = ifelse(ID %in% c(656481, 692257, 705870),
+                     str_replace(a, "rosenblatt", "navarro rosenblatt"), a),
+              a = ifelse(ID %in% c(1267739, 1267740, 1267741, 1267742,
+                                   1267743, 1267744, 1267745, 1267750,
+                                   1248644),
+                     str_replace(a, "shaweno d", "adewo ds"), a),
+              a = ifelse(ID %in% c(1170959, 1170960, 1170961, 1170976,
+                                   1170979, 1170981, 1261097, 1262737),
+                         str_replace(a, "puvanachandra", "attwood"), a),
+              a = ifelse(ID %in% c(1170701, 1174924),
+                         str_replace(a, " de jager ca", "loots ca"), a),
+              a = ifelse(ID %in% c(787462, 821773, 1008728, 1077350, 1205747,
+                                   1205806, 1281405),
+                         str_replace(a, " rajani nb", "n weth"), a),
+              Authors.OR.Authors.Contributors = a)
+
+
+
+# Checking the impact of the update
+dat <- dat %>%
+  mutate(contained = str_detect(Authors.OR.Authors.Contributors, paste("\\b", last_name, "\\b", sep="")))
+
+dat %>% 
+  group_by(contained) %>%
+  summarise(n=n())
+```
+
+
+Identify all entries where individual position is missing and working group is present. 
+
+Hypothesis: individual position is missing in many cases due to working group present. -> This has a significant impact on results.
+
+```{r}
+# set up dataframe to identify where working groups are present
+working_groups_df <- data.frame(WorkingGroupName = character(0), ID = numeric(0))
+
+# identify all authors/author groups listed in Authors.OR.Authors.Contributors
+dat_sub <- str_split(dat$Authors.OR.Authors.Contributors,",")
+
+# remove spaces at beginning
+dat_sub <- data.frame(unlist(lapply(dat_sub, function(vec) trimws(vec))))
+names(dat_sub) <- c("full_name")
+dat_vector_dict <- dat_sub
+dat_vector_dict$full_name <- trimws(dat_vector_dict$full_name)
+
+# remove point and () (and values inside ())
+dat_vector_dict$full_name <- gsub("\\([^\\)]+\\)", "", dat_vector_dict$full_name)
+dat_vector_dict$full_name <- gsub("\\.", "", dat_vector_dict$full_name)
+
+# Split the 'full_name' column by space into new columns
+df_split <- dat_vector_dict %>%
+  separate(full_name, into = paste0("name_element_", 1:300), sep = " ",  fill = "right")
+
+df_split <- df_split %>%
+  select(where(~any(!is.na(.))))
+
+# for later identificaion of full working group names
+df_split$identity <- dat_vector_dict$full_name
+
+# might be irrelevant  
+df_split <- df_split %>%
+  select(where(~any(!is.na(.))))%>%
+  mutate_all(tolower)%>%
+  distinct()
+
+# Words to exclude that hint at consortia/working groups etc
+excluded_words <- c("modelling","opthalmologists", "program", "etiology", "group", "education", "consortium","committee",
+                    "network","collaborative", 
+                    "genetics", "collaboration", "hypertension", "investigators","diseases", "database","community","analysis",
+                    "nutrition", "team","gomide", "epidemiology", "expert", "society", "investigators", "accademia", "collaborators", 
+                    "study", "academia", "conference","project","table","laboratory","organization","organisation", "who",
+                    "federation")
+
+# create dataframe that only includes working groups
+working_groups <- df_split %>%
+  filter_all(any_vars(str_detect(., paste(excluded_words, collapse = "|"))))
+
+# save as vector
+working_groups_vec <- unique(working_groups$identity)
+
+# remove space at beginning of working group name
+working_groups_vec <- trimws(working_groups_vec)
+
+```
+
+
+Search for working group names in Authors.Or.Authors.Contributors column.
+
+```{r}
+
+# Empty df to collect info on WorkingGroupName and ID (from dat)
+working_groups_df <- data.frame(WorkingGroupName = character(0), ID = numeric(0))
+
+cleaned_author <- dat$Authors.OR.Authors.Contributors
+cleaned_author <- gsub("\\([^\\)]+\\)", "", cleaned_author)
+cleaned_author <- gsub("\\.", "", cleaned_author)
+
+# Loop through each search word
+for (i in seq_along(working_groups_vec)) {
+  # Use grepl to check if the word is present in the specified column
+  mask <- grepl(working_groups_vec[i], cleaned_author, fixed = TRUE)
+  
+  # If the word is found, retrieve the corresponding ID from column 1
+    if (any(mask)) {
+    corresponding_id <- dat[mask, "ID"][1]
+    
+    # Add the result to the results data frame
+    working_groups_df <- rbind(working_groups_df, data.frame(WorkingGroupName = working_groups_vec[i], ID = corresponding_id))
+  }
+}
+```
+
+Identify correct initials. Names cannot be split based on spaces due to double last names. 
+
+
+
+```{r}
+# remove working_groups rows from df_split
+split_df_filtered <- anti_join(df_split, working_groups)
+
+```
+
+```{r}
+# remove all columns where all empty
+split_df_filtered <- split_df_filtered %>%
+  select(where(~any(!is.na(.))))
+
+# search for all that begin with van or von/de/da (double names/longer names)
+split_df_updated <- split_df_filtered %>%
+  rowwise() %>%
+  mutate(von_van = str_detect(paste(c_across(starts_with("name_element_")), collapse = " "), "\\b(van|von|de|da|do|dos|la|del|das|al|el|di|le|la|lo)\\b")) %>%
+  mutate(group_var = cumsum(lag(!von_van, default = TRUE) & von_van)) %>%
+  group_by(group_var) %>%
+  mutate(
+    last_name_estim = ifelse(von_van & !is.na(name_element_6), 
+                             paste(name_element_1, 
+                                   name_element_2, 
+                                   name_element_3, 
+                                   name_element_4, 
+                                   name_element_5, sep = " "),
+                             
+                             ifelse(von_van & !is.na(name_element_5), 
+                             paste(name_element_1, 
+                                   name_element_2, 
+                                   name_element_3, 
+                                   name_element_4, sep = " "),
+                             
+                             ifelse(von_van & !is.na(name_element_4), 
+                             paste(name_element_1, 
+                                   name_element_2, 
+                                   name_element_3, sep = " "),
+                             
+                             ifelse(von_van & !is.na(name_element_3), 
+                             paste(name_element_1, 
+                                   name_element_2, sep = " "), NA_character_)))),
+    first_name_estim = if_else(von_van & !is.na(last_name_estim),
+                               if_else(!is.na(name_element_6), name_element_6,
+                               if_else(!is.na(name_element_5), name_element_5,
+                               if_else(!is.na(name_element_4), name_element_4,
+                                       if_else(!is.na(name_element_3), name_element_3,
+                                               if_else(!is.na(name_element_2), name_element_2,
+                                                       if_else(!is.na(name_element_1), name_element_1, NA_character_)))))), NA_character_)
+  ) %>%
+  ungroup()  # Ungroup to remove grouping
+
+
+von_van_df <- split_df_updated %>%
+  filter(!is.na(first_name_estim) & !is.na(last_name_estim))
+
+# remove rows from split_df_updated
+split_df_updated <- anti_join(split_df_updated, von_van_df)
+```
+
+
+Identify where only last name. 
+
+```{r}
+split_df_updated <- split_df_updated %>%
+  select(where(~any(!is.na(.))))
+
+split_df_updated <- split_df_updated %>%
+  rowwise() %>%
+  mutate(
+    last_name_estim = if_else(nchar(name_element_1 > 1) & is.na(name_element_2),
+                              name_element_1,
+                              NA_character_)
+  )
+
+only_last <- split_df_updated %>%
+  filter(!is.na(last_name_estim))
+
+only_last$first_name_estim <- NA
+split_df_updated <- anti_join(split_df_updated, only_last)
+
+
+```
+
+Identify is the first name and last name are in the right order. 
+
+```{r}
+split_df_updated <- split_df_updated %>%
+  select(where(~any(!is.na(.))))
+
+split_df_updated <- split_df_updated %>%
+  rowwise() %>%
+  mutate(
+    last_name_estim = if_else(!is.na(name_element_1) & !is.na(name_element_2) & is.na(name_element_3),
+                              if_else(nchar(name_element_1) >= nchar(name_element_2), name_element_1, name_element_2),
+                              NA_character_),
+    first_name_estim = if_else(!is.na(name_element_1) & !is.na(name_element_2) & is.na(name_element_3),
+                               if_else(nchar(name_element_1) >= nchar(name_element_2), name_element_2, name_element_1),
+                               NA_character_)
+  )
+
+
+easy_names <- split_df_updated %>%
+  filter(!is.na(first_name_estim) & !is.na(last_name_estim))
+
+split_df_updated <- anti_join(split_df_updated, easy_names)
+
+```
+
+```{r}
+
+# search for all that begin with van or von/de/da (double names/longer names)
+split_df_updated <- split_df_updated %>%
+  mutate(
+    last_name_estim = ifelse(!is.na(name_element_5), 
+                             paste(name_element_1, name_element_2, name_element_3, name_element_4, sep = " "),
+                             ifelse(!is.na(name_element_4), 
+                                    paste(name_element_1, name_element_2, name_element_3, sep = " "),
+                                    ifelse(!is.na(name_element_3), 
+                                           paste(name_element_1, name_element_2, sep = " "), 
+                                           NA_character_)
+                             )
+    ),
+    first_name_estim = ifelse(!is.na(last_name_estim),
+                              ifelse(!is.na(name_element_5), name_element_5,
+                                     ifelse(!is.na(name_element_4), name_element_4,
+                                            ifelse(!is.na(name_element_3), name_element_3,
+                                                   ifelse(!is.na(name_element_2), name_element_2,
+                                                          ifelse(!is.na(name_element_1), name_element_1, NA_character_)
+                                                   )
+                                            )
+                                     )
+                              ), NA_character_
+    )
+  )
+
+
+remaining_names <- split_df_updated %>%
+  filter(!is.na(first_name_estim) & !is.na(last_name_estim))
+
+# remove rows from split_df_updated
+split_df_updated <- anti_join(split_df_updated, remaining_names)
+# split_df_updated should be of length 0 if all names have been first/last named through algorithm
+```
+
+Merge all the sub dataframes: easy names, only_last, von_van_df, remaining names
+
+df_temp is the final dataset that should be used for subsequent comparison of initials with names in dat
+
+```{r}
+df_temp <- rbind(easy_names[,c("identity","last_name_estim","first_name_estim")], 
+                 only_last[,c("identity","last_name_estim","first_name_estim")], 
+                 von_van_df[,c("identity","last_name_estim","first_name_estim")], 
+                 remaining_names[,c("identity","last_name_estim","first_name_estim")])
+
+df_temp <- unique(df_temp)
+```
+
+
+```{r}
+# Check surname similarity
+# requires stringdist package
+# similar_surname, intended as a flag
+# doesn't account for cases where initial is first
+similar_surname_in_authors <- function(all_authors, last_name,
+                                       author_df,  threshold=0.85){
+  # Does not work for cases where the initial is first
+  # Get a list of authors
+  list_of_authors <- sapply(unlist(strsplit(all_authors, ",")), str_trim)
+
+  distance <- 0
+  matching_author <- ""
+  for (author in list_of_authors){
+
+    last_name_estim <- unlist(author_df[(author_df$identity == author), "last_name_estim"])[1]
+
+    if(!is.na(last_name_estim)){
+    temp_distance <- stringdist::stringsim(last_name_estim, last_name,
+                                           method="cosine")
+
+    if (temp_distance > threshold & temp_distance > distance){
+      distance <- temp_distance
+      matching_author <- paste(author, round(distance,2), sep=";")
+      }
+    }
+  }
+
+  return (matching_author)
+}
+
+# 
+# cosine_author_names <- sapply(1:NROW(dat),
+#                     function(i) similar_surname_in_authors(dat$all_authors[i],
+#                                                            dat$last_name[i], 
+#                                                            df_temp))
+dat["cosine_last_name_author_dist"] <- ""
+
+pb = txtProgressBar(min = 0, max = NROW(dat), initial = 0) 
+
+for (i in 1:NROW(dat)){
+  dat[i, "cosine_last_name_author_dist"] <- similar_surname_in_authors(dat$Authors.OR.Authors.Contributors[i],
+                                                                       dat$last_name[i], 
+                                                                       df_temp)
+  
+  setTxtProgressBar(pb, i)
+
+}
+
+close(pb)
+
+dat <- dat %>%
+  mutate(cosine_last_name_flag = (cosine_last_name_author_dist!=""))
+
+dat %>%
+  group_by(contained, cosine_last_name_flag) %>% 
+  summarise(n=n())
+```
+
+Manually checking and filtering out the bad matches
+```{r}
+dat <-  dat %>% mutate(UID = paste(ID, User.s.Proprietary.ID, sep="_"))
+
+dat %>% filter(cosine_last_name_flag == TRUE & contained == FALSE) %>%
+  select(UID, ID, Name, initials, last_name,  cosine_last_name_author_dist) %>% 
+  writexl::write_xlsx("../manual_checking/cosine_matches_not_contained.xlsx")
+
+# 26 matches were incorrect
+# Use new uid since there may be other correct matches with the same ID 
+ids_to_exclude <- c("1167577_ddasilva",
+                    "1266695_sanand",
+                    "1009316_clill",
+                    "752735_smacmaho",
+                    "656481_dnavarro",
+                    "692257_dnavarro",
+                    "705870_dnavarro",
+                    "1213008_cfraser",
+                    "1217243_cfraser",
+                    "1217778_cfraser",
+                    "1250443_cfraser",
+                    "792119_jaw32",
+                    "811876_jaw32",
+                    "978295_jaw32",
+                    "1021735_jaw32",
+                    "1054095_jaw32",
+                    "1064216_jaw32",
+                    "1167150_qchan30",
+                    "1148242_srawaf",
+                    "1148243_srawaf",
+                    "1155569_ar3513",
+                    "1044222_ssaxena",
+                    "1179337_amajeed",
+                    "780543_mrj30",
+                    "786350_mrj30",
+                    "810740_mrj30")
+
+
+dat <- dat %>% mutate(cosine_last_name_author_dist = ifelse(UID %in% ids_to_exclude,
+                                                     "", cosine_last_name_author_dist))
+
+dat <- dat %>%
+  mutate(cosine_last_name_flag = (cosine_last_name_author_dist!=""))
+
+dat %>%
+  group_by(contained, cosine_last_name_flag) %>% 
+  summarise(n=n())
+```
+
+```{r}
+get_individual_position <- function(all_authors,
+                                    last_name,
+                                    cosine_name_match,
+                                    author_df){
+  # Does not work for cases where the initial is first
+  # Get a list of authors
+  list_of_authors <- sapply(unlist(strsplit(all_authors, ",")), str_trim)
+
+  for (i in 1:length(list_of_authors)){
+    author <- list_of_authors[[i]]
+
+    if (is.na(author)) next
+    if (author == "") next
+
+    if (cosine_name_match == author){
+      return (i)
+    }
+    
+    last_name_estim <- unlist(author_df[(author_df$identity == author), "last_name_estim"])[1]
+    
+    if (!is.na(last_name_estim)){
+      if(last_name_estim == last_name){
+        return (i)
+      }
+    }
+  }
+
+  return (NA)
+}
+
+dat <- dat %>% mutate(cosine_name_match = str_split(cosine_last_name_author_dist, ";", simplify = TRUE)[,1])
+
+
+pb = txtProgressBar(min = 0, max = NROW(dat), initial = 0) 
+
+for (i in 1:NROW(dat)){
+  dat[i, "individual_position"] <- get_individual_position(dat$Authors.OR.Authors.Contributors[i],
+                                                           dat$last_name[i],
+                                                           dat$cosine_name_match[i],
+                                                           df_temp)
+  
+  setTxtProgressBar(pb, i)
+}
+
+close(pb)
+```
+
+```{r}
+dat <- dat %>% mutate(working_group_flag = (ID %in% working_groups_df$ID))
+```
+
+
+```{r}
+# 4 TRUE contained and FALSE cosine_last_name matches are due to initials with 3 letters -
+# the mataches were manually checked
+dat %>%
+  group_by(contained, cosine_last_name_flag, working_group_flag) %>%
+  summarise(n=n())
+```
+
+```{r}
+dat <- dat %>% mutate(author_position = ifelse(!is.na(individual_position), "middle", author_position),
+                      author_position = ifelse(individual_position==1, "first", author_position),
+                      author_position = ifelse(individual_position==N_authors, "last", author_position),
+               author_position = ifelse(is.na(author_position) & working_group_flag==TRUE, "working group", author_position))
+
+# Imperial COVID-19 Response team
+# Not sure if this list is exhaustive, but based on reports I could find attached to
+# an unnamed author in the author list with an NA author position
+C19RT_Reports <- c(1140112, 1140115, 1140116, 1142831, 114498, 1146729, 1148217, 1153716,
+1155733, 1156505, 1158552, 1181066, 1183624, 1183639, 1184094, 1185989,
+1186104, 1186107, 1187728, 1190142, 1204792, 1228788, 1238348, 1238555,
+1242093, 1273847, 1143357)
+
+dat <- dat %>% mutate(author_position = ifelse(is.na(author_position) & ID %in% C19RT_Reports,
+                                               "working group", author_position))
+
+```
+
+```{r}
+dat %>% filter(is.na(author_position)) %>%
+  group_by(contained) %>%
+  summarise(n=n())
+
+dat %>% filter(is.na(author_position)) %>%
+  select(ID, Name, initials, last_name, Authors.OR.Authors.Contributors, contained, DOI) %>%
+  writexl::write_xlsx("../manual_checking/na_individual_positions.xlsx")
+```
+Final results:
+
+```{r}
+dat_complete <-  dat_complete %>%
+  mutate(UID = paste(ID, User.s.Proprietary.ID, sep="_"))
+
+# Assuming UID is unique, there are duplicates in the dataset:
+dat_complete %>%
+  group_by(UID) %>% 
+  summarise(n=n()) %>%
+  arrange(desc(n)) %>% 
+  filter(n>1)
+
+# => 24 extra rows since there will be two rows for each of the 12 rows below
+dat %>% 
+  group_by(UID) %>%
+  summarise(n=n()) %>%
+  arrange(desc(n)) %>%
+  filter(n>1)
+
+dat_complete <- dat_complete %>%
+  distinct(UID, .keep_all = TRUE) 
+
+dat <- dat %>%
+  distinct(UID, .keep_all = TRUE)
+
+```
+
+```{r}
+dat %>% 
+  group_by(author_position) %>% 
+  summarise(n=n())
+
+# saving incase we need to check any of the estimated author positions
+dat %>% write.csv("../manual_checking/author_estimation_dataset.csv",
+                  row.names = FALSE)
+```
+
+```{r}
+dat_complete <- dat_complete %>% 
+  left_join(dat %>% select(UID, individual_position, author_position), by="UID", suffix = c("", "_estimated"))
+
+dat_complete <- dat_complete %>%
+  mutate(author_position = ifelse(is.na(author_position), author_position_estimated, author_position),
+         individual_position = ifelse(is.na(individual_position), individual_position_estimated, individual_position))
+```
+
+```{r}
+dat_complete%>% 
+  group_by(author_position) %>% 
+  summarise(n=n())
+
+dat_complete %>%
+  write.csv("../interim/clean_data_job_title_author_pos.csv", row.names = FALSE)
+```

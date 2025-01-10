@@ -1,0 +1,83 @@
+---
+title: "Data cleaning of SPH publications by gender"
+output:
+  html_document:
+    df_print: paged
+---
+
+Here we clean the data.
+ 
+
+```{r,include = FALSE}
+# read in data with gender variable created in gender_script.R
+dat <- read.csv("../raw/Publications_UserObjectPairs_From20140101_To20230605_School of Public Health_20230605_gender.csv")
+
+```
+
+There are `r nrow(dat)` publication records and `r nrow(unique(dat[, c("first_name", "last_name")]))` unique individuals in the data. 
+
+There are multiple types of publication records.
+
+```{r, include = TRUE}
+tab <- as.data.frame(table(dat$Sub.types))
+knitr::kable(tab)
+```
+
+For now we remove entries that are corrections, preprints, meeting abstracts and editorials.
+
+```{r, include = TRUE}
+# dat <- dat[-grep("Editorial",dat$Sub.types),]
+dat <- dat[-grep("Correction", dat$Sub.types), ]
+dat <- dat[-grep("Corrigendum", dat$Sub.types), ]
+dat <- dat[-grep("Meeting Abstract", dat$Sub.types), ]
+dat <- dat[-grep("Preprint", dat$Sub.types), ]
+dat <- dat[-grep("Published Erratum", dat$Sub.types), ]
+dat <- dat[-grep("Reprint", dat$Sub.types), ]
+dat <- dat[-grep("Book Review", dat$Sub.types), ]
+dat <- dat[-grep("Abstract", dat$Sub.types), ]
+dat <- dat[-grep("News Item", dat$Sub.types), ]
+dat <- dat[-grep("Congress", dat$Sub.types), ]
+dat <- dat[-grep("Retracted", dat$Sub.types), ]
+dat <- dat[-grep("Retraction", dat$Sub.types), ]
+dat <- dat[-grep("phdthesis", dat$Sub.types), ]
+
+```
+
+There are now `r nrow(dat)` publication records and `r nrow(unique(dat[, c("first_name","last_name")]))` unique individuals in the data. Some publications are shared across authors and there are `r nrow(unique(dat[ , c("Authors.OR.Authors.Contributors","Title")]))` unique publications.
+
+```{r, include = FALSE}
+# determine if authors are listed in alphabetical order
+dat$is.alphabetical <- sapply(1:nrow(dat),function(e){
+  author_list <- strsplit(dat$Authors.OR.Authors.Contributors[e],split = ", ")[[1]]
+  all(sort(author_list) == author_list) & length(author_list) > 4
+})
+
+# label as alphabetical
+dat$author_position[which(dat$is.alphabetical == TRUE)] <- "alphabetical group"
+```
+
+There are `r sum(dat$is.alphabetical)` records with an alphabetical group authorship (this is tested for an author list > 4). The authorship position now includes a group authorship category. 
+
+We also need to check the years of publications are remove those that are claimed prior to 2014. 
+
+```{r, include = FALSE}
+dat$year <- as.numeric(substr(dat$Publication.date.OR.Presented.date.OR.Date.awarded.OR.Presentation.date, start = 1, stop = 4))
+dat$year2 <- as.numeric(substr(dat$Date.of.acceptance, start = 1, stop = 4))
+dat$year3 <-  as.numeric(substr(dat$Online.publication.date, start = 1, stop = 4))
+
+dat$year <- ifelse(!is.na(dat$year), dat$year, 
+                    ifelse(!is.na(dat$year2), dat$year2, dat$year3))
+
+dat <- dat[dat$year >= 2014,] 
+dat <- dat[!is.na(dat$year),] 
+dat <- subset(dat, select = -c(year2, year3))
+
+```
+
+This cleaned data is now saved and called "clean_data.csv" in the OneDrive folder.
+
+```{r, include = FALSE}
+write.csv(dat, "../interim/clean_data.csv", row.names = FALSE)
+```
+
+
