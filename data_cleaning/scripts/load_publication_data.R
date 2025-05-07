@@ -3,7 +3,7 @@ library(tidyverse)
 # Read and clean data ----------------------------------------------------------
 # Read in data - download from Hackathon OneDrive
 # Assumes wd is set to where this script is
-dat <- read.csv(file.path("..", "shared", "clean_data_final.csv"),
+dat <- read.csv(file.path("/Users/paulachristen/Documents/publication bias manuscript/shared", "clean_data_final.csv"),
                 stringsAsFactors = FALSE, encoding = "UTF-8") |>
   mutate(date = ymd(date),
          time = case_when(year %in% c(2014:2015) ~ "2014-2015",
