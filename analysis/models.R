@@ -21,7 +21,7 @@ library(dplyr)
 ############################################################################
 ######################## Publication Data ##################################
 # Get Publication data (not in repository due to identifiable data) --------
-source("./load_publication_data.R",
+source("./data_cleaning/scripts/load_publication_data.R",
        chdir=TRUE)
 
 dat <- dat |>
@@ -34,7 +34,7 @@ dat <- dat |>
                 pandemic, time, date)
 
 # Read in network data (not in repository due to identifiable data) --------
-nw_dat <- read.csv("centrality_measures_year.csv")
+nw_dat <- read.csv("/Users/paulachristen/Documents/publication bias manuscript/shared/centrality_measures_year.csv")
 
 # Models -----------------------------------------------------------------------
 
@@ -71,57 +71,49 @@ dat_annual <- dat_annual |>
   mutate(year_reg = year - 2019)
 
 model_function <- function(model = "m_1",
-                            data = dat_annual,
-                            ref_group_race = "non-white", 
-                            ref_group_gender = "male", 
-                            ref_group_time = "2014-2015", 
-                            ref_group_jobcat = "Student / Research Assistant") {
+                           data = dat_annual,
+                           ref_group_race = "non-white", 
+                           ref_group_gender = "male", 
+                           ref_group_time = "2014-2015", 
+                           ref_group_jobcat = "Student / Research Assistant") {
   
-  if(model == "m_1"){
+  if (model == "m_1") {
     m <- "~ time + gender + race_group + job_cat_simplified3 + (1 | Username)"
-  }
-  
-  if(model == "m_2"){
+  } else if (model == "m_2") {
     m <- "~ time + gender*race_group + job_cat_simplified3 + (1 | Username)"
-  }
-  
-  if(model == "m_3"){
+  } else if (model == "m_3") {
     m <- "~ time*gender + race_group + job_cat_simplified3 + (1 | Username)"
-  }
-  
-  if(model == "m_4"){
+  } else if (model == "m_4") {
     m <- "~ job_cat_simplified3*gender + race_group + time + (1 | Username)"
   }
   
-  ### Change reference group for easier comparison -----------------------------
-  data <- within(data, race_group <- relevel(race_group, ref = ref_group_race))
-  data <- within(data, gender <- relevel(gender, ref = ref_group_gender))
-  data <- within(data, time <- relevel(time, ref = ref_group_time))
-  data <- within(data, job_cat_simplified3 <- relevel(job_cat_simplified3, ref = ref_group_jobcat))
+  # Change reference groups
+  data <- within(data, race_group <- relevel(as.factor(race_group), ref = ref_group_race))
+  data <- within(data, gender <- relevel(as.factor(gender), ref = ref_group_gender))
+  data <- within(data, time <- relevel(as.factor(time), ref = ref_group_time))
+  data <- within(data, job_cat_simplified3 <- relevel(as.factor(job_cat_simplified3), ref = ref_group_jobcat))
   
-  m1 <- glmmTMB(as.formula(paste0("N_pub",m)), 
-                data = data, family = nbinom2)
+  # Fit models
+  m1 <- glmmTMB(as.formula(paste0("N_pub", m)), data = data, family = nbinom2)
+  m2 <- glmmTMB(as.formula(paste0("apos_firstlast", m)), data = data, family = nbinom2)
+  m3 <- glmmTMB(as.formula(paste0("apos_middle", m)), data = data, family = nbinom2)
+  m4 <- glmmTMB(as.formula(paste0("deg", m)), data = data, family = nbinom2)
   
-  m2 <- glmmTMB(as.formula(paste0("apos_firstlast",m)),
-                data = data, family = nbinom2)
+  # Title
+  title <- case_when(
+    model == "m_1" ~ "Model 1",
+    model == "m_2" ~ "Model 2",
+    model == "m_3" ~ "Model 3",
+    model == "m_4" ~ "Model 4"
+  )
   
-  m3 <- glmmTMB(as.formula(paste0("apos_middle",m)),
-                data = data, family = nbinom2)
-  
-  m4 <- glmmTMB(as.formula(paste0("deg",m)),
-                data = data, family = nbinom2)
-  
-  title <- case_when(model == "m_1" ~
-                       "Model 1",
-                     model == "m_2" ~
-                       "Model 2",
-                     model == "m_3" ~
-                       "Model 3", 
-                     model == "m4" ~
-                       "Model 4")
-  
+  # Output file paths
   job_cat <- strsplit(ref_group_jobcat, " ")[[1]][1]
-  html_filepath <- paste0("./regression_results/",model,"_",ref_group_race,"_",ref_group_gender,"_",ref_group_time,"_",job_cat,".html")
+  file_stub <- paste0(model, "_", ref_group_race, "_", ref_group_gender, "_", ref_group_time, "_", job_cat)
+  html_filepath <- paste0("./regression_results/", file_stub, ".html")
+  png_filepath <- paste0("./regression_plots/", file_stub, ".png")
+  
+  # Save regression table
   print(sjPlot::tab_model(m1, m2, m3, m4,
                           dv.labels = c("N_pub", "apos_firstlast", "apos_middle", "deg"),
                           wrap.labels = 50,
@@ -129,14 +121,68 @@ model_function <- function(model = "m_1",
                           show.aic = TRUE,
                           p.style = "stars", 
                           file = html_filepath))
+  
+  # Dynamic axis labels -------------------------------------------------------
+  base_label <- c(
+    "Time: 2016 - 2017", "Time: 2018 - 2019", "Time: 2020 - 2021", "Time: 2022 - 2023",
+    "Gender: Men", "Ethnicity: Non-minoritized",
+    "Job Category: Research Associate", "Job Category: Research Fellow",
+    "Job Category: Lecturer", "Job Category: Senior Lecturer / Reader",
+    "Job Category: Professor",
+    "Job Category: Other"
+  )
+  
+  if (model == "m_1") {
+    axis_labels <- base_label
+  } else if (model == "m_2") {
+    axis_labels <- c(base_label, "Gender: Men x Ethnicity: Non-minoritized")
+  } else if (model == "m_3") {
+    axis_labels <- c(
+      base_label,
+      "Time: 2016 - 2017 x Gender: Men",
+      "Time: 2018 - 2019 x Gender: Men",
+      "Time: 2020 - 2021 x Gender: Men",
+      "Time: 2022 - 2023 x Gender: Men"
+    )
+  } else if (model == "m_4") {
+    jobcats <- c("Research Associate", "Research Fellow", "Lecturer", "Senior Lecturer / Reader", "Professor", "Other")
+    interaction_labels <- paste0("Job Category: ", jobcats, " x Gender: Male")
+    axis_labels <- c(base_label, interaction_labels)
+  }
+  
+  # Plot and save
+  p <- sjPlot::plot_models(m1, m2, m3, m4,
+                           axis.labels = rev(axis_labels),
+                           m.labels = c("Annual number of publications per person",
+                                        "Annual number of first or last author publications per person",
+                                        "Annual number of middle author publications per person", 
+                                        "Annual internal co-authors per person"), 
+                           colors = "Dark2",
+                           p.shape = TRUE) + 
+    labs(caption = paste("Reference:", ref_group_time, ", ", ref_group_race, ", ", ref_group_gender)) +
+    theme_minimal(base_size = 14) +  # Base font size (titles, axes, etc.)
+    theme(
+      axis.text = element_text(size = 18),        # Axis tick labels
+      axis.title = element_text(size = 18),       # Axis titles
+      legend.text = element_text(size = 16),      # Legend labels
+      plot.caption = element_text(size = 12),
+      legend.title = element_blank(),
+      legend.position = "bottom",
+      legend.box = "horizontal"
+    ) +
+    guides(color = guide_legend(nrow = 2))
+  
+  
+  ggsave(png_filepath, p, width = 12, height = 12, dpi = 300, units = "in")
 }
+
 
 #run model with all possible combinations -- apart from time -- keep 2014/15 as reference year
 combinations <- expand.grid(m = c("m_1", "m_2", "m_3", "m_4"),
-                            ref_group_race = unique(dat_annual$race_group),
-                            ref_group_gender = unique(dat_annual$gender),
-                            ref_group_time = unique(dat_annual$time),
-                            ref_group_jobcat = unique(dat_annual$job_cat_simplified3))
+                            ref_group_race = "non-white",
+                            ref_group_gender = "female",
+                            ref_group_time = "2014-2015",
+                            ref_group_jobcat = "Student / Research Assistant")
 
 #for loop over each iteration
 for (i in 1:nrow(combinations)) {
@@ -146,7 +192,7 @@ for (i in 1:nrow(combinations)) {
   t <- as.character(combinations$ref_group_time[[i]])
   j <- as.character(combinations$ref_group_jobcat[[i]])
   
-  mod_foc_outcome(model = m_,
+  model_function(model = m_,
                   dat_annual,
                   ref_group_race = r, 
                   ref_group_gender = g,
