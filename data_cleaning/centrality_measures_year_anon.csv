@@ -1,0 +1,2678 @@
+"username","gender","deg","betweeness","job_cat_simplified","year"
+"ID1","female",3,16.2554908979909,"Student",2018
+"ID3","female",2,0,"Student",2018
+"ID10","female",10,33.274762982116,"Senior Lecturer / Reader",2018
+"ID12","male",22,1755.39712875253,"Senior Lecturer / Reader",2018
+"ID13","male",0,0,"Other",2018
+"ID16","female",7,1696.83731342846,"Professor",2018
+"ID17","male",0,0,"Other",2018
+"ID18","male",0,0,"Research Fellow",2018
+"ID19","male",5,154.728233608497,"Student",2018
+"ID21","female",0,0,"Lecturer",2018
+"ID22","male",2,0,"Other",2018
+"ID23","female",0,0,"Other",2018
+"ID24","female",6,0,"Professor",2018
+"ID25","female",1,0,"Research Fellow",2018
+"ID26","male",9,537.16902881465,"Senior Lecturer / Reader",2018
+"ID27","male",0,0,"Research Fellow",2018
+"ID29","female",0,0,"Senior Lecturer / Reader",2018
+"ID33","male",23,3570.28275489871,"Professor",2018
+"ID35","male",3,0,"Research Assistant / Associate",2018
+"ID37","female",1,0,"Research Assistant / Associate",2018
+"ID41","male",3,0,"Research Assistant / Associate",2018
+"ID42","female",0,0,"Research Assistant / Associate",2018
+"ID43","male",4,5.31349206349206,"Other",2018
+"ID46","female",2,134.21156694183,"Other",2018
+"ID48","female",2,0,"Research Fellow",2018
+"ID49","male",4,0,"Research Fellow",2018
+"ID54","male",0,0,"Research Assistant / Associate",2018
+"ID56","male",4,31.6239659755449,"Senior Lecturer / Reader",2018
+"ID57","female",3,0,"Research Assistant / Associate",2018
+"ID59","female",1,0,"Senior Lecturer / Reader",2018
+"ID60","female",0,0,"Research Assistant / Associate",2018
+"ID61","male",5,5.5,"Lecturer",2018
+"ID63","male",3,0.25,"Professor",2018
+"ID69","male",11,0,"Research Fellow",2018
+"ID71","female",0,0,"Other",2018
+"ID74","male",8,542.980196121961,"Other",2018
+"ID83","male",4,155.5,"Professor",2018
+"ID84","female",2,0,"Research Assistant / Associate",2018
+"ID85","male",2,3,"Research Assistant / Associate",2018
+"ID88","female",5,0,"Lecturer",2018
+"ID91","male",9,442.233297409668,"Professor",2018
+"ID93","female",1,0,"Research Assistant / Associate",2018
+"ID95","female",3,0,"Research Assistant / Associate",2018
+"ID99","male",0,0,"Research Assistant / Associate",2018
+"ID104","female",0,0,"Other",2018
+"ID105","female",3,4.5,"Senior Lecturer / Reader",2018
+"ID106","female",5,241.466666666667,"Professor",2018
+"ID107","male",11,550.540878087055,"Research Assistant / Associate",2018
+"ID108","male",2,0,"Professor",2018
+"ID109","female",4,0,"Research Fellow",2018
+"ID110","female",0,0,"Research Fellow",2018
+"ID111","male",8,8.04445970695971,"Senior Lecturer / Reader",2018
+"ID112","male",5,5.54444444444444,"Other",2018
+"ID115","female",9,291.487969673945,"Senior Lecturer / Reader",2018
+"ID116","male",3,155,"Research Fellow",2018
+"ID117","male",4,155,"Senior Lecturer / Reader",2018
+"ID119","male",0,0,"Research Assistant / Associate",2018
+"ID120","male",2,0,"Research Fellow",2018
+"ID121","male",2,0,"Research Assistant / Associate",2018
+"ID129","male",8,109.743641860089,"Other",2018
+"ID131","female",0,0,"Other",2018
+"ID134","female",10,11.1505949745652,"Lecturer",2018
+"ID139","male",1,0,"Research Assistant / Associate",2018
+"ID140","female",1,0,"Research Assistant / Associate",2018
+"ID141","male",13,99.0179668479669,"Senior Lecturer / Reader",2018
+"ID142","female",2,0,"Other",2018
+"ID143","female",1,0,"Student",2018
+"ID145","male",0,0,"Professor",2018
+"ID147","female",0,0,"Research Fellow",2018
+"ID152","female",0,0,"Lecturer",2018
+"ID153","male",1,0,"Other",2018
+"ID154","male",19,216.379612154023,"Professor",2018
+"ID155","female",1,0,"Other",2018
+"ID157","female",3,0,"Research Fellow",2018
+"ID159","female",6,209.547673775681,"Senior Lecturer / Reader",2018
+"ID162","male",2,4,"Senior Lecturer / Reader",2018
+"ID164","female",1,0,"Research Assistant / Associate",2018
+"ID165","female",0,0,"Lecturer",2018
+"ID166","male",13,990.010243124035,"Professor",2018
+"ID168","male",7,401.017079349223,"Senior Lecturer / Reader",2018
+"ID171","male",11,989.768807245387,"Professor",2018
+"ID172","male",8,57.7,"Senior Lecturer / Reader",2018
+"ID173","female",2,0,"Research Assistant / Associate",2018
+"ID174","female",1,0,"Research Assistant / Associate",2018
+"ID178","male",0,0,"Research Fellow",2018
+"ID180","male",2,0,"Research Assistant / Associate",2018
+"ID181","female",9,25.0076923076924,"Research Assistant / Associate",2018
+"ID186","male",1,0,"Research Fellow",2018
+"ID191","female",0,0,"Research Fellow",2018
+"ID195","female",2,1,"Professor",2018
+"ID197","female",11,0,"Research Assistant / Associate",2018
+"ID198","female",1,0,"Research Assistant / Associate",2018
+"ID200","female",2,0,"Other",2018
+"ID201","male",1,0,"Lecturer",2018
+"ID202","male",1,0,"Other",2018
+"ID203","female",0,0,"Research Assistant / Associate",2018
+"ID205","female",4,0,"Senior Lecturer / Reader",2018
+"ID206","female",6,155,"Other",2018
+"ID210","female",12,98.4950815524344,"Senior Lecturer / Reader",2018
+"ID213","male",0,0,"Research Assistant / Associate",2018
+"ID214","female",10,285.24126984127,"Lecturer",2018
+"ID216","male",1,0,"Senior Lecturer / Reader",2018
+"ID218","female",1,0,"Student",2018
+"ID219","female",14,170.558568149743,"Professor",2018
+"ID220","female",0,0,"Research Assistant / Associate",2018
+"ID221","female",29,692.133749104082,"Other",2018
+"ID224","female",1,0,"Other",2018
+"ID225","male",15,1106.22762813439,"Senior Lecturer / Reader",2018
+"ID226","male",13,62.6459551902156,"Professor",2018
+"ID230","male",0,0,"Other",2018
+"ID238","male",0,0,"Other",2018
+"ID239","male",0,0,"Other",2018
+"ID241","male",4,0,"Research Assistant / Associate",2018
+"ID243","male",3,0,"Senior Lecturer / Reader",2018
+"ID244","male",2,0,"Lecturer",2018
+"ID245","male",1,0,"Research Assistant / Associate",2018
+"ID248","female",0,0,"Senior Lecturer / Reader",2018
+"ID249","female",0,0,"Research Assistant / Associate",2018
+"ID250","male",1,0,"Research Fellow",2018
+"ID253","female",2,0,"Research Assistant / Associate",2018
+"ID254","female",5,0,"Research Fellow",2018
+"ID255","female",1,0,"Professor",2018
+"ID257","female",0,0,"Professor",2018
+"ID258","male",5,155,"Professor",2018
+"ID263","male",0,0,"Research Fellow",2018
+"ID264","female",0,0,"Research Fellow",2018
+"ID268","male",8,98.6747369756392,"Senior Lecturer / Reader",2018
+"ID269","female",4,0,"Other",2018
+"ID271","male",1,0,"Senior Lecturer / Reader",2018
+"ID272","female",2,0,"Other",2018
+"ID273","male",0,0,"Lecturer",2018
+"ID274","female",0,0,"Research Assistant / Associate",2018
+"ID275","female",1,0,"Research Fellow",2018
+"ID276","female",1,0,"Other",2018
+"ID283","female",1,0,"Other",2018
+"ID284","female",2,1,"Other",2018
+"ID285","male",0,0,"Professor",2018
+"ID288","female",1,0,"Senior Lecturer / Reader",2018
+"ID289","female",5,1751.77988102046,"Senior Lecturer / Reader",2018
+"ID294","female",3,0,"Professor",2018
+"ID295","female",1,0,"Other",2018
+"ID296","male",0,0,"Senior Lecturer / Reader",2018
+"ID297","female",4,9,"Professor",2018
+"ID298","female",8,95.3065835042152,"Professor",2018
+"ID301","male",6,192.743041023304,"Professor",2018
+"ID302","male",13,128.529898724464,"Professor",2018
+"ID303","female",1,0,"Other",2018
+"ID308","male",0,0,"Professor",2018
+"ID310","male",11,0,"Professor",2018
+"ID311","female",3,204.626002506266,"Professor",2018
+"ID312","male",19,300.270088344499,"Professor",2018
+"ID314","male",2,0,"Senior Lecturer / Reader",2018
+"ID316","male",0,0,"Other",2018
+"ID317","male",0,0,"Other",2018
+"ID318","female",1,0,"Research Assistant / Associate",2018
+"ID319","female",0,0,"Other",2018
+"ID325","female",0,0,"Research Fellow",2018
+"ID329","male",0,0,"Research Fellow",2018
+"ID331","female",2,0,"Research Fellow",2018
+"ID333","female",10,11.1505949745652,"Professor",2018
+"ID334","female",4,0,"Research Assistant / Associate",2018
+"ID337","male",1,0,"Other",2018
+"ID339","female",4,0,"Other",2018
+"ID340","male",0,0,"Other",2018
+"ID342","male",1,0,"Research Assistant / Associate",2018
+"ID343","male",19,2121.07164018542,"Professor",2018
+"ID345","male",4,153,"Professor",2018
+"ID349","male",4,208.863492063492,"Professor",2018
+"ID351","male",1,0,"Senior Lecturer / Reader",2018
+"ID354","male",0,0,"Senior Lecturer / Reader",2018
+"ID359","female",5,524.2,"Professor",2018
+"ID361","male",15,603.786806457994,"Professor",2018
+"ID363","female",0,0,"Research Fellow",2018
+"ID369","male",6,163.425549450549,"Lecturer",2018
+"ID372","female",1,0,"Lecturer",2018
+"ID375","male",1,0,"Lecturer",2018
+"ID378","male",31,929.024225294558,"Professor",2018
+"ID380","male",14,66.4092294299601,"Professor",2018
+"ID382","male",3,64.0835848682907,"Senior Lecturer / Reader",2018
+"ID384","male",8,372.047507658035,"Professor",2018
+"ID385","female",2,0,"Research Fellow",2018
+"ID386","male",0,0,"Lecturer",2018
+"ID387","male",26,2873.67070712243,"Professor",2018
+"ID388","male",3,155,"Professor",2018
+"ID389","male",4,4.66666666666667,"Research Fellow",2018
+"ID391","male",12,205.991270230744,"Professor",2018
+"ID395","female",3,0,"Research Fellow",2018
+"ID396","male",11,0,"Student",2018
+"ID398","male",2,0,"Professor",2018
+"ID400","male",6,0.2,"Other",2018
+"ID402","female",0,0,"Research Fellow",2018
+"ID404","male",0,0,"Research Assistant / Associate",2018
+"ID405","male",1,0,"Other",2018
+"ID407","female",5,1429.41602641024,"Research Assistant / Associate",2018
+"ID409","male",3,5,"Professor",2018
+"ID410","male",3,0,"Research Assistant / Associate",2018
+"ID412","male",0,0,"Research Assistant / Associate",2018
+"ID413","female",4,24.3011904761905,"Other",2018
+"ID415","female",0,0,"Senior Lecturer / Reader",2018
+"ID416","male",2,0,"Research Assistant / Associate",2018
+"ID421","male",1,0,"Research Fellow",2018
+"ID424","male",4,338.844444444444,"Research Fellow",2018
+"ID426","female",1,0,"Research Assistant / Associate",2018
+"ID427","female",7,9.1708707958708,"Research Fellow",2018
+"ID428","female",0,0,"Research Fellow",2018
+"ID429","female",0,0,"Lecturer",2018
+"ID430","male",4,153,"Professor",2018
+"ID432","female",6,247.319420822515,"Lecturer",2018
+"ID434","male",6,8.82063492063492,"Senior Lecturer / Reader",2018
+"ID435","male",0,0,"Research Assistant / Associate",2018
+"ID436","female",0,0,"Research Fellow",2018
+"ID437","female",1,0,"Senior Lecturer / Reader",2018
+"ID439","female",1,0,"Other",2018
+"ID440","male",0,0,"Other",2018
+"ID442","male",0,0,"Other",2018
+"ID443","female",2,0,"Other",2018
+"ID445","male",1,0,"Other",2018
+"ID446","male",1,0,"Research Fellow",2018
+"ID447","female",1,0,"Other",2018
+"ID448","male",14,3304.88397358976,"Professor",2018
+"ID453","female",0,0,"Research Assistant / Associate",2018
+"ID454","male",4,0.75,"Professor",2018
+"ID456","male",3,141.193041023304,"Research Assistant / Associate",2018
+"ID459","male",10,409.921600088733,"Professor",2018
+"ID460","male",12,1114.40076681603,"Professor",2018
+"ID462","female",0,0,"Research Assistant / Associate",2018
+"ID464","female",12,691.260822228126,"Professor",2018
+"ID465","male",0,0,"Other",2018
+"ID466","male",0,0,"Research Assistant / Associate",2018
+"ID469","female",1,0,"Lecturer",2018
+"ID470","male",1,0,"Research Fellow",2018
+"ID472","female",0,0,"Student",2018
+"ID473","male",5,888.892669172932,"Professor",2018
+"ID475","female",10,33.274762982116,"Senior Lecturer / Reader",2018
+"ID476","male",4,68.1829206507778,"Lecturer",2018
+"ID478","male",9,14.7275641025641,"Senior Lecturer / Reader",2018
+"ID479","female",2,0,"Other",2018
+"ID481","female",0,0,"Other",2018
+"ID482","female",2,0,"Research Fellow",2018
+"ID484","male",4,1,"Professor",2018
+"ID486","male",0,0,"Other",2018
+"ID487","male",1,0,"Research Fellow",2018
+"ID488","male",11,0,"Other",2018
+"ID489","female",2,0,"Other",2018
+"ID492","female",1,0,"Professor",2018
+"ID494","male",11,2247.33057088889,"Professor",2018
+"ID495","male",7,0,"Research Assistant / Associate",2018
+"ID496","female",0,0,"Other",2018
+"ID501","female",0,0,"Lecturer",2018
+"ID505","female",0,0,"Other",2018
+"ID506","male",8,0,"Other",2018
+"ID510","male",0,0,"Research Assistant / Associate",2018
+"ID1","female",4,232,"Student",2020
+"ID2","male",0,0,"Research Assistant / Associate",2020
+"ID3","female",0,0,"Student",2020
+"ID8","male",0,0,"Research Assistant / Associate",2020
+"ID9","male",0,0,"Research Assistant / Associate",2020
+"ID10","female",20,29.9355557009746,"Senior Lecturer / Reader",2020
+"ID11","female",47,28.9296459596499,"Student",2020
+"ID12","male",25,150.343273759217,"Senior Lecturer / Reader",2020
+"ID13","male",2,232,"Other",2020
+"ID15","male",0,0,"Research Assistant / Associate",2020
+"ID16","female",54,661.645210892738,"Professor",2020
+"ID17","male",0,0,"Other",2020
+"ID18","male",3,0,"Research Fellow",2020
+"ID20","female",0,0,"Research Assistant / Associate",2020
+"ID21","female",9,4.75235935456546,"Lecturer",2020
+"ID22","male",6,0,"Other",2020
+"ID23","female",0,0,"Other",2020
+"ID24","female",13,245.686115289377,"Professor",2020
+"ID25","female",2,0,"Research Fellow",2020
+"ID26","male",9,102.778144288016,"Senior Lecturer / Reader",2020
+"ID27","male",0,0,"Research Fellow",2020
+"ID29","female",1,0,"Senior Lecturer / Reader",2020
+"ID32","female",3,0,"Other",2020
+"ID33","male",33,3477.11867754421,"Professor",2020
+"ID35","male",0,0,"Research Assistant / Associate",2020
+"ID36","female",2,0,"Research Assistant / Associate",2020
+"ID37","female",1,0,"Research Assistant / Associate",2020
+"ID39","female",3,0,"Other",2020
+"ID40","female",3,0,"Other",2020
+"ID41","male",0,0,"Research Assistant / Associate",2020
+"ID42","female",5,1.31221022335153,"Research Assistant / Associate",2020
+"ID43","male",1,0,"Other",2020
+"ID46","female",31,241.580009895234,"Other",2020
+"ID48","female",3,0,"Research Fellow",2020
+"ID49","male",5,1.5,"Research Fellow",2020
+"ID53","male",41,12.8891920494893,"Research Assistant / Associate",2020
+"ID56","male",16,529.822516362592,"Senior Lecturer / Reader",2020
+"ID57","female",12,3.54295369663017,"Research Assistant / Associate",2020
+"ID58","male",1,0,"Research Assistant / Associate",2020
+"ID59","female",3,0,"Senior Lecturer / Reader",2020
+"ID61","male",5,19.7661319162275,"Lecturer",2020
+"ID63","male",14,1108.70655944495,"Professor",2020
+"ID65","male",6,1.81111111111111,"Research Assistant / Associate",2020
+"ID69","male",14,39.5513818296713,"Research Fellow",2020
+"ID70","male",4,0,"Research Assistant / Associate",2020
+"ID71","female",6,0.2,"Other",2020
+"ID74","male",4,0,"Other",2020
+"ID77","female",35,0.657620066817787,"Student",2020
+"ID78","female",6,0.5,"Research Fellow",2020
+"ID79","female",2,0,"Research Assistant / Associate",2020
+"ID80","male",2,0,"Research Assistant / Associate",2020
+"ID83","male",5,2,"Professor",2020
+"ID84","female",3,0,"Research Assistant / Associate",2020
+"ID85","male",1,0,"Research Assistant / Associate",2020
+"ID86","male",0,0,"Other",2020
+"ID87","male",0,0,"Research Assistant / Associate",2020
+"ID88","female",0,0,"Lecturer",2020
+"ID89","female",11,65.5916720887689,"Research Fellow",2020
+"ID91","male",11,711.497298014686,"Professor",2020
+"ID93","female",1,0,"Research Assistant / Associate",2020
+"ID97","female",9,0,"Research Assistant / Associate",2020
+"ID99","male",2,0,"Research Assistant / Associate",2020
+"ID101","male",0,0,"Other",2020
+"ID102","male",11,65.5916720887689,"Other",2020
+"ID103","male",0,0,"Research Assistant / Associate",2020
+"ID104","female",0,0,"Other",2020
+"ID105","female",2,0,"Senior Lecturer / Reader",2020
+"ID106","female",7,232.2,"Professor",2020
+"ID107","male",13,23.9307485568305,"Research Assistant / Associate",2020
+"ID108","male",5,6,"Professor",2020
+"ID109","female",0,0,"Research Fellow",2020
+"ID111","male",22,297.224609682116,"Senior Lecturer / Reader",2020
+"ID112","male",7,8.52139264291434,"Other",2020
+"ID113","male",4,18.6777873364029,"Research Assistant / Associate",2020
+"ID114","male",6,1.08888888888889,"Research Fellow",2020
+"ID115","female",19,308.195762311805,"Senior Lecturer / Reader",2020
+"ID116","male",6,27.7046224930152,"Research Fellow",2020
+"ID117","male",4,0,"Senior Lecturer / Reader",2020
+"ID119","male",26,7.34201802625911,"Research Assistant / Associate",2020
+"ID120","male",12,108.385551462161,"Research Fellow",2020
+"ID121","male",50,60.6130044571695,"Research Assistant / Associate",2020
+"ID125","male",39,88.9366376451978,"Research Assistant / Associate",2020
+"ID126","female",25,0,"Other",2020
+"ID129","male",11,12.6976802693588,"Other",2020
+"ID131","female",3,0,"Other",2020
+"ID134","female",2,0,"Lecturer",2020
+"ID138","female",0,0,"Other",2020
+"ID139","male",2,0,"Research Assistant / Associate",2020
+"ID141","male",19,291.980021155024,"Senior Lecturer / Reader",2020
+"ID142","female",3,0,"Other",2020
+"ID143","female",3,0,"Student",2020
+"ID145","male",13,0,"Professor",2020
+"ID147","female",0,0,"Research Fellow",2020
+"ID149","male",4,0,"Research Assistant / Associate",2020
+"ID151","female",1,0,"Research Fellow",2020
+"ID153","male",1,0,"Other",2020
+"ID154","male",23,597.608176907674,"Professor",2020
+"ID156","female",1,0,"Research Assistant / Associate",2020
+"ID157","female",32,9.78536960456061,"Research Fellow",2020
+"ID158","female",1,0,"Research Fellow",2020
+"ID159","female",7,18.8766874605399,"Senior Lecturer / Reader",2020
+"ID162","male",42,845.388972036584,"Senior Lecturer / Reader",2020
+"ID163","male",1,0,"Other",2020
+"ID165","female",0,0,"Lecturer",2020
+"ID166","male",55,866.598065674014,"Professor",2020
+"ID167","female",3,0,"Research Assistant / Associate",2020
+"ID168","male",8,267.57049105811,"Senior Lecturer / Reader",2020
+"ID169","male",12,267.771309308226,"Senior Lecturer / Reader",2020
+"ID170","male",0,0,"Research Fellow",2020
+"ID171","male",21,1288.97026054492,"Professor",2020
+"ID172","male",8,6.00065640082996,"Senior Lecturer / Reader",2020
+"ID173","female",2,0,"Research Assistant / Associate",2020
+"ID176","male",1,0,"Research Assistant / Associate",2020
+"ID177","male",7,152.943046697931,"Senior Lecturer / Reader",2020
+"ID178","male",0,0,"Research Fellow",2020
+"ID180","male",4,0.408964646464646,"Research Assistant / Associate",2020
+"ID181","female",50,60.6130044571695,"Research Assistant / Associate",2020
+"ID183","male",11,65.5916720887689,"Other",2020
+"ID186","male",12,731.783543821828,"Research Fellow",2020
+"ID188","male",0,0,"Other",2020
+"ID189","female",3,0,"Other",2020
+"ID192","female",45,44.5010017914862,"Research Assistant / Associate",2020
+"ID195","female",20,2572.88879980882,"Professor",2020
+"ID196","female",2,0,"Research Assistant / Associate",2020
+"ID197","female",13,0,"Research Assistant / Associate",2020
+"ID198","female",6,0,"Research Assistant / Associate",2020
+"ID199","female",0,0,"Research Fellow",2020
+"ID200","female",50,60.6130044571695,"Other",2020
+"ID201","male",0,0,"Lecturer",2020
+"ID202","male",0,0,"Other",2020
+"ID203","female",0,0,"Research Assistant / Associate",2020
+"ID204","female",49,57.7814780265182,"Research Fellow",2020
+"ID205","female",6,1.08888888888889,"Senior Lecturer / Reader",2020
+"ID206","female",2,0,"Other",2020
+"ID207","male",8,133.969370017504,"Research Fellow",2020
+"ID210","female",48,30.2729829400444,"Senior Lecturer / Reader",2020
+"ID211","female",26,0,"Research Assistant / Associate",2020
+"ID213","male",10,0,"Research Assistant / Associate",2020
+"ID214","female",32,0,"Lecturer",2020
+"ID216","male",12,114.261003743256,"Senior Lecturer / Reader",2020
+"ID219","female",27,553.838177926998,"Professor",2020
+"ID220","female",0,0,"Research Assistant / Associate",2020
+"ID221","female",24,1779.18381641274,"Other",2020
+"ID224","female",1,0,"Other",2020
+"ID225","male",21,1544.59800186559,"Senior Lecturer / Reader",2020
+"ID226","male",7,1.3616452991453,"Professor",2020
+"ID227","male",10,0,"Research Assistant / Associate",2020
+"ID228","female",3,0,"Research Assistant / Associate",2020
+"ID229","male",1,0,"Other",2020
+"ID230","male",0,0,"Other",2020
+"ID231","female",21,0,"Research Assistant / Associate",2020
+"ID232","female",0,0,"Lecturer",2020
+"ID233","female",1,0,"Research Fellow",2020
+"ID234","male",2,0,"Research Assistant / Associate",2020
+"ID235","female",0,0,"Other",2020
+"ID236","female",0,0,"Other",2020
+"ID243","male",43,79.710217697869,"Senior Lecturer / Reader",2020
+"ID244","male",4,0,"Lecturer",2020
+"ID245","male",3,0,"Research Assistant / Associate",2020
+"ID246","male",10,0.861904761904762,"Research Fellow",2020
+"ID248","female",0,0,"Senior Lecturer / Reader",2020
+"ID249","female",5,342,"Research Assistant / Associate",2020
+"ID251","female",0,0,"Research Assistant / Associate",2020
+"ID253","female",1,0,"Research Assistant / Associate",2020
+"ID254","female",51,147.599494356159,"Research Fellow",2020
+"ID255","female",32,233.74050061968,"Professor",2020
+"ID256","male",19,0,"Research Assistant / Associate",2020
+"ID257","female",7,4.20119047619048,"Professor",2020
+"ID258","male",6,571.5,"Professor",2020
+"ID260","female",0,0,"Other",2020
+"ID261","female",3,0,"Other",2020
+"ID263","male",43,261.248748170283,"Research Fellow",2020
+"ID265","female",0,0,"Research Assistant / Associate",2020
+"ID267","male",2,0,"Research Assistant / Associate",2020
+"ID268","male",11,22.5579174665702,"Senior Lecturer / Reader",2020
+"ID271","male",2,0,"Senior Lecturer / Reader",2020
+"ID272","female",1,0,"Other",2020
+"ID273","male",0,0,"Lecturer",2020
+"ID274","female",43,15.7713199347008,"Research Assistant / Associate",2020
+"ID275","female",2,0,"Research Fellow",2020
+"ID276","female",0,0,"Other",2020
+"ID279","female",9,0,"Other",2020
+"ID283","female",46,138.422555162186,"Other",2020
+"ID284","female",0,0,"Other",2020
+"ID285","male",14,890.433587168221,"Professor",2020
+"ID287","female",2,0,"Research Assistant / Associate",2020
+"ID288","female",51,106.962119096806,"Senior Lecturer / Reader",2020
+"ID289","female",1,0,"Senior Lecturer / Reader",2020
+"ID293","male",2,0,"Research Assistant / Associate",2020
+"ID294","female",14,1523.36870870882,"Professor",2020
+"ID296","male",53,160.864540182483,"Senior Lecturer / Reader",2020
+"ID297","female",5,234.914203612479,"Professor",2020
+"ID298","female",16,400.830363945821,"Professor",2020
+"ID299","female",3,0,"Research Assistant / Associate",2020
+"ID300","male",0,0,"Student",2020
+"ID301","male",1,0,"Professor",2020
+"ID302","male",23,334.370337145851,"Professor",2020
+"ID304","female",2,0,"Research Assistant / Associate",2020
+"ID306","female",0,0,"Research Assistant / Associate",2020
+"ID308","male",7,239.940909090909,"Professor",2020
+"ID309","female",0,0,"Other",2020
+"ID310","male",22,706.836062962605,"Professor",2020
+"ID311","female",2,0,"Professor",2020
+"ID312","male",26,299.950033956584,"Professor",2020
+"ID314","male",7,381.535115512526,"Senior Lecturer / Reader",2020
+"ID316","male",0,0,"Other",2020
+"ID317","male",0,0,"Other",2020
+"ID318","female",1,0,"Research Assistant / Associate",2020
+"ID319","female",1,0,"Other",2020
+"ID322","female",1,0,"Research Fellow",2020
+"ID325","female",1,0,"Research Fellow",2020
+"ID329","male",32,110.526651853398,"Research Fellow",2020
+"ID330","female",1,0,"Lecturer",2020
+"ID331","female",28,88.1250601823006,"Research Fellow",2020
+"ID332","female",0,0,"Other",2020
+"ID333","female",25,411.92938682778,"Professor",2020
+"ID334","female",18,94.9689410432933,"Research Assistant / Associate",2020
+"ID335","male",1,0,"Student",2020
+"ID337","male",0,0,"Other",2020
+"ID339","female",2,0,"Other",2020
+"ID340","male",4,0,"Other",2020
+"ID341","male",8,0.341399286987522,"Research Assistant / Associate",2020
+"ID342","male",1,0,"Research Assistant / Associate",2020
+"ID343","male",21,1215.21193879813,"Professor",2020
+"ID344","male",4,690,"Research Fellow",2020
+"ID345","male",32,87.4988932486478,"Professor",2020
+"ID348","female",0,0,"Research Assistant / Associate",2020
+"ID349","male",43,354.049430878168,"Professor",2020
+"ID351","male",2,232,"Senior Lecturer / Reader",2020
+"ID353","female",3,0,"Other",2020
+"ID354","male",2,0,"Senior Lecturer / Reader",2020
+"ID355","female",4,0,"Other",2020
+"ID356","female",3,0,"Other",2020
+"ID359","female",6,8,"Professor",2020
+"ID361","male",11,1449.8566233261,"Professor",2020
+"ID362","female",37,277.505921430794,"Research Assistant / Associate",2020
+"ID363","female",2,0,"Research Fellow",2020
+"ID367","female",39,10.6421801631521,"Research Assistant / Associate",2020
+"ID368","male",31,1.36804692287848,"Other",2020
+"ID369","male",11,51.5424631175938,"Lecturer",2020
+"ID372","female",1,0,"Lecturer",2020
+"ID373","female",3,0,"Other",2020
+"ID374","female",1,0,"Research Assistant / Associate",2020
+"ID378","male",54,8062.35732697465,"Professor",2020
+"ID380","male",4,20.4248695846023,"Professor",2020
+"ID381","female",9,0,"Other",2020
+"ID382","male",48,71.5886279146858,"Senior Lecturer / Reader",2020
+"ID383","female",0,0,"Research Assistant / Associate",2020
+"ID384","male",15,2014.59261611949,"Professor",2020
+"ID385","female",4,0.166666666666667,"Research Fellow",2020
+"ID387","male",32,1463.05725112191,"Professor",2020
+"ID388","male",26,1296.94757382166,"Professor",2020
+"ID389","male",48,530.727200907738,"Research Fellow",2020
+"ID391","male",14,1395.60793311931,"Professor",2020
+"ID392","female",3,0,"Other",2020
+"ID395","female",6,0,"Research Fellow",2020
+"ID396","male",13,0,"Student",2020
+"ID398","male",0,0,"Professor",2020
+"ID400","male",50,60.6130044571695,"Other",2020
+"ID402","female",0,0,"Research Fellow",2020
+"ID404","male",0,0,"Research Assistant / Associate",2020
+"ID405","male",2,0,"Other",2020
+"ID406","male",0,0,"Research Assistant / Associate",2020
+"ID409","male",4,921,"Professor",2020
+"ID410","male",2,0,"Research Assistant / Associate",2020
+"ID412","male",0,0,"Research Assistant / Associate",2020
+"ID413","female",3,30.8568607318607,"Other",2020
+"ID414","male",0,0,"Other",2020
+"ID415","female",2,0,"Senior Lecturer / Reader",2020
+"ID416","male",15,214.44268079825,"Research Assistant / Associate",2020
+"ID417","male",0,0,"Other",2020
+"ID421","male",1,0,"Research Fellow",2020
+"ID424","male",50,76.1783175023123,"Research Fellow",2020
+"ID425","female",0,0,"Research Fellow",2020
+"ID427","female",5,0,"Research Fellow",2020
+"ID428","female",0,0,"Research Fellow",2020
+"ID429","female",9,0,"Lecturer",2020
+"ID430","male",5,2.65926961926962,"Professor",2020
+"ID432","female",6,29.9892101135579,"Lecturer",2020
+"ID434","male",11,315.059532963429,"Senior Lecturer / Reader",2020
+"ID436","female",9,4.75235935456546,"Research Fellow",2020
+"ID437","female",5,1594,"Senior Lecturer / Reader",2020
+"ID438","female",1,0,"Other",2020
+"ID440","male",0,0,"Other",2020
+"ID441","female",1,0,"Other",2020
+"ID446","male",35,1.19436198432057,"Research Fellow",2020
+"ID448","male",52,1533.1999552302,"Professor",2020
+"ID450","female",41,22.1034559630008,"Other",2020
+"ID452","female",0,0,"Research Assistant / Associate",2020
+"ID453","female",0,0,"Research Assistant / Associate",2020
+"ID454","male",2,0,"Professor",2020
+"ID458","female",2,0,"Student",2020
+"ID459","male",12,244.697680269359,"Professor",2020
+"ID460","male",48,7256.14987958411,"Professor",2020
+"ID462","female",0,0,"Research Assistant / Associate",2020
+"ID463","female",4,0,"Research Assistant / Associate",2020
+"ID464","female",19,2392.10310151682,"Professor",2020
+"ID465","male",7,0,"Other",2020
+"ID466","male",0,0,"Research Assistant / Associate",2020
+"ID467","female",0,0,"Research Assistant / Associate",2020
+"ID468","female",50,60.6130044571695,"Other",2020
+"ID469","female",2,0,"Lecturer",2020
+"ID470","male",3,572.717143506798,"Research Fellow",2020
+"ID471","male",10,25.3718113468593,"Research Fellow",2020
+"ID472","female",2,0,"Student",2020
+"ID473","male",49,849.323139656407,"Professor",2020
+"ID475","female",2,0,"Senior Lecturer / Reader",2020
+"ID476","male",5,3,"Lecturer",2020
+"ID477","male",0,0,"Other",2020
+"ID478","male",0,0,"Senior Lecturer / Reader",2020
+"ID479","female",0,0,"Other",2020
+"ID480","female",33,9.57771030808459,"Research Fellow",2020
+"ID483","male",0,0,"Research Assistant / Associate",2020
+"ID484","male",32,9.78536960456061,"Professor",2020
+"ID485","male",3,0,"Other",2020
+"ID486","male",0,0,"Other",2020
+"ID487","male",0,0,"Research Fellow",2020
+"ID488","male",15,103.7486052983,"Other",2020
+"ID489","female",0,0,"Other",2020
+"ID492","female",3,232,"Professor",2020
+"ID494","male",12,112.86347609052,"Professor",2020
+"ID495","male",6,2.76945179004003,"Research Assistant / Associate",2020
+"ID498","female",5,0,"Research Assistant / Associate",2020
+"ID500","male",3,0,"Other",2020
+"ID501","female",10,32.4843516673011,"Lecturer",2020
+"ID505","female",0,0,"Other",2020
+"ID506","male",50,60.6130044571695,"Other",2020
+"ID509","male",0,0,"Research Assistant / Associate",2020
+"ID510","male",6,232,"Research Assistant / Associate",2020
+"ID511","male",0,0,"Research Assistant / Associate",2020
+"ID513","male",0,0,"Other",2020
+"ID6","female",5,0,"Research Assistant / Associate",2022
+"ID9","male",0,0,"Research Assistant / Associate",2022
+"ID10","female",8,290.34683436635,"Senior Lecturer / Reader",2022
+"ID12","male",24,693.222100602412,"Senior Lecturer / Reader",2022
+"ID13","male",6,1177.38692777252,"Other",2022
+"ID16","female",20,895.06981039582,"Professor",2022
+"ID18","male",2,0,"Research Fellow",2022
+"ID20","female",3,0,"Research Assistant / Associate",2022
+"ID21","female",11,187.234879208266,"Lecturer",2022
+"ID24","female",16,770.580650576633,"Professor",2022
+"ID25","female",1,0,"Research Fellow",2022
+"ID26","male",10,181.685424921838,"Senior Lecturer / Reader",2022
+"ID27","male",0,0,"Research Fellow",2022
+"ID29","female",6,238.580101672178,"Senior Lecturer / Reader",2022
+"ID31","male",3,0,"Other",2022
+"ID32","female",4,500,"Other",2022
+"ID33","male",35,8671.82338373877,"Professor",2022
+"ID34","female",1,0,"Research Assistant / Associate",2022
+"ID35","male",1,0,"Research Assistant / Associate",2022
+"ID38","female",3,0,"Other",2022
+"ID39","female",3,57.8347597620817,"Other",2022
+"ID42","female",4,0,"Research Assistant / Associate",2022
+"ID43","male",3,20.7449716949717,"Other",2022
+"ID44","male",1,0,"Research Assistant / Associate",2022
+"ID46","female",2,0,"Other",2022
+"ID48","female",5,96.4487725746738,"Research Fellow",2022
+"ID49","male",3,124,"Research Fellow",2022
+"ID52","male",3,0,"Student",2022
+"ID54","male",0,0,"Research Assistant / Associate",2022
+"ID55","male",4,0,"Research Assistant / Associate",2022
+"ID56","male",11,64.5184591122672,"Senior Lecturer / Reader",2022
+"ID57","female",21,875.319475590899,"Research Assistant / Associate",2022
+"ID59","female",5,67.2573032356616,"Senior Lecturer / Reader",2022
+"ID61","male",14,996.272532305026,"Lecturer",2022
+"ID62","female",1,0,"Research Assistant / Associate",2022
+"ID63","male",6,3355.13126129391,"Professor",2022
+"ID64","male",0,0,"Research Fellow",2022
+"ID71","female",13,19.3266115956905,"Other",2022
+"ID74","male",2,0,"Other",2022
+"ID78","female",12,366.079834592997,"Research Fellow",2022
+"ID81","male",1,0,"Research Assistant / Associate",2022
+"ID82","female",0,0,"Other",2022
+"ID83","male",5,251,"Professor",2022
+"ID84","female",5,81.4982346681948,"Research Assistant / Associate",2022
+"ID85","male",1,0,"Research Assistant / Associate",2022
+"ID86","male",1,0,"Other",2022
+"ID88","female",0,0,"Lecturer",2022
+"ID89","female",4,0,"Research Fellow",2022
+"ID90","male",3,0,"Research Assistant / Associate",2022
+"ID91","male",14,521.360589454452,"Professor",2022
+"ID93","female",3,0,"Research Assistant / Associate",2022
+"ID94","female",0,0,"Other",2022
+"ID96","female",2,0,"Other",2022
+"ID99","male",3,55.2054220512707,"Research Assistant / Associate",2022
+"ID100","female",1,0,"Other",2022
+"ID101","male",0,0,"Other",2022
+"ID102","male",9,165.333333333333,"Other",2022
+"ID103","male",1,0,"Research Assistant / Associate",2022
+"ID104","female",6,2.50282485789065,"Other",2022
+"ID105","female",10,956.942092655744,"Senior Lecturer / Reader",2022
+"ID106","female",13,19.3266115956905,"Professor",2022
+"ID107","male",17,712.547590265821,"Research Assistant / Associate",2022
+"ID108","male",6,251,"Professor",2022
+"ID109","female",9,0,"Research Fellow",2022
+"ID110","female",0,0,"Research Fellow",2022
+"ID111","male",8,4.07441338854382,"Senior Lecturer / Reader",2022
+"ID112","male",2,0,"Other",2022
+"ID113","male",3,0,"Research Assistant / Associate",2022
+"ID114","male",2,251,"Research Fellow",2022
+"ID115","female",16,1540.80093769751,"Senior Lecturer / Reader",2022
+"ID116","male",7,231.161404069076,"Research Fellow",2022
+"ID117","male",7,71.6139252518009,"Senior Lecturer / Reader",2022
+"ID119","male",21,4960.4473663639,"Research Assistant / Associate",2022
+"ID120","male",11,523.867239832993,"Research Fellow",2022
+"ID121","male",2,0,"Research Assistant / Associate",2022
+"ID122","male",2,0,"Research Assistant / Associate",2022
+"ID125","male",1,0,"Research Assistant / Associate",2022
+"ID126","female",4,0,"Other",2022
+"ID129","male",7,1090.64448359922,"Other",2022
+"ID130","male",0,0,"Research Fellow",2022
+"ID131","female",8,697.690709628864,"Other",2022
+"ID132","male",11,0,"Research Assistant / Associate",2022
+"ID133","female",4,0,"Lecturer",2022
+"ID134","female",0,0,"Lecturer",2022
+"ID139","male",5,61.4857712543429,"Research Assistant / Associate",2022
+"ID141","male",9,58.829541131662,"Senior Lecturer / Reader",2022
+"ID142","female",5,125,"Other",2022
+"ID145","male",0,0,"Professor",2022
+"ID147","female",4,0,"Research Fellow",2022
+"ID150","female",2,156.348472524035,"Other",2022
+"ID152","female",0,0,"Lecturer",2022
+"ID154","male",24,2268.30152606789,"Professor",2022
+"ID155","female",3,0,"Other",2022
+"ID156","female",2,0,"Research Assistant / Associate",2022
+"ID157","female",3,124.066666666667,"Research Fellow",2022
+"ID158","female",1,0,"Research Fellow",2022
+"ID159","female",16,1004.23298402042,"Senior Lecturer / Reader",2022
+"ID160","female",2,0,"Research Fellow",2022
+"ID161","female",3,0,"Other",2022
+"ID162","male",14,2943.16500168646,"Senior Lecturer / Reader",2022
+"ID163","male",0,0,"Other",2022
+"ID165","female",0,0,"Lecturer",2022
+"ID166","male",29,3915.69679679734,"Professor",2022
+"ID168","male",9,233.74091203221,"Senior Lecturer / Reader",2022
+"ID169","male",1,0,"Senior Lecturer / Reader",2022
+"ID170","male",0,0,"Research Fellow",2022
+"ID171","male",16,2180.69430908403,"Professor",2022
+"ID172","male",5,251,"Senior Lecturer / Reader",2022
+"ID173","female",2,0,"Research Assistant / Associate",2022
+"ID175","male",4,0,"Other",2022
+"ID176","male",2,0,"Research Assistant / Associate",2022
+"ID177","male",4,9.41216669689155,"Senior Lecturer / Reader",2022
+"ID178","male",3,0,"Research Fellow",2022
+"ID180","male",14,219.425697717718,"Research Assistant / Associate",2022
+"ID183","male",7,0,"Other",2022
+"ID185","male",8,73.4106754222611,"Other",2022
+"ID186","male",12,83.8717842593423,"Research Fellow",2022
+"ID187","female",2,0,"Research Assistant / Associate",2022
+"ID188","male",0,0,"Other",2022
+"ID189","female",5,0,"Other",2022
+"ID191","female",0,0,"Research Fellow",2022
+"ID195","female",15,337.5580592346,"Professor",2022
+"ID196","female",1,0,"Research Assistant / Associate",2022
+"ID197","female",2,0,"Research Assistant / Associate",2022
+"ID199","female",4,2.03333333333333,"Research Fellow",2022
+"ID200","female",3,0,"Other",2022
+"ID201","male",0,0,"Lecturer",2022
+"ID202","male",2,0,"Other",2022
+"ID203","female",0,0,"Research Assistant / Associate",2022
+"ID204","female",14,253.745684823056,"Research Fellow",2022
+"ID206","female",0,0,"Other",2022
+"ID208","male",0,0,"Research Assistant / Associate",2022
+"ID209","female",0,0,"Research Assistant / Associate",2022
+"ID210","female",11,501,"Senior Lecturer / Reader",2022
+"ID211","female",3,0,"Research Assistant / Associate",2022
+"ID212","male",1,0,"Research Assistant / Associate",2022
+"ID213","male",2,0,"Research Assistant / Associate",2022
+"ID214","female",2,0,"Lecturer",2022
+"ID219","female",31,4070.91644127156,"Professor",2022
+"ID220","female",2,0,"Research Assistant / Associate",2022
+"ID221","female",13,275.613218381054,"Other",2022
+"ID225","male",9,1415.37580632848,"Senior Lecturer / Reader",2022
+"ID226","male",11,9.54272473776973,"Professor",2022
+"ID227","male",2,2.2,"Research Assistant / Associate",2022
+"ID228","female",6,1.97226930233509,"Research Assistant / Associate",2022
+"ID229","male",1,0,"Other",2022
+"ID230","male",0,0,"Other",2022
+"ID232","female",1,0,"Lecturer",2022
+"ID233","female",3,0,"Research Fellow",2022
+"ID234","male",1,0,"Research Assistant / Associate",2022
+"ID236","female",1,0,"Other",2022
+"ID237","male",5,0,"Other",2022
+"ID240","female",0,0,"Other",2022
+"ID241","male",0,0,"Research Assistant / Associate",2022
+"ID243","male",4,88.2660289136975,"Senior Lecturer / Reader",2022
+"ID244","male",4,0,"Lecturer",2022
+"ID245","male",5,0,"Research Assistant / Associate",2022
+"ID246","male",4,0,"Research Fellow",2022
+"ID247","female",9,0,"Research Assistant / Associate",2022
+"ID248","female",0,0,"Senior Lecturer / Reader",2022
+"ID249","female",1,0,"Research Assistant / Associate",2022
+"ID250","male",2,0,"Research Fellow",2022
+"ID252","male",4,0.533333333333333,"Student",2022
+"ID253","female",6,116.691970121382,"Research Assistant / Associate",2022
+"ID254","female",8,10.781746031746,"Research Fellow",2022
+"ID255","female",14,687.16642215097,"Professor",2022
+"ID256","male",1,0,"Research Assistant / Associate",2022
+"ID257","female",1,0,"Professor",2022
+"ID258","male",5,625,"Professor",2022
+"ID262","female",4,0,"Other",2022
+"ID263","male",1,0,"Research Fellow",2022
+"ID265","female",0,0,"Research Assistant / Associate",2022
+"ID268","male",22,437.07656635361,"Senior Lecturer / Reader",2022
+"ID271","male",1,0,"Senior Lecturer / Reader",2022
+"ID273","male",0,0,"Lecturer",2022
+"ID274","female",2,0,"Research Assistant / Associate",2022
+"ID275","female",3,213.048814552468,"Research Fellow",2022
+"ID276","female",1,0,"Other",2022
+"ID278","female",1,0,"Research Assistant / Associate",2022
+"ID280","female",1,0,"Other",2022
+"ID283","female",10,12.8266465612969,"Other",2022
+"ID285","male",9,165.333333333333,"Professor",2022
+"ID287","female",2,0,"Research Assistant / Associate",2022
+"ID288","female",12,756.404890278323,"Senior Lecturer / Reader",2022
+"ID289","female",0,0,"Senior Lecturer / Reader",2022
+"ID290","female",2,0,"Research Assistant / Associate",2022
+"ID291","male",6,0,"Research Assistant / Associate",2022
+"ID292","female",4,0,"Student",2022
+"ID293","male",2,0,"Research Assistant / Associate",2022
+"ID294","female",7,535.274476736964,"Professor",2022
+"ID295","female",5,0.25,"Other",2022
+"ID296","male",4,0,"Senior Lecturer / Reader",2022
+"ID297","female",3,251,"Professor",2022
+"ID298","female",15,1155.67871818444,"Professor",2022
+"ID299","female",9,0,"Research Assistant / Associate",2022
+"ID300","male",0,0,"Student",2022
+"ID301","male",1,0,"Professor",2022
+"ID302","male",23,1919.92681719654,"Professor",2022
+"ID308","male",5,0,"Professor",2022
+"ID309","female",2,251,"Other",2022
+"ID310","male",15,884.152152861251,"Professor",2022
+"ID311","female",3,251,"Professor",2022
+"ID312","male",23,252.9544040897,"Professor",2022
+"ID314","male",3,775.516004251599,"Senior Lecturer / Reader",2022
+"ID316","male",0,0,"Other",2022
+"ID317","male",0,0,"Other",2022
+"ID318","female",1,0,"Research Assistant / Associate",2022
+"ID319","female",0,0,"Other",2022
+"ID320","male",0,0,"Research Fellow",2022
+"ID325","female",5,501,"Research Fellow",2022
+"ID326","female",6,1.67857142857143,"Other",2022
+"ID327","female",5,0.25,"Research Assistant / Associate",2022
+"ID328","male",8,0,"Research Assistant / Associate",2022
+"ID329","male",2,0,"Research Fellow",2022
+"ID330","female",8,299.705011760325,"Lecturer",2022
+"ID331","female",2,0,"Research Fellow",2022
+"ID333","female",11,5.914592855186,"Professor",2022
+"ID335","male",2,0,"Student",2022
+"ID336","male",1,0,"Student",2022
+"ID337","male",2,0,"Other",2022
+"ID340","male",2,0,"Other",2022
+"ID341","male",14,280.717226989859,"Research Assistant / Associate",2022
+"ID342","male",0,0,"Research Assistant / Associate",2022
+"ID343","male",12,1782.8934905003,"Professor",2022
+"ID344","male",5,125,"Research Fellow",2022
+"ID345","male",0,0,"Professor",2022
+"ID346","male",0,0,"Research Assistant / Associate",2022
+"ID347","female",9,0,"Research Assistant / Associate",2022
+"ID349","male",8,1032.70035966295,"Professor",2022
+"ID350","female",0,0,"Other",2022
+"ID351","male",1,0,"Senior Lecturer / Reader",2022
+"ID352","female",1,0,"Research Assistant / Associate",2022
+"ID353","female",0,0,"Other",2022
+"ID354","male",5,351.994586397584,"Senior Lecturer / Reader",2022
+"ID359","female",8,391.80493848257,"Professor",2022
+"ID361","male",12,4666.88305933694,"Professor",2022
+"ID363","female",2,0,"Research Fellow",2022
+"ID364","female",0,0,"Other",2022
+"ID366","male",2,0,"Research Assistant / Associate",2022
+"ID367","female",0,0,"Research Assistant / Associate",2022
+"ID368","male",12,4.46710526315789,"Other",2022
+"ID369","male",14,319.836815930187,"Lecturer",2022
+"ID371","female",0,0,"Research Assistant / Associate",2022
+"ID372","female",0,0,"Lecturer",2022
+"ID373","female",5,0,"Other",2022
+"ID374","female",1,0,"Research Assistant / Associate",2022
+"ID376","male",9,17.0815910405384,"Research Assistant / Associate",2022
+"ID378","male",40,9861.16736775407,"Professor",2022
+"ID379","female",3,1.45622710622711,"Research Assistant / Associate",2022
+"ID380","male",1,0,"Professor",2022
+"ID381","female",4,0,"Other",2022
+"ID382","male",10,29.9644531618769,"Senior Lecturer / Reader",2022
+"ID383","female",0,0,"Research Assistant / Associate",2022
+"ID384","male",13,492.3589356611,"Professor",2022
+"ID385","female",5,5.1086038961039,"Research Fellow",2022
+"ID386","male",1,0,"Lecturer",2022
+"ID387","male",30,3277.62945607324,"Professor",2022
+"ID388","male",9,18.2074846103694,"Professor",2022
+"ID389","male",23,2448.93160255265,"Research Fellow",2022
+"ID391","male",8,185.13836345543,"Professor",2022
+"ID395","female",8,9.63809523809524,"Research Fellow",2022
+"ID396","male",1,0,"Student",2022
+"ID397","female",2,0,"Student",2022
+"ID398","male",0,0,"Professor",2022
+"ID399","female",0,0,"Research Assistant / Associate",2022
+"ID401","female",2,0,"Student",2022
+"ID403","male",8,0,"Research Assistant / Associate",2022
+"ID404","male",4,0,"Research Assistant / Associate",2022
+"ID405","male",2,1,"Other",2022
+"ID407","female",11,8.56474186165694,"Research Assistant / Associate",2022
+"ID408","female",0,0,"Research Assistant / Associate",2022
+"ID409","male",1,0,"Professor",2022
+"ID410","male",2,0,"Research Assistant / Associate",2022
+"ID411","male",5,0,"Research Fellow",2022
+"ID412","male",0,0,"Research Assistant / Associate",2022
+"ID413","female",1,0,"Other",2022
+"ID414","male",0,0,"Other",2022
+"ID415","female",3,0,"Senior Lecturer / Reader",2022
+"ID416","male",7,536.317513320455,"Research Assistant / Associate",2022
+"ID417","male",1,0,"Other",2022
+"ID418","male",4,0,"Other",2022
+"ID419","female",0,0,"Other",2022
+"ID420","female",0,0,"Research Fellow",2022
+"ID421","male",1,0,"Research Fellow",2022
+"ID422","female",9,496.443209165852,"Research Assistant / Associate",2022
+"ID424","male",11,420.808367001182,"Research Fellow",2022
+"ID427","female",0,0,"Research Fellow",2022
+"ID428","female",0,0,"Research Fellow",2022
+"ID429","female",9,165.333333333333,"Lecturer",2022
+"ID430","male",2,0,"Professor",2022
+"ID431","female",0,0,"Other",2022
+"ID432","female",2,0,"Lecturer",2022
+"ID433","female",4,0,"Other",2022
+"ID434","male",13,879.693232971331,"Senior Lecturer / Reader",2022
+"ID435","male",0,0,"Research Assistant / Associate",2022
+"ID436","female",7,1.88884587634588,"Research Fellow",2022
+"ID437","female",5,467.369026707121,"Senior Lecturer / Reader",2022
+"ID440","male",3,0,"Other",2022
+"ID447","female",1,0,"Other",2022
+"ID448","male",18,4148.45930827141,"Professor",2022
+"ID449","male",0,0,"Other",2022
+"ID450","female",0,0,"Other",2022
+"ID451","female",2,0,"Research Assistant / Associate",2022
+"ID453","female",0,0,"Research Assistant / Associate",2022
+"ID454","male",3,58.0153863686958,"Professor",2022
+"ID455","female",6,12.2256025693097,"Research Assistant / Associate",2022
+"ID459","male",8,1341.64448359922,"Professor",2022
+"ID460","male",11,0,"Professor",2022
+"ID461","female",0,0,"Other",2022
+"ID462","female",0,0,"Research Assistant / Associate",2022
+"ID464","female",10,642.205319682534,"Professor",2022
+"ID465","male",1,0,"Other",2022
+"ID467","female",1,0,"Research Assistant / Associate",2022
+"ID468","female",0,0,"Other",2022
+"ID469","female",1,0,"Lecturer",2022
+"ID470","male",7,1336.17086327905,"Research Fellow",2022
+"ID471","male",4,0,"Research Fellow",2022
+"ID473","male",5,457.935244158928,"Professor",2022
+"ID476","male",10,567.755451615698,"Lecturer",2022
+"ID478","male",0,0,"Senior Lecturer / Reader",2022
+"ID479","female",2,0,"Other",2022
+"ID480","female",5,19.1810966810967,"Research Fellow",2022
+"ID482","female",0,0,"Research Fellow",2022
+"ID483","male",0,0,"Research Assistant / Associate",2022
+"ID484","male",4,148.590817943703,"Professor",2022
+"ID485","male",4,0,"Other",2022
+"ID486","male",7,0,"Other",2022
+"ID487","male",7,128.226267227815,"Research Fellow",2022
+"ID488","male",10,350.761416642081,"Other",2022
+"ID490","female",1,0,"Research Assistant / Associate",2022
+"ID492","female",10,1351.35107832733,"Professor",2022
+"ID494","male",3,0,"Professor",2022
+"ID495","male",11,38.2055720883847,"Research Assistant / Associate",2022
+"ID498","female",2,0,"Research Assistant / Associate",2022
+"ID501","female",7,5.92244069876755,"Lecturer",2022
+"ID502","male",2,0,"Research Assistant / Associate",2022
+"ID503","male",3,0,"Other",2022
+"ID506","male",4,0,"Other",2022
+"ID507","female",2,0,"Research Assistant / Associate",2022
+"ID508","male",3,0,"Research Assistant / Associate",2022
+"ID511","male",0,0,"Research Assistant / Associate",2022
+"ID513","male",0,0,"Other",2022
+"ID2","male",3,0,"Research Assistant / Associate",2021
+"ID3","female",0,0,"Student",2021
+"ID7","female",3,0,"Other",2021
+"ID9","male",0,0,"Research Assistant / Associate",2021
+"ID10","female",43,825.911239351222,"Senior Lecturer / Reader",2021
+"ID12","male",28,1360.13818474373,"Senior Lecturer / Reader",2021
+"ID13","male",7,490.269005621305,"Other",2021
+"ID16","female",43,796.942562365771,"Professor",2021
+"ID17","male",1,0,"Other",2021
+"ID18","male",3,0,"Research Fellow",2021
+"ID21","female",14,70.7376235942622,"Lecturer",2021
+"ID23","female",0,0,"Other",2021
+"ID24","female",19,716.424806368349,"Professor",2021
+"ID25","female",2,0,"Research Fellow",2021
+"ID26","male",7,63.3543038113876,"Senior Lecturer / Reader",2021
+"ID27","male",0,0,"Research Fellow",2021
+"ID29","female",2,0,"Senior Lecturer / Reader",2021
+"ID30","male",5,0,"Research Assistant / Associate",2021
+"ID31","male",5,284.280827675337,"Other",2021
+"ID32","female",2,289,"Other",2021
+"ID33","male",42,7899.7076163914,"Professor",2021
+"ID34","female",1,0,"Research Assistant / Associate",2021
+"ID35","male",0,0,"Research Assistant / Associate",2021
+"ID37","female",1,0,"Research Assistant / Associate",2021
+"ID39","female",3,0.5,"Other",2021
+"ID41","male",0,0,"Research Assistant / Associate",2021
+"ID42","female",1,0,"Research Assistant / Associate",2021
+"ID43","male",4,19.8599594849595,"Other",2021
+"ID44","male",1,0,"Research Assistant / Associate",2021
+"ID46","female",21,354.738678322114,"Other",2021
+"ID48","female",5,0,"Research Fellow",2021
+"ID49","male",6,144,"Research Fellow",2021
+"ID53","male",40,247.290191146657,"Research Assistant / Associate",2021
+"ID54","male",2,0,"Research Assistant / Associate",2021
+"ID55","male",1,0,"Research Assistant / Associate",2021
+"ID56","male",10,613.547161551303,"Senior Lecturer / Reader",2021
+"ID57","female",12,213.484200601734,"Research Assistant / Associate",2021
+"ID58","male",0,0,"Research Assistant / Associate",2021
+"ID59","female",15,623.103187509805,"Senior Lecturer / Reader",2021
+"ID60","female",0,0,"Research Assistant / Associate",2021
+"ID61","male",5,3.32236227824463,"Lecturer",2021
+"ID62","female",2,0,"Research Assistant / Associate",2021
+"ID63","male",7,431.377287026819,"Professor",2021
+"ID65","male",8,1704,"Research Assistant / Associate",2021
+"ID66","female",3,0,"Research Assistant / Associate",2021
+"ID68","female",17,21.2004070105938,"Other",2021
+"ID69","male",19,87.2783836295654,"Research Fellow",2021
+"ID71","female",24,1808.01958773771,"Other",2021
+"ID74","male",5,0,"Other",2021
+"ID75","female",1,0,"Research Assistant / Associate",2021
+"ID77","female",3,0,"Student",2021
+"ID78","female",6,79.0598652255595,"Research Fellow",2021
+"ID79","female",2,0,"Research Assistant / Associate",2021
+"ID80","male",2,0,"Research Assistant / Associate",2021
+"ID82","female",1,0,"Other",2021
+"ID83","male",5,88.2467907138668,"Professor",2021
+"ID84","female",4,13.0764457764458,"Research Assistant / Associate",2021
+"ID87","male",0,0,"Research Assistant / Associate",2021
+"ID88","female",0,0,"Lecturer",2021
+"ID89","female",14,2.9235237261553,"Research Fellow",2021
+"ID90","male",0,0,"Research Assistant / Associate",2021
+"ID91","male",13,1044.43837351717,"Professor",2021
+"ID92","female",2,0,"Student",2021
+"ID93","female",3,0.333333333333333,"Research Assistant / Associate",2021
+"ID96","female",2,0,"Other",2021
+"ID97","female",1,0,"Research Assistant / Associate",2021
+"ID99","male",6,159.501522374434,"Research Assistant / Associate",2021
+"ID101","male",0,0,"Other",2021
+"ID102","male",15,291.923523726155,"Other",2021
+"ID104","female",3,0,"Other",2021
+"ID105","female",7,144.309303615876,"Senior Lecturer / Reader",2021
+"ID106","female",10,2.17941256569848,"Professor",2021
+"ID107","male",10,8.61371551653483,"Research Assistant / Associate",2021
+"ID108","male",2,289,"Professor",2021
+"ID109","female",4,0,"Research Fellow",2021
+"ID110","female",0,0,"Research Fellow",2021
+"ID111","male",7,21.9867346763781,"Senior Lecturer / Reader",2021
+"ID112","male",3,0,"Other",2021
+"ID113","male",7,0,"Research Assistant / Associate",2021
+"ID114","male",4,0,"Research Fellow",2021
+"ID115","female",13,109.657092559781,"Senior Lecturer / Reader",2021
+"ID116","male",7,305.493191565057,"Research Fellow",2021
+"ID117","male",10,2621.33075871284,"Senior Lecturer / Reader",2021
+"ID119","male",9,177.887603621103,"Research Assistant / Associate",2021
+"ID120","male",16,82.9495211610943,"Research Fellow",2021
+"ID121","male",44,100.090079921769,"Research Assistant / Associate",2021
+"ID125","male",16,2.73555410133965,"Research Assistant / Associate",2021
+"ID126","female",29,320.589081241411,"Other",2021
+"ID127","female",9,0,"Other",2021
+"ID129","male",13,1127.72531184525,"Other",2021
+"ID130","male",13,0,"Research Fellow",2021
+"ID131","female",5,19.1666666666667,"Other",2021
+"ID133","female",1,0,"Lecturer",2021
+"ID134","female",5,0,"Lecturer",2021
+"ID137","female",0,0,"Research Assistant / Associate",2021
+"ID139","male",4,0,"Research Assistant / Associate",2021
+"ID141","male",12,49.2302848838427,"Senior Lecturer / Reader",2021
+"ID142","female",2,0,"Other",2021
+"ID143","female",18,84.521681361612,"Student",2021
+"ID145","male",20,533.973587100701,"Professor",2021
+"ID147","female",36,1903.84623083545,"Research Fellow",2021
+"ID149","male",21,13.1284678116389,"Research Assistant / Associate",2021
+"ID150","female",2,0,"Other",2021
+"ID153","male",0,0,"Other",2021
+"ID154","male",29,591.561325189174,"Professor",2021
+"ID155","female",3,0,"Other",2021
+"ID156","female",1,0,"Research Assistant / Associate",2021
+"ID157","female",5,0,"Research Fellow",2021
+"ID159","female",15,1676.54936966842,"Senior Lecturer / Reader",2021
+"ID161","female",2,0,"Other",2021
+"ID162","male",42,72.365157284276,"Senior Lecturer / Reader",2021
+"ID163","male",0,0,"Other",2021
+"ID165","female",0,0,"Lecturer",2021
+"ID166","male",56,1412.42856481904,"Professor",2021
+"ID167","female",32,23.7875049458733,"Research Assistant / Associate",2021
+"ID168","male",15,1681.81697259832,"Senior Lecturer / Reader",2021
+"ID169","male",6,113.017816119438,"Senior Lecturer / Reader",2021
+"ID171","male",19,3425.10426271351,"Professor",2021
+"ID172","male",5,1429,"Senior Lecturer / Reader",2021
+"ID173","female",1,0,"Research Assistant / Associate",2021
+"ID174","female",3,861,"Research Assistant / Associate",2021
+"ID175","male",11,0,"Other",2021
+"ID176","male",0,0,"Research Assistant / Associate",2021
+"ID177","male",1,0,"Senior Lecturer / Reader",2021
+"ID178","male",4,0,"Research Fellow",2021
+"ID179","female",3,0,"Other",2021
+"ID180","male",9,8.97873594185718,"Research Assistant / Associate",2021
+"ID181","female",35,9.18856712468941,"Research Assistant / Associate",2021
+"ID183","male",15,119.588789250128,"Other",2021
+"ID185","male",5,0,"Other",2021
+"ID186","male",7,27.2505248948403,"Research Fellow",2021
+"ID187","female",4,4.45764411027569,"Research Assistant / Associate",2021
+"ID188","male",0,0,"Other",2021
+"ID189","female",5,0,"Other",2021
+"ID190","female",1,0,"Student",2021
+"ID191","female",0,0,"Research Fellow",2021
+"ID192","female",40,358.349057298822,"Research Assistant / Associate",2021
+"ID195","female",30,2974.74954135861,"Professor",2021
+"ID196","female",3,0,"Research Assistant / Associate",2021
+"ID197","female",14,0,"Research Assistant / Associate",2021
+"ID199","female",0,0,"Research Fellow",2021
+"ID200","female",41,109.672710418805,"Other",2021
+"ID201","male",1,0,"Lecturer",2021
+"ID203","female",0,0,"Research Assistant / Associate",2021
+"ID204","female",36,75.7933412253403,"Research Fellow",2021
+"ID205","female",4,0,"Senior Lecturer / Reader",2021
+"ID206","female",2,0,"Other",2021
+"ID207","male",3,0,"Research Fellow",2021
+"ID210","female",37,209.260586825727,"Senior Lecturer / Reader",2021
+"ID211","female",7,0,"Research Assistant / Associate",2021
+"ID212","male",1,0,"Research Assistant / Associate",2021
+"ID214","female",3,0,"Lecturer",2021
+"ID216","male",6,292,"Senior Lecturer / Reader",2021
+"ID218","female",0,0,"Student",2021
+"ID219","female",21,539.758228902742,"Professor",2021
+"ID220","female",0,0,"Research Assistant / Associate",2021
+"ID221","female",26,2054.35338134698,"Other",2021
+"ID222","male",3,0,"Research Fellow",2021
+"ID223","female",1,0,"Research Assistant / Associate",2021
+"ID224","female",3,0,"Other",2021
+"ID225","male",22,441.819557326678,"Senior Lecturer / Reader",2021
+"ID226","male",7,552.475267780531,"Professor",2021
+"ID227","male",2,0,"Research Assistant / Associate",2021
+"ID228","female",4,0,"Research Assistant / Associate",2021
+"ID229","male",1,0,"Other",2021
+"ID231","female",28,147.607601597171,"Research Assistant / Associate",2021
+"ID232","female",0,0,"Lecturer",2021
+"ID233","female",2,0,"Research Fellow",2021
+"ID234","male",1,0,"Research Assistant / Associate",2021
+"ID236","female",0,0,"Other",2021
+"ID240","female",3,394.197114956391,"Other",2021
+"ID241","male",0,0,"Research Assistant / Associate",2021
+"ID242","male",0,0,"Research Assistant / Associate",2021
+"ID243","male",15,1587.92109901866,"Senior Lecturer / Reader",2021
+"ID244","male",5,1347.85108309854,"Lecturer",2021
+"ID245","male",8,0.258823529411765,"Research Assistant / Associate",2021
+"ID246","male",10,140.099467296696,"Research Fellow",2021
+"ID248","female",1,0,"Senior Lecturer / Reader",2021
+"ID249","female",6,144,"Research Assistant / Associate",2021
+"ID250","male",2,0,"Research Fellow",2021
+"ID251","female",0,0,"Research Assistant / Associate",2021
+"ID252","male",2,0,"Student",2021
+"ID254","female",49,449.853065422381,"Research Fellow",2021
+"ID255","female",45,1341.24805873837,"Professor",2021
+"ID256","male",32,6.97031657123839,"Research Assistant / Associate",2021
+"ID257","female",7,110.154271791326,"Professor",2021
+"ID258","male",9,1987,"Professor",2021
+"ID261","female",3,0,"Other",2021
+"ID262","female",5,88.2467907138668,"Other",2021
+"ID263","male",36,16.50611528638,"Research Fellow",2021
+"ID265","female",0,0,"Research Assistant / Associate",2021
+"ID266","male",0,0,"Research Assistant / Associate",2021
+"ID267","male",1,0,"Research Assistant / Associate",2021
+"ID268","male",24,547.631983896751,"Senior Lecturer / Reader",2021
+"ID271","male",4,289,"Senior Lecturer / Reader",2021
+"ID273","male",1,0,"Lecturer",2021
+"ID274","female",31,554.862943318171,"Research Assistant / Associate",2021
+"ID275","female",6,516.653196375732,"Research Fellow",2021
+"ID276","female",3,289,"Other",2021
+"ID279","female",2,0,"Other",2021
+"ID280","female",1,0,"Other",2021
+"ID283","female",39,49.7329487119868,"Other",2021
+"ID284","female",3,576,"Other",2021
+"ID285","male",15,119.588789250128,"Professor",2021
+"ID287","female",3,0,"Research Assistant / Associate",2021
+"ID288","female",39,1540.24343154759,"Senior Lecturer / Reader",2021
+"ID289","female",0,0,"Senior Lecturer / Reader",2021
+"ID291","male",0,0,"Research Assistant / Associate",2021
+"ID292","female",1,0,"Student",2021
+"ID293","male",2,0,"Research Assistant / Associate",2021
+"ID294","female",10,117.261632343704,"Professor",2021
+"ID296","male",43,85.3725996784284,"Senior Lecturer / Reader",2021
+"ID297","female",4,46.749834738999,"Professor",2021
+"ID298","female",14,918.361547500662,"Professor",2021
+"ID300","male",0,0,"Student",2021
+"ID301","male",2,1,"Professor",2021
+"ID302","male",13,482.383619039824,"Professor",2021
+"ID304","female",8,0,"Research Assistant / Associate",2021
+"ID306","female",3,0,"Research Assistant / Associate",2021
+"ID307","female",2,0,"Research Assistant / Associate",2021
+"ID308","male",9,445.970231100177,"Professor",2021
+"ID309","female",0,0,"Other",2021
+"ID310","male",33,5269.02041725198,"Professor",2021
+"ID311","female",7,1034.65016734754,"Professor",2021
+"ID312","male",29,728.394155556516,"Professor",2021
+"ID313","female",0,0,"Other",2021
+"ID314","male",7,1724.72177958297,"Senior Lecturer / Reader",2021
+"ID316","male",0,0,"Other",2021
+"ID317","male",0,0,"Other",2021
+"ID319","female",14,2.9235237261553,"Other",2021
+"ID321","female",14,0,"Student",2021
+"ID322","female",1,0,"Research Fellow",2021
+"ID324","female",2,0,"Other",2021
+"ID325","female",2,0,"Research Fellow",2021
+"ID329","male",2,0,"Research Fellow",2021
+"ID330","female",3,1.5062030075188,"Lecturer",2021
+"ID331","female",25,0,"Research Fellow",2021
+"ID333","female",5,2.71320792441758,"Professor",2021
+"ID334","female",14,0,"Research Assistant / Associate",2021
+"ID335","male",1,0,"Student",2021
+"ID337","male",3,0,"Other",2021
+"ID339","female",5,0,"Other",2021
+"ID340","male",1,0,"Other",2021
+"ID341","male",15,366.953480225121,"Research Assistant / Associate",2021
+"ID342","male",2,0,"Research Assistant / Associate",2021
+"ID343","male",31,6092.07462567879,"Professor",2021
+"ID344","male",2,0,"Research Fellow",2021
+"ID345","male",1,0,"Professor",2021
+"ID347","female",0,0,"Research Assistant / Associate",2021
+"ID349","male",11,60.1463758463759,"Professor",2021
+"ID351","male",1,0,"Senior Lecturer / Reader",2021
+"ID353","female",1,0,"Other",2021
+"ID354","male",16,17.5688663118004,"Senior Lecturer / Reader",2021
+"ID355","female",13,0,"Other",2021
+"ID356","female",0,0,"Other",2021
+"ID357","female",0,0,"Other",2021
+"ID359","female",6,33.8028850436094,"Professor",2021
+"ID360","female",1,0,"Research Assistant / Associate",2021
+"ID361","male",9,3239.71824529536,"Professor",2021
+"ID362","female",32,251.776065054586,"Research Assistant / Associate",2021
+"ID363","female",4,0,"Research Fellow",2021
+"ID364","female",1,0,"Other",2021
+"ID367","female",34,28.2096890258834,"Research Assistant / Associate",2021
+"ID368","male",37,1630.35514427511,"Other",2021
+"ID369","male",6,42.0500131626403,"Lecturer",2021
+"ID370","male",3,0,"Other",2021
+"ID372","female",0,0,"Lecturer",2021
+"ID373","female",3,0,"Other",2021
+"ID376","male",0,0,"Research Assistant / Associate",2021
+"ID378","male",44,6017.43207979629,"Professor",2021
+"ID379","female",2,0,"Research Assistant / Associate",2021
+"ID380","male",3,0,"Professor",2021
+"ID381","female",14,2.9235237261553,"Other",2021
+"ID382","male",46,315.710090429053,"Senior Lecturer / Reader",2021
+"ID383","female",0,0,"Research Assistant / Associate",2021
+"ID384","male",19,2581.78693245692,"Professor",2021
+"ID387","male",32,1389.57834631313,"Professor",2021
+"ID388","male",23,137.17506234381,"Professor",2021
+"ID389","male",37,751.550759028109,"Research Fellow",2021
+"ID391","male",17,2228.95250371438,"Professor",2021
+"ID393","male",0,0,"Other",2021
+"ID394","male",3,0,"Other",2021
+"ID395","female",3,0,"Research Fellow",2021
+"ID396","male",16,0.871143562320033,"Student",2021
+"ID398","male",1,0,"Professor",2021
+"ID400","male",37,13.2306436118912,"Other",2021
+"ID401","female",1,0,"Student",2021
+"ID402","female",1,0,"Research Fellow",2021
+"ID403","male",16,2.73555410133965,"Research Assistant / Associate",2021
+"ID404","male",6,0,"Research Assistant / Associate",2021
+"ID405","male",0,0,"Other",2021
+"ID406","male",0,0,"Research Assistant / Associate",2021
+"ID407","female",10,722.054504101714,"Research Assistant / Associate",2021
+"ID408","female",0,0,"Research Assistant / Associate",2021
+"ID409","male",2,0,"Professor",2021
+"ID410","male",3,0,"Research Assistant / Associate",2021
+"ID411","male",3,0,"Research Fellow",2021
+"ID412","male",0,0,"Research Assistant / Associate",2021
+"ID413","female",4,8.28531746031746,"Other",2021
+"ID414","male",0,0,"Other",2021
+"ID415","female",5,2243.64891690147,"Senior Lecturer / Reader",2021
+"ID416","male",9,65.9877226185061,"Research Assistant / Associate",2021
+"ID417","male",4,863,"Other",2021
+"ID419","female",15,52.1801657129489,"Other",2021
+"ID421","male",3,0.0666666666666667,"Research Fellow",2021
+"ID422","female",4,38.180952753354,"Research Assistant / Associate",2021
+"ID423","female",3,0,"Research Assistant / Associate",2021
+"ID424","male",40,176.496674071706,"Research Fellow",2021
+"ID425","female",0,0,"Research Fellow",2021
+"ID427","female",0,0,"Research Fellow",2021
+"ID428","female",0,0,"Research Fellow",2021
+"ID429","female",14,110.84140218289,"Lecturer",2021
+"ID430","male",4,132.516881213097,"Professor",2021
+"ID432","female",5,2.33333333333333,"Lecturer",2021
+"ID433","female",2,0,"Other",2021
+"ID434","male",11,727.016189512615,"Senior Lecturer / Reader",2021
+"ID435","male",0,0,"Research Assistant / Associate",2021
+"ID436","female",6,0.617098377812664,"Research Fellow",2021
+"ID437","female",2,0,"Senior Lecturer / Reader",2021
+"ID440","male",0,0,"Other",2021
+"ID441","female",1,0,"Other",2021
+"ID446","male",11,0,"Research Fellow",2021
+"ID447","female",3,0,"Other",2021
+"ID448","male",46,3089.09042870754,"Professor",2021
+"ID449","male",1,0,"Other",2021
+"ID450","female",0,0,"Other",2021
+"ID452","female",0,0,"Research Assistant / Associate",2021
+"ID453","female",0,0,"Research Assistant / Associate",2021
+"ID454","male",4,20.1206737706738,"Professor",2021
+"ID456","male",1,0,"Research Assistant / Associate",2021
+"ID457","male",0,0,"Other",2021
+"ID458","female",1,0,"Student",2021
+"ID459","male",15,1240.76584806945,"Professor",2021
+"ID460","male",44,2449.09205664425,"Professor",2021
+"ID462","female",0,0,"Research Assistant / Associate",2021
+"ID464","female",17,2903.34217634427,"Professor",2021
+"ID465","male",2,0,"Other",2021
+"ID468","female",38,24.6078800812625,"Other",2021
+"ID469","female",0,0,"Lecturer",2021
+"ID470","male",18,3105.191262961,"Research Fellow",2021
+"ID471","male",2,0,"Research Fellow",2021
+"ID473","male",19,68.2334511820422,"Professor",2021
+"ID474","male",0,0,"Research Fellow",2021
+"ID475","female",8,0,"Senior Lecturer / Reader",2021
+"ID476","male",4,59.1484274831714,"Lecturer",2021
+"ID477","male",3,9.12521945438782,"Other",2021
+"ID478","male",2,32.971749544939,"Senior Lecturer / Reader",2021
+"ID479","female",0,0,"Other",2021
+"ID480","female",28,168.947122641421,"Research Fellow",2021
+"ID483","male",10,0,"Research Assistant / Associate",2021
+"ID484","male",8,309.393985843302,"Professor",2021
+"ID485","male",0,0,"Other",2021
+"ID486","male",1,0,"Other",2021
+"ID487","male",4,576,"Research Fellow",2021
+"ID488","male",29,803.26400612136,"Other",2021
+"ID492","female",8,1345.95180194507,"Professor",2021
+"ID494","male",9,398.861917714917,"Professor",2021
+"ID495","male",14,369.09964233021,"Research Assistant / Associate",2021
+"ID496","female",2,0,"Other",2021
+"ID497","female",3,0,"Other",2021
+"ID498","female",4,13.4714285714286,"Research Assistant / Associate",2021
+"ID499","male",15,15.1666488602787,"Research Assistant / Associate",2021
+"ID500","male",0,0,"Other",2021
+"ID501","female",17,223.668902177943,"Lecturer",2021
+"ID503","male",5,0,"Other",2021
+"ID506","male",47,274.269354198791,"Other",2021
+"ID508","male",8,0,"Research Assistant / Associate",2021
+"ID510","male",3,0,"Research Assistant / Associate",2021
+"ID512","male",0,0,"Research Fellow",2021
+"ID513","male",0,0,"Other",2021
+"ID1","female",4,0,"Student",2019
+"ID10","female",3,662.5,"Senior Lecturer / Reader",2019
+"ID11","female",2,0,"Student",2019
+"ID12","male",26,118.222529921059,"Senior Lecturer / Reader",2019
+"ID13","male",2,193,"Other",2019
+"ID16","female",8,1288.33333333333,"Professor",2019
+"ID17","male",0,0,"Other",2019
+"ID18","male",0,0,"Research Fellow",2019
+"ID21","female",5,0,"Lecturer",2019
+"ID22","male",4,0.2,"Other",2019
+"ID23","female",0,0,"Other",2019
+"ID24","female",9,199.198484848485,"Professor",2019
+"ID26","male",6,4.33333333333333,"Senior Lecturer / Reader",2019
+"ID27","male",0,0,"Research Fellow",2019
+"ID29","female",1,0,"Senior Lecturer / Reader",2019
+"ID31","male",1,0,"Other",2019
+"ID33","male",23,3753.66666666667,"Professor",2019
+"ID35","male",2,193,"Research Assistant / Associate",2019
+"ID37","female",0,0,"Research Assistant / Associate",2019
+"ID39","female",1,0,"Other",2019
+"ID40","female",0,0,"Other",2019
+"ID41","male",3,0,"Research Assistant / Associate",2019
+"ID42","female",0,0,"Research Assistant / Associate",2019
+"ID43","male",4,193,"Other",2019
+"ID45","male",2,0,"Research Fellow",2019
+"ID46","female",1,0,"Other",2019
+"ID49","male",1,0,"Research Fellow",2019
+"ID52","male",2,0,"Student",2019
+"ID54","male",0,0,"Research Assistant / Associate",2019
+"ID56","male",11,842.457011014175,"Senior Lecturer / Reader",2019
+"ID58","male",2,0,"Research Assistant / Associate",2019
+"ID59","female",1,0,"Senior Lecturer / Reader",2019
+"ID60","female",0,0,"Research Assistant / Associate",2019
+"ID61","male",5,1.33333333333333,"Lecturer",2019
+"ID63","male",4,193,"Professor",2019
+"ID65","male",7,0,"Research Assistant / Associate",2019
+"ID66","female",6,0,"Research Assistant / Associate",2019
+"ID68","female",14,0,"Other",2019
+"ID69","male",14,0,"Research Fellow",2019
+"ID70","male",4,1.41101398601399,"Research Assistant / Associate",2019
+"ID71","female",0,0,"Other",2019
+"ID73","female",2,0,"Other",2019
+"ID74","male",5,0,"Other",2019
+"ID78","female",6,246.666666666666,"Research Fellow",2019
+"ID83","male",7,11.8047619047619,"Professor",2019
+"ID84","female",2,0,"Research Assistant / Associate",2019
+"ID85","male",6,76,"Research Assistant / Associate",2019
+"ID86","male",0,0,"Other",2019
+"ID87","male",0,0,"Research Assistant / Associate",2019
+"ID88","female",9,440.68915512592,"Lecturer",2019
+"ID91","male",9,719.999999999999,"Professor",2019
+"ID93","female",1,0,"Research Assistant / Associate",2019
+"ID95","female",2,0,"Research Assistant / Associate",2019
+"ID96","female",0,0,"Other",2019
+"ID97","female",7,13.75,"Research Assistant / Associate",2019
+"ID98","female",1,0,"Other",2019
+"ID99","male",2,0,"Research Assistant / Associate",2019
+"ID101","male",0,0,"Other",2019
+"ID102","male",13,3260.47053779554,"Other",2019
+"ID104","female",0,0,"Other",2019
+"ID105","female",2,0,"Senior Lecturer / Reader",2019
+"ID106","female",0,0,"Professor",2019
+"ID107","male",17,732.422446952691,"Research Assistant / Associate",2019
+"ID108","male",8,599.288095238095,"Professor",2019
+"ID109","female",5,0,"Research Fellow",2019
+"ID111","male",11,69.0591937609367,"Senior Lecturer / Reader",2019
+"ID112","male",4,0,"Other",2019
+"ID113","male",1,0,"Research Assistant / Associate",2019
+"ID115","female",8,51.3642857142857,"Senior Lecturer / Reader",2019
+"ID116","male",2,0,"Research Fellow",2019
+"ID117","male",7,193,"Senior Lecturer / Reader",2019
+"ID119","male",1,0,"Research Assistant / Associate",2019
+"ID120","male",10,5.94142469848991,"Research Fellow",2019
+"ID127","female",6,0,"Other",2019
+"ID129","male",3,0,"Other",2019
+"ID131","female",4,0,"Other",2019
+"ID134","female",9,17.4487501061031,"Lecturer",2019
+"ID138","female",0,0,"Other",2019
+"ID141","male",20,180.730653070312,"Senior Lecturer / Reader",2019
+"ID142","female",4,0,"Other",2019
+"ID145","male",14,0,"Professor",2019
+"ID147","female",0,0,"Research Fellow",2019
+"ID148","female",1,0,"Other",2019
+"ID153","male",1,0,"Other",2019
+"ID154","male",26,1979.97699926817,"Professor",2019
+"ID156","female",1,0,"Research Assistant / Associate",2019
+"ID157","female",5,384,"Research Fellow",2019
+"ID158","female",1,0,"Research Fellow",2019
+"ID159","female",7,340.5,"Senior Lecturer / Reader",2019
+"ID162","male",0,0,"Senior Lecturer / Reader",2019
+"ID164","female",1,0,"Research Assistant / Associate",2019
+"ID165","female",1,0,"Lecturer",2019
+"ID166","male",7,386.500000000001,"Professor",2019
+"ID168","male",6,385,"Senior Lecturer / Reader",2019
+"ID169","male",9,165.409523809524,"Senior Lecturer / Reader",2019
+"ID170","male",0,0,"Research Fellow",2019
+"ID171","male",8,269.703090210443,"Professor",2019
+"ID172","male",2,0,"Senior Lecturer / Reader",2019
+"ID173","female",0,0,"Research Assistant / Associate",2019
+"ID177","male",14,514.753293627464,"Senior Lecturer / Reader",2019
+"ID178","male",0,0,"Research Fellow",2019
+"ID180","male",6,0,"Research Assistant / Associate",2019
+"ID183","male",9,821.333333333334,"Other",2019
+"ID186","male",6,36.5,"Research Fellow",2019
+"ID188","male",0,0,"Other",2019
+"ID191","female",0,0,"Research Fellow",2019
+"ID192","female",1,0,"Research Assistant / Associate",2019
+"ID193","female",4,0,"Other",2019
+"ID195","female",3,2,"Professor",2019
+"ID197","female",14,0,"Research Assistant / Associate",2019
+"ID199","female",3,0,"Research Fellow",2019
+"ID201","male",4,6085.5,"Lecturer",2019
+"ID203","female",0,0,"Research Assistant / Associate",2019
+"ID205","female",1,0,"Senior Lecturer / Reader",2019
+"ID206","female",3,96,"Other",2019
+"ID207","male",3,0,"Research Fellow",2019
+"ID210","female",2,0,"Senior Lecturer / Reader",2019
+"ID212","male",2,0,"Research Assistant / Associate",2019
+"ID216","male",4,0,"Senior Lecturer / Reader",2019
+"ID217","female",2,0,"Student",2019
+"ID219","female",29,4732.09717678461,"Professor",2019
+"ID221","female",36,1052.45337808086,"Other",2019
+"ID224","female",2,0,"Other",2019
+"ID225","male",14,7396.89523809524,"Senior Lecturer / Reader",2019
+"ID226","male",14,152.233871357401,"Professor",2019
+"ID227","male",2,0,"Research Assistant / Associate",2019
+"ID230","male",0,0,"Other",2019
+"ID231","female",4,0,"Research Assistant / Associate",2019
+"ID233","female",5,0,"Research Fellow",2019
+"ID234","male",1,0,"Research Assistant / Associate",2019
+"ID241","male",5,0,"Research Assistant / Associate",2019
+"ID243","male",2,193,"Senior Lecturer / Reader",2019
+"ID244","male",2,0,"Lecturer",2019
+"ID245","male",4,0,"Research Assistant / Associate",2019
+"ID246","male",5,48,"Research Fellow",2019
+"ID248","female",0,0,"Senior Lecturer / Reader",2019
+"ID249","female",3,0,"Research Assistant / Associate",2019
+"ID250","male",1,0,"Research Fellow",2019
+"ID252","male",2,0,"Student",2019
+"ID253","female",12,286.154761904762,"Research Assistant / Associate",2019
+"ID254","female",1,0,"Research Fellow",2019
+"ID255","female",3,808.5,"Professor",2019
+"ID257","female",2,1.16666666666667,"Professor",2019
+"ID258","male",4,193,"Professor",2019
+"ID263","male",0,0,"Research Fellow",2019
+"ID265","female",0,0,"Research Assistant / Associate",2019
+"ID267","male",1,0,"Research Assistant / Associate",2019
+"ID268","male",14,38.0959668808856,"Senior Lecturer / Reader",2019
+"ID269","female",5,0,"Other",2019
+"ID271","male",1,0,"Senior Lecturer / Reader",2019
+"ID273","male",0,0,"Lecturer",2019
+"ID274","female",0,0,"Research Assistant / Associate",2019
+"ID275","female",1,0,"Research Fellow",2019
+"ID276","female",0,0,"Other",2019
+"ID282","female",0,0,"Other",2019
+"ID283","female",1,0,"Other",2019
+"ID284","female",2,0,"Other",2019
+"ID285","male",16,7813.1055557188,"Professor",2019
+"ID287","female",2,0,"Research Assistant / Associate",2019
+"ID288","female",2,0,"Senior Lecturer / Reader",2019
+"ID289","female",0,0,"Senior Lecturer / Reader",2019
+"ID290","female",0,0,"Research Assistant / Associate",2019
+"ID293","male",2,0,"Research Assistant / Associate",2019
+"ID294","female",8,87.8481751651807,"Professor",2019
+"ID295","female",6,0,"Other",2019
+"ID296","male",0,0,"Senior Lecturer / Reader",2019
+"ID297","female",1,0,"Professor",2019
+"ID298","female",8,6.7,"Professor",2019
+"ID299","female",7,239.612795582553,"Research Assistant / Associate",2019
+"ID300","male",0,0,"Student",2019
+"ID301","male",1,0,"Professor",2019
+"ID302","male",10,61.1646258969788,"Professor",2019
+"ID308","male",1,0,"Professor",2019
+"ID309","female",0,0,"Other",2019
+"ID310","male",14,0,"Professor",2019
+"ID311","female",3,3679.5,"Professor",2019
+"ID312","male",25,179.014011030907,"Professor",2019
+"ID317","male",0,0,"Other",2019
+"ID318","female",1,0,"Research Assistant / Associate",2019
+"ID319","female",0,0,"Other",2019
+"ID323","female",1,0,"Research Fellow",2019
+"ID324","female",3,0,"Other",2019
+"ID325","female",1,0,"Research Fellow",2019
+"ID326","female",5,0,"Other",2019
+"ID329","male",0,0,"Research Fellow",2019
+"ID330","female",2,0,"Lecturer",2019
+"ID333","female",10,222.111022311023,"Professor",2019
+"ID334","female",14,0,"Research Assistant / Associate",2019
+"ID337","male",1,0,"Other",2019
+"ID340","male",6,0,"Other",2019
+"ID342","male",1,0,"Research Assistant / Associate",2019
+"ID343","male",21,876.116194916196,"Professor",2019
+"ID344","male",4,0,"Research Fellow",2019
+"ID345","male",1,0,"Professor",2019
+"ID346","male",0,0,"Research Assistant / Associate",2019
+"ID349","male",1,0,"Professor",2019
+"ID351","male",1,0,"Senior Lecturer / Reader",2019
+"ID354","male",2,193,"Senior Lecturer / Reader",2019
+"ID359","female",9,727.542857142857,"Professor",2019
+"ID360","female",1,0,"Research Assistant / Associate",2019
+"ID361","male",20,1940.52143216261,"Professor",2019
+"ID364","female",1,0,"Other",2019
+"ID369","male",3,0,"Lecturer",2019
+"ID372","female",0,0,"Lecturer",2019
+"ID374","female",1,0,"Research Assistant / Associate",2019
+"ID375","male",2,0,"Lecturer",2019
+"ID376","male",0,0,"Research Assistant / Associate",2019
+"ID378","male",43,1501.94523616205,"Professor",2019
+"ID380","male",12,24.1736177221471,"Professor",2019
+"ID381","female",7,13.75,"Other",2019
+"ID382","male",2,0,"Senior Lecturer / Reader",2019
+"ID384","male",6,248.707142857143,"Professor",2019
+"ID385","female",3,0,"Research Fellow",2019
+"ID386","male",0,0,"Lecturer",2019
+"ID387","male",26,2980.94833492828,"Professor",2019
+"ID388","male",2,193,"Professor",2019
+"ID389","male",8,3485.83333333333,"Research Fellow",2019
+"ID391","male",17,1885.25714285714,"Professor",2019
+"ID392","female",2,0,"Other",2019
+"ID395","female",7,0,"Research Fellow",2019
+"ID396","male",14,0,"Student",2019
+"ID398","male",0,0,"Professor",2019
+"ID404","male",9,4.021918767507,"Research Assistant / Associate",2019
+"ID405","male",3,96,"Other",2019
+"ID409","male",8,6236,"Professor",2019
+"ID410","male",2,0,"Research Assistant / Associate",2019
+"ID412","male",0,0,"Research Assistant / Associate",2019
+"ID413","female",2,0,"Other",2019
+"ID415","female",1,0,"Senior Lecturer / Reader",2019
+"ID416","male",4,0,"Research Assistant / Associate",2019
+"ID417","male",0,0,"Other",2019
+"ID424","male",3,59.6666666666667,"Research Fellow",2019
+"ID425","female",0,0,"Research Fellow",2019
+"ID426","female",1,0,"Research Assistant / Associate",2019
+"ID427","female",10,75.0957606119371,"Research Fellow",2019
+"ID428","female",0,0,"Research Fellow",2019
+"ID429","female",5,0,"Lecturer",2019
+"ID430","male",2,0,"Professor",2019
+"ID432","female",4,42.6107448107447,"Lecturer",2019
+"ID433","female",1,0,"Other",2019
+"ID434","male",4,0,"Senior Lecturer / Reader",2019
+"ID435","male",0,0,"Research Assistant / Associate",2019
+"ID436","female",8,3.32992742551566,"Research Fellow",2019
+"ID437","female",3,1,"Senior Lecturer / Reader",2019
+"ID438","female",1,0,"Other",2019
+"ID439","female",2,0,"Other",2019
+"ID440","male",0,0,"Other",2019
+"ID441","female",1,0,"Other",2019
+"ID442","male",0,0,"Other",2019
+"ID443","female",1,0,"Other",2019
+"ID446","male",0,0,"Research Fellow",2019
+"ID447","female",2,0,"Other",2019
+"ID448","male",9,1046.66666666667,"Professor",2019
+"ID449","male",0,0,"Other",2019
+"ID452","female",0,0,"Research Assistant / Associate",2019
+"ID453","female",0,0,"Research Assistant / Associate",2019
+"ID454","male",2,0,"Professor",2019
+"ID457","male",0,0,"Other",2019
+"ID459","male",4,0.333333333333333,"Professor",2019
+"ID460","male",1,0,"Professor",2019
+"ID462","female",0,0,"Research Assistant / Associate",2019
+"ID463","female",5,0,"Research Assistant / Associate",2019
+"ID464","female",15,1536.73095238095,"Professor",2019
+"ID465","male",0,0,"Other",2019
+"ID468","female",0,0,"Other",2019
+"ID469","female",1,0,"Lecturer",2019
+"ID470","male",2,0,"Research Fellow",2019
+"ID471","male",4,0,"Research Fellow",2019
+"ID473","male",9,2370,"Professor",2019
+"ID475","female",5,276.166666666667,"Senior Lecturer / Reader",2019
+"ID476","male",3,0.5,"Lecturer",2019
+"ID478","male",4,250.833333333333,"Senior Lecturer / Reader",2019
+"ID479","female",0,0,"Other",2019
+"ID480","female",1,0,"Research Fellow",2019
+"ID482","female",4,0,"Research Fellow",2019
+"ID484","male",4,0,"Professor",2019
+"ID485","male",4,0,"Other",2019
+"ID486","male",0,0,"Other",2019
+"ID487","male",6,4.37619047619048,"Research Fellow",2019
+"ID488","male",14,0,"Other",2019
+"ID489","female",3,0,"Other",2019
+"ID492","female",3,193,"Professor",2019
+"ID494","male",1,0,"Professor",2019
+"ID495","male",7,26.7513835837365,"Research Assistant / Associate",2019
+"ID501","female",7,0,"Lecturer",2019
+"ID505","female",0,0,"Other",2019
+"ID509","male",0,0,"Research Assistant / Associate",2019
+"ID510","male",3,0,"Research Assistant / Associate",2019
+"ID511","male",0,0,"Research Assistant / Associate",2019
+"ID3","female",4,36.5952561702562,"Student",2016
+"ID10","female",14,2086.36037815477,"Senior Lecturer / Reader",2016
+"ID12","male",18,194.538582817252,"Senior Lecturer / Reader",2016
+"ID16","female",4,741.887385192991,"Professor",2016
+"ID18","male",0,0,"Research Fellow",2016
+"ID19","male",2,0,"Student",2016
+"ID21","female",0,0,"Lecturer",2016
+"ID22","male",2,0,"Other",2016
+"ID23","female",0,0,"Other",2016
+"ID24","female",5,0,"Professor",2016
+"ID25","female",1,0,"Research Fellow",2016
+"ID26","male",4,6.34607614607615,"Senior Lecturer / Reader",2016
+"ID27","male",0,0,"Research Fellow",2016
+"ID28","female",1,0,"Research Assistant / Associate",2016
+"ID29","female",0,0,"Senior Lecturer / Reader",2016
+"ID33","male",24,2082.63864221214,"Professor",2016
+"ID35","male",2,0,"Research Assistant / Associate",2016
+"ID41","male",1,0,"Research Assistant / Associate",2016
+"ID43","male",4,0,"Other",2016
+"ID45","male",5,0,"Research Fellow",2016
+"ID46","female",1,0,"Other",2016
+"ID49","male",3,0,"Research Fellow",2016
+"ID50","female",4,0,"Research Assistant / Associate",2016
+"ID54","male",0,0,"Research Assistant / Associate",2016
+"ID56","male",5,6.25753984263889,"Senior Lecturer / Reader",2016
+"ID59","female",1,0,"Senior Lecturer / Reader",2016
+"ID61","male",1,0,"Lecturer",2016
+"ID63","male",11,820.650833862593,"Professor",2016
+"ID65","male",0,0,"Research Assistant / Associate",2016
+"ID69","male",10,0,"Research Fellow",2016
+"ID71","female",0,0,"Other",2016
+"ID74","male",4,0,"Other",2016
+"ID77","female",0,0,"Student",2016
+"ID78","female",4,7.56785714285714,"Research Fellow",2016
+"ID83","male",2,0,"Professor",2016
+"ID85","male",2,0,"Research Assistant / Associate",2016
+"ID88","female",1,0,"Lecturer",2016
+"ID91","male",12,1261.66379499985,"Professor",2016
+"ID104","female",0,0,"Other",2016
+"ID106","female",9,469.493514013251,"Professor",2016
+"ID107","male",6,695,"Research Assistant / Associate",2016
+"ID108","male",4,284,"Professor",2016
+"ID109","female",4,0,"Research Fellow",2016
+"ID110","female",0,0,"Research Fellow",2016
+"ID111","male",6,2.98546299006825,"Senior Lecturer / Reader",2016
+"ID112","male",7,86.7101330759002,"Other",2016
+"ID115","female",11,3042.22126585356,"Senior Lecturer / Reader",2016
+"ID116","male",3,0,"Research Fellow",2016
+"ID117","male",0,0,"Senior Lecturer / Reader",2016
+"ID120","male",0,0,"Research Fellow",2016
+"ID121","male",2,0,"Research Assistant / Associate",2016
+"ID131","female",2,0,"Other",2016
+"ID134","female",7,0,"Lecturer",2016
+"ID136","male",0,0,"Research Assistant / Associate",2016
+"ID139","male",0,0,"Research Assistant / Associate",2016
+"ID141","male",15,217.792294333204,"Senior Lecturer / Reader",2016
+"ID142","female",4,0.333333333333333,"Other",2016
+"ID145","male",0,0,"Professor",2016
+"ID146","female",0,0,"Senior Lecturer / Reader",2016
+"ID152","female",0,0,"Lecturer",2016
+"ID153","male",1,0,"Other",2016
+"ID154","male",17,536.768095858817,"Professor",2016
+"ID155","female",3,0,"Other",2016
+"ID157","female",1,0,"Research Fellow",2016
+"ID159","female",4,0.333333333333333,"Senior Lecturer / Reader",2016
+"ID162","male",0,0,"Senior Lecturer / Reader",2016
+"ID163","male",1,0,"Other",2016
+"ID165","female",1,0,"Lecturer",2016
+"ID166","male",11,504.363636906572,"Professor",2016
+"ID167","female",0,0,"Research Assistant / Associate",2016
+"ID168","male",8,451.416099206385,"Senior Lecturer / Reader",2016
+"ID169","male",5,0,"Senior Lecturer / Reader",2016
+"ID171","male",10,504.710133075899,"Professor",2016
+"ID172","male",7,5.65232664995823,"Senior Lecturer / Reader",2016
+"ID177","male",3,0,"Senior Lecturer / Reader",2016
+"ID179","female",3,0,"Other",2016
+"ID180","male",4,0,"Research Assistant / Associate",2016
+"ID181","female",8,0,"Research Assistant / Associate",2016
+"ID185","male",1,0,"Other",2016
+"ID186","male",4,0.333333333333333,"Research Fellow",2016
+"ID195","female",2,1,"Professor",2016
+"ID197","female",10,0,"Research Assistant / Associate",2016
+"ID201","male",4,280.252236652237,"Lecturer",2016
+"ID203","female",0,0,"Research Assistant / Associate",2016
+"ID204","female",0,0,"Research Fellow",2016
+"ID205","female",3,31.6719095746077,"Senior Lecturer / Reader",2016
+"ID206","female",4,2.33333333333333,"Other",2016
+"ID207","male",0,0,"Research Fellow",2016
+"ID210","female",9,28.8402231222884,"Senior Lecturer / Reader",2016
+"ID214","female",11,889.581096681097,"Lecturer",2016
+"ID216","male",6,5,"Senior Lecturer / Reader",2016
+"ID219","female",21,774.048145873607,"Professor",2016
+"ID221","female",27,1825.94180983409,"Other",2016
+"ID224","female",1,0,"Other",2016
+"ID225","male",12,563.83161016615,"Senior Lecturer / Reader",2016
+"ID226","male",13,36.1989317390556,"Professor",2016
+"ID227","male",0,0,"Research Assistant / Associate",2016
+"ID233","female",1,0,"Research Fellow",2016
+"ID241","male",0,0,"Research Assistant / Associate",2016
+"ID243","male",3,143,"Senior Lecturer / Reader",2016
+"ID244","male",0,0,"Lecturer",2016
+"ID248","female",0,0,"Senior Lecturer / Reader",2016
+"ID250","male",1,0,"Research Fellow",2016
+"ID253","female",0,0,"Research Assistant / Associate",2016
+"ID254","female",0,0,"Research Fellow",2016
+"ID255","female",0,0,"Professor",2016
+"ID257","female",2,62.5016548293529,"Professor",2016
+"ID258","male",3,0,"Professor",2016
+"ID259","female",2,0,"Research Assistant / Associate",2016
+"ID268","male",8,11.3426713218122,"Senior Lecturer / Reader",2016
+"ID269","female",5,143,"Other",2016
+"ID271","male",0,0,"Senior Lecturer / Reader",2016
+"ID273","male",0,0,"Lecturer",2016
+"ID275","female",0,0,"Research Fellow",2016
+"ID276","female",0,0,"Other",2016
+"ID277","female",1,0,"Research Fellow",2016
+"ID281","female",0,0,"Other",2016
+"ID283","female",1,0,"Other",2016
+"ID285","male",3,51.9016772798581,"Professor",2016
+"ID286","female",0,0,"Other",2016
+"ID288","female",1,0,"Senior Lecturer / Reader",2016
+"ID289","female",1,0,"Senior Lecturer / Reader",2016
+"ID294","female",5,0,"Professor",2016
+"ID295","female",6,359.79237016737,"Other",2016
+"ID296","male",0,0,"Senior Lecturer / Reader",2016
+"ID297","female",3,433.08556998557,"Professor",2016
+"ID298","female",9,491.892034544292,"Professor",2016
+"ID301","male",1,0,"Professor",2016
+"ID302","male",3,2.29285714285714,"Professor",2016
+"ID303","female",2,0,"Other",2016
+"ID308","male",1,0,"Professor",2016
+"ID310","male",11,1.94902597402597,"Professor",2016
+"ID311","female",5,438.833333333333,"Professor",2016
+"ID312","male",17,508.395018457754,"Professor",2016
+"ID313","female",0,0,"Other",2016
+"ID314","male",5,52.0224043865491,"Senior Lecturer / Reader",2016
+"ID316","male",0,0,"Other",2016
+"ID317","male",1,0,"Other",2016
+"ID319","female",7,103.08220938664,"Other",2016
+"ID323","female",1,0,"Research Fellow",2016
+"ID325","female",1,0,"Research Fellow",2016
+"ID329","male",3,9.33333333333333,"Research Fellow",2016
+"ID330","female",0,0,"Lecturer",2016
+"ID331","female",2,0,"Research Fellow",2016
+"ID332","female",0,0,"Other",2016
+"ID333","female",13,296.439486755934,"Professor",2016
+"ID337","male",5,143,"Other",2016
+"ID339","female",3,0,"Other",2016
+"ID340","male",0,0,"Other",2016
+"ID343","male",21,529.864660928181,"Professor",2016
+"ID345","male",1,0,"Professor",2016
+"ID346","male",0,0,"Research Assistant / Associate",2016
+"ID349","male",4,285,"Professor",2016
+"ID351","male",0,0,"Senior Lecturer / Reader",2016
+"ID354","male",0,0,"Senior Lecturer / Reader",2016
+"ID359","female",5,305.202651552652,"Professor",2016
+"ID360","female",1,0,"Research Assistant / Associate",2016
+"ID361","male",14,662.21842257626,"Professor",2016
+"ID363","female",0,0,"Research Fellow",2016
+"ID369","male",3,34.141067419894,"Lecturer",2016
+"ID372","female",0,0,"Lecturer",2016
+"ID378","male",27,1825.94180983409,"Professor",2016
+"ID380","male",12,28.6394867559341,"Professor",2016
+"ID382","male",2,0,"Senior Lecturer / Reader",2016
+"ID384","male",5,355,"Professor",2016
+"ID385","female",3,0,"Research Fellow",2016
+"ID387","male",23,769.689676650038,"Professor",2016
+"ID388","male",1,0,"Professor",2016
+"ID389","male",2,0,"Research Fellow",2016
+"ID391","male",6,209.166666666667,"Professor",2016
+"ID395","female",1,0,"Research Fellow",2016
+"ID396","male",0,0,"Student",2016
+"ID398","male",3,0.5,"Professor",2016
+"ID404","male",0,0,"Research Assistant / Associate",2016
+"ID405","male",0,0,"Other",2016
+"ID409","male",4,88.8333333333333,"Professor",2016
+"ID410","male",0,0,"Research Assistant / Associate",2016
+"ID413","female",5,285,"Other",2016
+"ID415","female",1,0,"Senior Lecturer / Reader",2016
+"ID416","male",4,2.08651903651904,"Research Assistant / Associate",2016
+"ID428","female",1,0,"Research Fellow",2016
+"ID429","female",0,0,"Lecturer",2016
+"ID430","male",3,23.6666666666667,"Professor",2016
+"ID432","female",5,50.206473165904,"Lecturer",2016
+"ID434","male",8,189.137927663794,"Senior Lecturer / Reader",2016
+"ID435","male",0,0,"Research Assistant / Associate",2016
+"ID436","female",0,0,"Research Fellow",2016
+"ID437","female",0,0,"Senior Lecturer / Reader",2016
+"ID440","male",1,0,"Other",2016
+"ID441","female",4,0.333333333333333,"Other",2016
+"ID442","male",0,0,"Other",2016
+"ID443","female",3,143,"Other",2016
+"ID445","male",2,0,"Other",2016
+"ID447","female",0,0,"Other",2016
+"ID448","male",10,1816.07166049414,"Professor",2016
+"ID452","female",0,0,"Research Assistant / Associate",2016
+"ID454","male",6,5.40731409113762,"Professor",2016
+"ID456","male",2,0,"Research Assistant / Associate",2016
+"ID459","male",8,122.61494101686,"Professor",2016
+"ID460","male",8,0,"Professor",2016
+"ID464","female",4,2.25,"Professor",2016
+"ID465","male",0,0,"Other",2016
+"ID473","male",7,3005.77928147368,"Professor",2016
+"ID475","female",8,0,"Senior Lecturer / Reader",2016
+"ID476","male",3,0,"Lecturer",2016
+"ID478","male",10,285,"Senior Lecturer / Reader",2016
+"ID480","female",1,0,"Research Fellow",2016
+"ID481","female",0,0,"Other",2016
+"ID484","male",0,0,"Professor",2016
+"ID485","male",0,0,"Other",2016
+"ID486","male",0,0,"Other",2016
+"ID487","male",2,0,"Research Fellow",2016
+"ID488","male",10,0,"Other",2016
+"ID489","female",0,0,"Other",2016
+"ID492","female",1,0,"Professor",2016
+"ID494","male",10,447.065854960726,"Professor",2016
+"ID495","male",1,0,"Research Assistant / Associate",2016
+"ID496","female",2,0,"Other",2016
+"ID501","female",1,0,"Lecturer",2016
+"ID506","male",8,0,"Other",2016
+"ID510","male",0,0,"Research Assistant / Associate",2016
+"ID3","female",0,0,"Student",2015
+"ID10","female",13,2557.2,"Senior Lecturer / Reader",2015
+"ID12","male",14,279.246426115977,"Senior Lecturer / Reader",2015
+"ID16","female",6,172.366666666667,"Professor",2015
+"ID18","male",0,0,"Research Fellow",2015
+"ID23","female",0,0,"Other",2015
+"ID24","female",4,0.333333333333333,"Professor",2015
+"ID25","female",5,22.266438910247,"Research Fellow",2015
+"ID26","male",11,389.309135838785,"Senior Lecturer / Reader",2015
+"ID27","male",0,0,"Research Fellow",2015
+"ID29","female",0,0,"Senior Lecturer / Reader",2015
+"ID33","male",14,2841.72734911872,"Professor",2015
+"ID35","male",0,0,"Research Assistant / Associate",2015
+"ID39","female",0,0,"Other",2015
+"ID43","male",4,632.916716616716,"Other",2015
+"ID48","female",3,2,"Research Fellow",2015
+"ID49","male",2,0,"Research Fellow",2015
+"ID51","male",1,0,"Student",2015
+"ID56","male",2,0,"Senior Lecturer / Reader",2015
+"ID60","female",0,0,"Research Assistant / Associate",2015
+"ID63","male",8,213.021039632882,"Professor",2015
+"ID69","male",4,0,"Research Fellow",2015
+"ID71","female",3,122,"Other",2015
+"ID72","female",2,0,"Research Assistant / Associate",2015
+"ID76","female",0,0,"Other",2015
+"ID78","female",2,0,"Research Fellow",2015
+"ID83","male",1,0,"Professor",2015
+"ID84","female",1,0,"Research Assistant / Associate",2015
+"ID85","male",0,0,"Research Assistant / Associate",2015
+"ID87","male",1,0,"Research Assistant / Associate",2015
+"ID88","female",1,0,"Lecturer",2015
+"ID91","male",12,448.699563582877,"Professor",2015
+"ID97","female",2,0,"Research Assistant / Associate",2015
+"ID102","male",0,0,"Other",2015
+"ID104","female",0,0,"Other",2015
+"ID106","female",0,0,"Professor",2015
+"ID107","male",4,360,"Research Assistant / Associate",2015
+"ID108","male",10,423.843952233524,"Professor",2015
+"ID109","female",3,0,"Research Fellow",2015
+"ID111","male",2,0,"Senior Lecturer / Reader",2015
+"ID112","male",3,0,"Other",2015
+"ID115","female",8,915.029782317785,"Senior Lecturer / Reader",2015
+"ID116","male",3,2.58333333333333,"Research Fellow",2015
+"ID117","male",1,0,"Senior Lecturer / Reader",2015
+"ID118","male",0,0,"Research Assistant / Associate",2015
+"ID120","male",0,0,"Research Fellow",2015
+"ID121","male",0,0,"Research Assistant / Associate",2015
+"ID124","female",3,0,"Research Assistant / Associate",2015
+"ID129","male",0,0,"Other",2015
+"ID134","female",3,0,"Lecturer",2015
+"ID141","male",10,251.224603174603,"Senior Lecturer / Reader",2015
+"ID142","female",0,0,"Other",2015
+"ID145","male",0,0,"Professor",2015
+"ID146","female",0,0,"Senior Lecturer / Reader",2015
+"ID147","female",0,0,"Research Fellow",2015
+"ID149","male",0,0,"Research Assistant / Associate",2015
+"ID153","male",2,0,"Other",2015
+"ID154","male",17,1854.84354922114,"Professor",2015
+"ID157","female",0,0,"Research Fellow",2015
+"ID162","male",0,0,"Senior Lecturer / Reader",2015
+"ID165","female",1,0,"Lecturer",2015
+"ID166","male",10,194.183333333333,"Professor",2015
+"ID167","female",0,0,"Research Assistant / Associate",2015
+"ID168","male",0,0,"Senior Lecturer / Reader",2015
+"ID169","male",8,834.344571505113,"Senior Lecturer / Reader",2015
+"ID171","male",8,296.866666666667,"Professor",2015
+"ID172","male",9,320.433344532145,"Senior Lecturer / Reader",2015
+"ID173","female",2,0,"Research Assistant / Associate",2015
+"ID177","male",3,1.83333333333333,"Senior Lecturer / Reader",2015
+"ID181","female",8,0,"Research Assistant / Associate",2015
+"ID182","male",0,0,"Research Assistant / Associate",2015
+"ID183","male",3,0,"Other",2015
+"ID185","male",3,122,"Other",2015
+"ID186","male",2,0,"Research Fellow",2015
+"ID195","female",2,605.448534798535,"Professor",2015
+"ID197","female",7,713.934575383368,"Research Assistant / Associate",2015
+"ID198","female",3,0,"Research Assistant / Associate",2015
+"ID201","male",3,4.58333333333333,"Lecturer",2015
+"ID203","female",0,0,"Research Assistant / Associate",2015
+"ID205","female",2,122,"Senior Lecturer / Reader",2015
+"ID206","female",6,39.35543989129,"Other",2015
+"ID210","female",8,0,"Senior Lecturer / Reader",2015
+"ID214","female",10,254.433333333333,"Lecturer",2015
+"ID216","male",1,0,"Senior Lecturer / Reader",2015
+"ID218","female",1,0,"Student",2015
+"ID219","female",14,194.805421655339,"Professor",2015
+"ID221","female",17,770.402082425199,"Other",2015
+"ID225","male",10,433.93157243745,"Senior Lecturer / Reader",2015
+"ID226","male",12,81.1016866597415,"Professor",2015
+"ID227","male",0,0,"Research Assistant / Associate",2015
+"ID233","female",0,0,"Research Fellow",2015
+"ID243","male",4,2726,"Senior Lecturer / Reader",2015
+"ID245","male",0,0,"Research Assistant / Associate",2015
+"ID249","female",3,2309.72137862138,"Research Assistant / Associate",2015
+"ID256","male",0,0,"Research Assistant / Associate",2015
+"ID257","female",3,242,"Professor",2015
+"ID258","male",4,69.0778670631785,"Professor",2015
+"ID264","female",0,0,"Research Fellow",2015
+"ID268","male",5,26.043030339226,"Senior Lecturer / Reader",2015
+"ID269","female",3,0,"Other",2015
+"ID271","male",0,0,"Senior Lecturer / Reader",2015
+"ID273","male",0,0,"Lecturer",2015
+"ID275","female",0,0,"Research Fellow",2015
+"ID276","female",0,0,"Other",2015
+"ID285","male",6,93.9944344764213,"Professor",2015
+"ID288","female",3,0,"Senior Lecturer / Reader",2015
+"ID289","female",6,94.4214236314081,"Senior Lecturer / Reader",2015
+"ID294","female",6,237.416666666667,"Professor",2015
+"ID296","male",0,0,"Senior Lecturer / Reader",2015
+"ID297","female",2,122,"Professor",2015
+"ID298","female",8,421.289138475903,"Professor",2015
+"ID301","male",2,1,"Professor",2015
+"ID302","male",9,27.7742431153204,"Professor",2015
+"ID308","male",0,0,"Professor",2015
+"ID310","male",12,309.78792531428,"Professor",2015
+"ID311","female",7,395.2,"Professor",2015
+"ID312","male",6,2.74444444444444,"Professor",2015
+"ID313","female",0,0,"Other",2015
+"ID314","male",3,47.5157268170426,"Senior Lecturer / Reader",2015
+"ID316","male",0,0,"Other",2015
+"ID317","male",1,0,"Other",2015
+"ID319","female",5,13.9942865742788,"Other",2015
+"ID323","female",0,0,"Research Fellow",2015
+"ID325","female",0,0,"Research Fellow",2015
+"ID329","male",3,242,"Research Fellow",2015
+"ID330","female",2,0,"Lecturer",2015
+"ID331","female",2,0,"Research Fellow",2015
+"ID333","female",12,155.804730133987,"Professor",2015
+"ID337","male",1,0,"Other",2015
+"ID338","male",0,0,"Other",2015
+"ID339","female",1,0,"Other",2015
+"ID340","male",0,0,"Other",2015
+"ID343","male",11,709.794655208577,"Professor",2015
+"ID345","male",2,0,"Professor",2015
+"ID349","male",5,452.416666666667,"Professor",2015
+"ID351","male",0,0,"Senior Lecturer / Reader",2015
+"ID354","male",1,0,"Senior Lecturer / Reader",2015
+"ID359","female",2,1,"Professor",2015
+"ID361","male",8,167.220784550076,"Professor",2015
+"ID363","female",0,0,"Research Fellow",2015
+"ID365","female",0,0,"Research Fellow",2015
+"ID369","male",0,0,"Lecturer",2015
+"ID372","female",0,0,"Lecturer",2015
+"ID375","male",0,0,"Lecturer",2015
+"ID377","female",0,0,"Lecturer",2015
+"ID378","male",17,770.402082425199,"Professor",2015
+"ID380","male",11,52.0940074783328,"Professor",2015
+"ID382","male",4,0.333333333333333,"Senior Lecturer / Reader",2015
+"ID384","male",2,0,"Professor",2015
+"ID386","male",0,0,"Lecturer",2015
+"ID387","male",17,333.269790743647,"Professor",2015
+"ID388","male",0,0,"Professor",2015
+"ID389","male",2,0,"Research Fellow",2015
+"ID391","male",5,14.852380952381,"Professor",2015
+"ID395","female",4,5.89356460532931,"Research Fellow",2015
+"ID396","male",0,0,"Student",2015
+"ID398","male",2,0,"Professor",2015
+"ID401","female",0,0,"Student",2015
+"ID404","male",0,0,"Research Assistant / Associate",2015
+"ID409","male",5,162.9,"Professor",2015
+"ID410","male",0,0,"Research Assistant / Associate",2015
+"ID413","female",5,17.9036822826297,"Other",2015
+"ID415","female",0,0,"Senior Lecturer / Reader",2015
+"ID416","male",3,0,"Research Assistant / Associate",2015
+"ID421","male",0,0,"Research Fellow",2015
+"ID424","male",2,0,"Research Fellow",2015
+"ID428","female",0,0,"Research Fellow",2015
+"ID429","female",0,0,"Lecturer",2015
+"ID430","male",4,2886.61515151515,"Professor",2015
+"ID432","female",2,0,"Lecturer",2015
+"ID434","male",8,419.116666666667,"Senior Lecturer / Reader",2015
+"ID435","male",0,0,"Research Assistant / Associate",2015
+"ID437","female",0,0,"Senior Lecturer / Reader",2015
+"ID440","male",3,0,"Other",2015
+"ID441","female",0,0,"Other",2015
+"ID442","male",5,97.3273879712068,"Other",2015
+"ID443","female",1,0,"Other",2015
+"ID445","male",2,0,"Other",2015
+"ID447","female",0,0,"Other",2015
+"ID448","male",0,0,"Professor",2015
+"ID452","female",1,0,"Research Assistant / Associate",2015
+"ID453","female",0,0,"Research Assistant / Associate",2015
+"ID454","male",7,121.144433928644,"Professor",2015
+"ID456","male",1,0,"Research Assistant / Associate",2015
+"ID459","male",4,0,"Professor",2015
+"ID460","male",10,371.066666666667,"Professor",2015
+"ID464","female",6,272.171340204731,"Professor",2015
+"ID465","male",0,0,"Other",2015
+"ID468","female",0,0,"Other",2015
+"ID469","female",0,0,"Lecturer",2015
+"ID473","male",3,142.5,"Professor",2015
+"ID475","female",11,309.683333333333,"Senior Lecturer / Reader",2015
+"ID476","male",0,0,"Lecturer",2015
+"ID478","male",8,0,"Senior Lecturer / Reader",2015
+"ID479","female",4,14.3690799396682,"Other",2015
+"ID484","male",3,18.1333333333333,"Professor",2015
+"ID485","male",0,0,"Other",2015
+"ID486","male",0,0,"Other",2015
+"ID487","male",3,0,"Research Fellow",2015
+"ID488","male",3,7.75239238745431,"Other",2015
+"ID489","female",0,0,"Other",2015
+"ID492","female",0,0,"Professor",2015
+"ID494","male",6,34.9848507486665,"Professor",2015
+"ID496","female",1,0,"Other",2015
+"ID501","female",1,0,"Lecturer",2015
+"ID506","male",8,0,"Other",2015
+"ID510","male",0,0,"Research Assistant / Associate",2015
+"ID3","female",0,0,"Student",2014
+"ID10","female",12,1436.83333333333,"Senior Lecturer / Reader",2014
+"ID12","male",4,0,"Senior Lecturer / Reader",2014
+"ID16","female",4,2.1,"Professor",2014
+"ID21","female",0,0,"Lecturer",2014
+"ID22","male",2,0,"Other",2014
+"ID24","female",2,0,"Professor",2014
+"ID26","male",5,12.0333333333333,"Senior Lecturer / Reader",2014
+"ID27","male",0,0,"Research Fellow",2014
+"ID33","male",24,2159.01666666667,"Professor",2014
+"ID35","male",2,0,"Research Assistant / Associate",2014
+"ID38","female",0,0,"Other",2014
+"ID39","female",0,0,"Other",2014
+"ID43","male",5,0.8,"Other",2014
+"ID46","female",0,0,"Other",2014
+"ID49","male",0,0,"Research Fellow",2014
+"ID51","male",2,0,"Student",2014
+"ID56","male",3,1.5,"Senior Lecturer / Reader",2014
+"ID59","female",1,0,"Senior Lecturer / Reader",2014
+"ID60","female",0,0,"Research Assistant / Associate",2014
+"ID63","male",5,0.8,"Professor",2014
+"ID67","male",2,0,"Research Assistant / Associate",2014
+"ID69","male",0,0,"Research Fellow",2014
+"ID71","female",0,0,"Other",2014
+"ID72","female",1,0,"Research Assistant / Associate",2014
+"ID76","female",0,0,"Other",2014
+"ID83","male",1,0,"Professor",2014
+"ID86","male",0,0,"Other",2014
+"ID88","female",1,0,"Lecturer",2014
+"ID91","male",11,451.883333333333,"Professor",2014
+"ID96","female",0,0,"Other",2014
+"ID104","female",0,0,"Other",2014
+"ID105","female",2,0,"Senior Lecturer / Reader",2014
+"ID106","female",4,4.7,"Professor",2014
+"ID107","male",2,0,"Research Assistant / Associate",2014
+"ID108","male",8,357.016666666667,"Professor",2014
+"ID109","female",2,0,"Research Fellow",2014
+"ID111","male",3,0,"Senior Lecturer / Reader",2014
+"ID115","female",5,2263,"Senior Lecturer / Reader",2014
+"ID117","male",0,0,"Senior Lecturer / Reader",2014
+"ID120","male",0,0,"Research Fellow",2014
+"ID121","male",0,0,"Research Assistant / Associate",2014
+"ID124","female",2,0,"Research Assistant / Associate",2014
+"ID128","male",5,0,"Research Assistant / Associate",2014
+"ID129","male",3,0,"Other",2014
+"ID131","female",0,0,"Other",2014
+"ID134","female",0,0,"Lecturer",2014
+"ID139","male",0,0,"Research Assistant / Associate",2014
+"ID140","female",3,0,"Research Assistant / Associate",2014
+"ID141","male",1,0,"Senior Lecturer / Reader",2014
+"ID142","female",1,0,"Other",2014
+"ID145","male",0,0,"Professor",2014
+"ID147","female",0,0,"Research Fellow",2014
+"ID149","male",0,0,"Research Assistant / Associate",2014
+"ID152","female",0,0,"Lecturer",2014
+"ID153","male",1,0,"Other",2014
+"ID154","male",7,89.6742424242423,"Professor",2014
+"ID155","female",3,0,"Other",2014
+"ID157","female",0,0,"Research Fellow",2014
+"ID159","female",3,0,"Senior Lecturer / Reader",2014
+"ID162","male",0,0,"Senior Lecturer / Reader",2014
+"ID163","male",2,0,"Other",2014
+"ID165","female",2,103,"Lecturer",2014
+"ID166","male",9,212.216666666667,"Professor",2014
+"ID167","female",0,0,"Research Assistant / Associate",2014
+"ID168","male",1,0,"Senior Lecturer / Reader",2014
+"ID169","male",2,0,"Senior Lecturer / Reader",2014
+"ID171","male",2,0,"Professor",2014
+"ID172","male",0,0,"Senior Lecturer / Reader",2014
+"ID177","male",3,6,"Senior Lecturer / Reader",2014
+"ID186","male",3,0,"Research Fellow",2014
+"ID195","female",4,103,"Professor",2014
+"ID201","male",3,0,"Lecturer",2014
+"ID202","male",0,0,"Other",2014
+"ID204","female",0,0,"Research Fellow",2014
+"ID205","female",2,4,"Senior Lecturer / Reader",2014
+"ID206","female",3,0.25,"Other",2014
+"ID214","female",9,873,"Lecturer",2014
+"ID215","female",5,0,"Research Assistant / Associate",2014
+"ID216","male",3,1.5,"Senior Lecturer / Reader",2014
+"ID219","female",9,503.427272727272,"Professor",2014
+"ID221","female",15,155.821212121212,"Other",2014
+"ID225","male",9,114.383333333333,"Senior Lecturer / Reader",2014
+"ID226","male",7,13.1575757575758,"Professor",2014
+"ID227","male",0,0,"Research Assistant / Associate",2014
+"ID230","male",1,0,"Other",2014
+"ID238","male",2,0,"Other",2014
+"ID243","male",7,58.0666666666667,"Senior Lecturer / Reader",2014
+"ID250","male",1,0,"Research Fellow",2014
+"ID255","female",2,0,"Professor",2014
+"ID257","female",1,0,"Professor",2014
+"ID258","male",0,0,"Professor",2014
+"ID264","female",3,0,"Research Fellow",2014
+"ID268","male",5,3.8,"Senior Lecturer / Reader",2014
+"ID270","female",3,0,"Research Assistant / Associate",2014
+"ID271","male",0,0,"Senior Lecturer / Reader",2014
+"ID273","male",5,0,"Lecturer",2014
+"ID275","female",0,0,"Research Fellow",2014
+"ID276","female",0,0,"Other",2014
+"ID284","female",2,0,"Other",2014
+"ID285","male",0,0,"Professor",2014
+"ID288","female",3,1.76666666666667,"Senior Lecturer / Reader",2014
+"ID289","female",1,0,"Senior Lecturer / Reader",2014
+"ID294","female",7,2380,"Professor",2014
+"ID296","male",3,0,"Senior Lecturer / Reader",2014
+"ID297","female",6,51,"Professor",2014
+"ID298","female",3,0.333333333333333,"Professor",2014
+"ID301","male",0,0,"Professor",2014
+"ID302","male",3,0.5,"Professor",2014
+"ID308","male",0,0,"Professor",2014
+"ID310","male",9,504.1,"Professor",2014
+"ID311","female",6,305,"Professor",2014
+"ID312","male",5,24.1742424242424,"Professor",2014
+"ID314","male",6,4.36666666666667,"Senior Lecturer / Reader",2014
+"ID316","male",0,0,"Other",2014
+"ID317","male",0,0,"Other",2014
+"ID319","female",0,0,"Other",2014
+"ID323","female",1,0,"Research Fellow",2014
+"ID326","female",0,0,"Other",2014
+"ID329","male",6,51,"Research Fellow",2014
+"ID331","female",0,0,"Research Fellow",2014
+"ID333","female",8,52.4166666666667,"Professor",2014
+"ID337","male",5,103,"Other",2014
+"ID340","male",0,0,"Other",2014
+"ID343","male",9,224.2,"Professor",2014
+"ID345","male",1,0,"Professor",2014
+"ID346","male",0,0,"Research Assistant / Associate",2014
+"ID349","male",3,205,"Professor",2014
+"ID351","male",0,0,"Senior Lecturer / Reader",2014
+"ID354","male",1,0,"Senior Lecturer / Reader",2014
+"ID359","female",7,306.5,"Professor",2014
+"ID361","male",7,171.8,"Professor",2014
+"ID369","male",0,0,"Lecturer",2014
+"ID372","female",0,0,"Lecturer",2014
+"ID373","female",0,0,"Other",2014
+"ID374","female",0,0,"Research Assistant / Associate",2014
+"ID375","male",0,0,"Lecturer",2014
+"ID378","male",19,2108.78787878788,"Professor",2014
+"ID380","male",8,557.872727272727,"Professor",2014
+"ID382","male",3,0.333333333333333,"Senior Lecturer / Reader",2014
+"ID384","male",6,18.25,"Professor",2014
+"ID387","male",11,394.101515151516,"Professor",2014
+"ID388","male",4,138.033333333333,"Professor",2014
+"ID389","male",2,0,"Research Fellow",2014
+"ID391","male",6,21.65,"Professor",2014
+"ID396","male",0,0,"Student",2014
+"ID398","male",2,0,"Professor",2014
+"ID402","female",0,0,"Research Fellow",2014
+"ID404","male",0,0,"Research Assistant / Associate",2014
+"ID405","male",0,0,"Other",2014
+"ID409","male",0,0,"Professor",2014
+"ID410","male",0,0,"Research Assistant / Associate",2014
+"ID413","female",6,126.166666666667,"Other",2014
+"ID415","female",0,0,"Senior Lecturer / Reader",2014
+"ID416","male",0,0,"Research Assistant / Associate",2014
+"ID417","male",0,0,"Other",2014
+"ID424","male",0,0,"Research Fellow",2014
+"ID427","female",3,0,"Research Fellow",2014
+"ID428","female",0,0,"Research Fellow",2014
+"ID429","female",0,0,"Lecturer",2014
+"ID430","male",5,105.416666666667,"Professor",2014
+"ID432","female",1,0,"Lecturer",2014
+"ID433","female",2,0,"Other",2014
+"ID434","male",0,0,"Senior Lecturer / Reader",2014
+"ID437","female",0,0,"Senior Lecturer / Reader",2014
+"ID440","male",1,0,"Other",2014
+"ID441","female",2,0,"Other",2014
+"ID442","male",3,0.5,"Other",2014
+"ID443","female",4,0.333333333333333,"Other",2014
+"ID448","male",0,0,"Professor",2014
+"ID452","female",1,0,"Research Assistant / Associate",2014
+"ID454","male",6,23.9666666666667,"Professor",2014
+"ID456","male",1,0,"Research Assistant / Associate",2014
+"ID459","male",5,4.33333333333333,"Professor",2014
+"ID460","male",5,0,"Professor",2014
+"ID464","female",5,3,"Professor",2014
+"ID465","male",0,0,"Other",2014
+"ID468","female",0,0,"Other",2014
+"ID473","male",9,2267.06666666667,"Professor",2014
+"ID475","female",7,131.966666666667,"Senior Lecturer / Reader",2014
+"ID478","male",6,4.2,"Senior Lecturer / Reader",2014
+"ID479","female",1,0,"Other",2014
+"ID480","female",1,0,"Research Fellow",2014
+"ID481","female",0,0,"Other",2014
+"ID484","male",3,0,"Professor",2014
+"ID487","male",3,46.4833333333333,"Research Fellow",2014
+"ID488","male",5,34.4,"Other",2014
+"ID492","female",0,0,"Professor",2014
+"ID494","male",1,0,"Professor",2014
+"ID496","female",2,0,"Other",2014
+"ID501","female",0,0,"Lecturer",2014
+"ID504","male",0,0,"Other",2014
+"ID509","male",0,0,"Research Assistant / Associate",2014
+"ID10","female",11,84.5,"Senior Lecturer / Reader",2017
+"ID12","male",17,44.3395931304197,"Senior Lecturer / Reader",2017
+"ID13","male",1,0,"Other",2017
+"ID16","female",6,793,"Professor",2017
+"ID18","male",0,0,"Research Fellow",2017
+"ID23","female",0,0,"Other",2017
+"ID24","female",6,0.604700854700855,"Professor",2017
+"ID26","male",10,21.2333333333333,"Senior Lecturer / Reader",2017
+"ID27","male",0,0,"Research Fellow",2017
+"ID29","female",0,0,"Senior Lecturer / Reader",2017
+"ID33","male",26,2474.7026128657,"Professor",2017
+"ID35","male",2,0,"Research Assistant / Associate",2017
+"ID37","female",1,0,"Research Assistant / Associate",2017
+"ID41","male",2,0,"Research Assistant / Associate",2017
+"ID42","female",0,0,"Research Assistant / Associate",2017
+"ID43","male",4,3.08074229691877,"Other",2017
+"ID46","female",1,0,"Other",2017
+"ID47","female",0,0,"Other",2017
+"ID49","male",1,0,"Research Fellow",2017
+"ID51","male",0,0,"Student",2017
+"ID56","male",2,0,"Senior Lecturer / Reader",2017
+"ID59","female",2,0,"Senior Lecturer / Reader",2017
+"ID60","female",0,0,"Research Assistant / Associate",2017
+"ID61","male",0,0,"Lecturer",2017
+"ID63","male",8,225.530887382312,"Professor",2017
+"ID69","male",12,0,"Research Fellow",2017
+"ID74","male",2,0,"Other",2017
+"ID78","female",5,3,"Research Fellow",2017
+"ID83","male",3,0.5,"Professor",2017
+"ID85","male",1,0,"Research Assistant / Associate",2017
+"ID88","female",0,0,"Lecturer",2017
+"ID91","male",8,10.4833333333333,"Professor",2017
+"ID96","female",3,0,"Other",2017
+"ID97","female",1,0,"Research Assistant / Associate",2017
+"ID102","male",1,0,"Other",2017
+"ID104","female",0,0,"Other",2017
+"ID105","female",1,0,"Senior Lecturer / Reader",2017
+"ID106","female",1,0,"Professor",2017
+"ID107","male",8,206.604700854701,"Research Assistant / Associate",2017
+"ID108","male",3,3,"Professor",2017
+"ID109","female",2,0,"Research Fellow",2017
+"ID110","female",0,0,"Research Fellow",2017
+"ID111","male",5,0,"Senior Lecturer / Reader",2017
+"ID112","male",6,0,"Other",2017
+"ID114","male",1,0,"Research Fellow",2017
+"ID115","female",9,174.78535280509,"Senior Lecturer / Reader",2017
+"ID116","male",1,0,"Research Fellow",2017
+"ID117","male",0,0,"Senior Lecturer / Reader",2017
+"ID120","male",1,0,"Research Fellow",2017
+"ID129","male",1,0,"Other",2017
+"ID130","male",0,0,"Research Fellow",2017
+"ID131","female",2,104,"Other",2017
+"ID134","female",8,1.02380952380952,"Lecturer",2017
+"ID135","male",0,0,"Research Assistant / Associate",2017
+"ID139","male",1,0,"Research Assistant / Associate",2017
+"ID140","female",3,0,"Research Assistant / Associate",2017
+"ID141","male",10,82.7542944393781,"Senior Lecturer / Reader",2017
+"ID142","female",3,0,"Other",2017
+"ID145","male",0,0,"Professor",2017
+"ID147","female",0,0,"Research Fellow",2017
+"ID153","male",1,0,"Other",2017
+"ID154","male",17,128.344121573371,"Professor",2017
+"ID157","female",1,0,"Research Fellow",2017
+"ID159","female",5,1.11666666666667,"Senior Lecturer / Reader",2017
+"ID162","male",2,0,"Senior Lecturer / Reader",2017
+"ID165","female",1,0,"Lecturer",2017
+"ID166","male",8,0,"Professor",2017
+"ID167","female",0,0,"Research Assistant / Associate",2017
+"ID168","male",6,109.354761904762,"Senior Lecturer / Reader",2017
+"ID169","male",10,95.3590864690865,"Senior Lecturer / Reader",2017
+"ID171","male",8,155,"Professor",2017
+"ID172","male",7,188.194047619048,"Senior Lecturer / Reader",2017
+"ID174","female",0,0,"Research Assistant / Associate",2017
+"ID176","male",0,0,"Research Assistant / Associate",2017
+"ID177","male",8,315.086993422291,"Senior Lecturer / Reader",2017
+"ID178","male",0,0,"Research Fellow",2017
+"ID180","male",3,0.476923076923077,"Research Assistant / Associate",2017
+"ID181","female",8,0,"Research Assistant / Associate",2017
+"ID184","female",12,0,"Research Assistant / Associate",2017
+"ID186","male",1,0,"Research Fellow",2017
+"ID188","male",0,0,"Other",2017
+"ID195","female",6,44.1666666666667,"Professor",2017
+"ID196","female",1,0,"Research Assistant / Associate",2017
+"ID197","female",12,0,"Research Assistant / Associate",2017
+"ID201","male",2,0,"Lecturer",2017
+"ID205","female",1,0,"Senior Lecturer / Reader",2017
+"ID206","female",7,209.283333333333,"Other",2017
+"ID210","female",8,0,"Senior Lecturer / Reader",2017
+"ID214","female",9,150,"Lecturer",2017
+"ID216","male",0,0,"Senior Lecturer / Reader",2017
+"ID219","female",14,99.867902287286,"Professor",2017
+"ID221","female",31,1387.10535133109,"Other",2017
+"ID225","male",8,21.4738095238095,"Senior Lecturer / Reader",2017
+"ID226","male",11,49.2414384232782,"Professor",2017
+"ID227","male",2,0,"Research Assistant / Associate",2017
+"ID232","female",0,0,"Lecturer",2017
+"ID241","male",0,0,"Research Assistant / Associate",2017
+"ID243","male",6,40.1666666666667,"Senior Lecturer / Reader",2017
+"ID244","male",2,0,"Lecturer",2017
+"ID245","male",1,0,"Research Assistant / Associate",2017
+"ID248","female",0,0,"Senior Lecturer / Reader",2017
+"ID250","male",1,0,"Research Fellow",2017
+"ID253","female",0,0,"Research Assistant / Associate",2017
+"ID254","female",0,0,"Research Fellow",2017
+"ID255","female",2,0,"Professor",2017
+"ID256","male",0,0,"Research Assistant / Associate",2017
+"ID257","female",4,207,"Professor",2017
+"ID258","male",2,104,"Professor",2017
+"ID259","female",2,0,"Research Assistant / Associate",2017
+"ID262","female",0,0,"Other",2017
+"ID263","male",0,0,"Research Fellow",2017
+"ID268","male",9,82.2826809787982,"Senior Lecturer / Reader",2017
+"ID271","male",1,0,"Senior Lecturer / Reader",2017
+"ID273","male",0,0,"Lecturer",2017
+"ID274","female",0,0,"Research Assistant / Associate",2017
+"ID275","female",0,0,"Research Fellow",2017
+"ID276","female",0,0,"Other",2017
+"ID283","female",1,0,"Other",2017
+"ID284","female",1,0,"Other",2017
+"ID285","male",2,0,"Professor",2017
+"ID288","female",2,0,"Senior Lecturer / Reader",2017
+"ID289","female",3,0,"Senior Lecturer / Reader",2017
+"ID293","male",2,0,"Research Assistant / Associate",2017
+"ID294","female",10,240.734049690457,"Professor",2017
+"ID295","female",4,0,"Other",2017
+"ID296","male",2,0,"Senior Lecturer / Reader",2017
+"ID297","female",1,0,"Professor",2017
+"ID298","female",9,174.78535280509,"Professor",2017
+"ID301","male",0,0,"Professor",2017
+"ID302","male",7,34.5915478312537,"Professor",2017
+"ID308","male",3,207,"Professor",2017
+"ID310","male",14,201.601510601654,"Professor",2017
+"ID311","female",3,104,"Professor",2017
+"ID312","male",19,278.900023347036,"Professor",2017
+"ID314","male",4,0,"Senior Lecturer / Reader",2017
+"ID316","male",0,0,"Other",2017
+"ID317","male",0,0,"Other",2017
+"ID318","female",1,0,"Research Assistant / Associate",2017
+"ID319","female",5,0,"Other",2017
+"ID323","female",1,0,"Research Fellow",2017
+"ID325","female",1,0,"Research Fellow",2017
+"ID329","male",3,0.5,"Research Fellow",2017
+"ID332","female",0,0,"Other",2017
+"ID333","female",12,246.003343185183,"Professor",2017
+"ID337","male",5,104,"Other",2017
+"ID340","male",0,0,"Other",2017
+"ID343","male",19,533.397633306778,"Professor",2017
+"ID344","male",3,0,"Research Fellow",2017
+"ID345","male",2,0,"Professor",2017
+"ID346","male",0,0,"Research Assistant / Associate",2017
+"ID349","male",3,134,"Professor",2017
+"ID351","male",1,0,"Senior Lecturer / Reader",2017
+"ID352","female",0,0,"Research Assistant / Associate",2017
+"ID354","male",0,0,"Senior Lecturer / Reader",2017
+"ID358","female",0,0,"Other",2017
+"ID359","female",4,3.5,"Professor",2017
+"ID360","female",1,0,"Research Assistant / Associate",2017
+"ID361","male",14,549.403294783132,"Professor",2017
+"ID363","female",0,0,"Research Fellow",2017
+"ID365","female",1,0,"Research Fellow",2017
+"ID369","male",5,104,"Lecturer",2017
+"ID373","female",4,0,"Other",2017
+"ID375","male",0,0,"Lecturer",2017
+"ID378","male",31,1387.10535133109,"Professor",2017
+"ID380","male",7,30.229821566142,"Professor",2017
+"ID382","male",2,0,"Senior Lecturer / Reader",2017
+"ID384","male",3,4.11959706959707,"Professor",2017
+"ID386","male",1,0,"Lecturer",2017
+"ID387","male",19,276.007162442175,"Professor",2017
+"ID388","male",4,30,"Professor",2017
+"ID389","male",4,306,"Research Fellow",2017
+"ID391","male",8,139.942567432567,"Professor",2017
+"ID395","female",6,0,"Research Fellow",2017
+"ID396","male",12,0,"Student",2017
+"ID398","male",1,0,"Professor",2017
+"ID401","female",0,0,"Student",2017
+"ID404","male",0,0,"Research Assistant / Associate",2017
+"ID409","male",4,86,"Professor",2017
+"ID410","male",0,0,"Research Assistant / Associate",2017
+"ID413","female",2,104,"Other",2017
+"ID415","female",0,0,"Senior Lecturer / Reader",2017
+"ID416","male",0,0,"Research Assistant / Associate",2017
+"ID417","male",0,0,"Other",2017
+"ID421","male",3,30,"Research Fellow",2017
+"ID424","male",1,0,"Research Fellow",2017
+"ID427","female",3,0,"Research Fellow",2017
+"ID428","female",0,0,"Research Fellow",2017
+"ID429","female",0,0,"Lecturer",2017
+"ID430","male",6,31.3333333333333,"Professor",2017
+"ID432","female",2,0,"Lecturer",2017
+"ID433","female",0,0,"Other",2017
+"ID434","male",7,51,"Senior Lecturer / Reader",2017
+"ID435","male",0,0,"Research Assistant / Associate",2017
+"ID436","female",0,0,"Research Fellow",2017
+"ID437","female",1,0,"Senior Lecturer / Reader",2017
+"ID440","male",0,0,"Other",2017
+"ID441","female",0,0,"Other",2017
+"ID442","male",1,0,"Other",2017
+"ID443","female",1,0,"Other",2017
+"ID445","male",2,0,"Other",2017
+"ID447","female",0,0,"Other",2017
+"ID448","male",6,864,"Professor",2017
+"ID449","male",0,0,"Other",2017
+"ID452","female",1,0,"Research Assistant / Associate",2017
+"ID454","male",3,0,"Professor",2017
+"ID457","male",0,0,"Other",2017
+"ID459","male",13,360.876420801421,"Professor",2017
+"ID460","male",10,58,"Professor",2017
+"ID462","female",0,0,"Research Assistant / Associate",2017
+"ID464","female",9,51.5323176823177,"Professor",2017
+"ID465","male",0,0,"Other",2017
+"ID469","female",0,0,"Lecturer",2017
+"ID470","male",0,0,"Research Fellow",2017
+"ID473","male",7,232.333333333333,"Professor",2017
+"ID475","female",8,0,"Senior Lecturer / Reader",2017
+"ID476","male",4,0,"Lecturer",2017
+"ID478","male",8,0,"Senior Lecturer / Reader",2017
+"ID479","female",2,0,"Other",2017
+"ID480","female",3,0,"Research Fellow",2017
+"ID484","male",1,0,"Professor",2017
+"ID486","male",0,0,"Other",2017
+"ID488","male",12,0,"Other",2017
+"ID492","female",1,0,"Professor",2017
+"ID494","male",9,221.439528694672,"Professor",2017
+"ID495","male",1,0,"Research Assistant / Associate",2017
+"ID496","female",0,0,"Other",2017
+"ID501","female",0,0,"Lecturer",2017
+"ID506","male",9,228,"Other",2017
+"ID510","male",0,0,"Research Assistant / Associate",2017
+"ID513","male",0,0,"Other",2017
+"ID4","female",0,0,"Other",2023
+"ID5","female",1,0,"Student",2023
+"ID9","male",0,0,"Research Assistant / Associate",2023
+"ID10","female",9,0,"Senior Lecturer / Reader",2023
+"ID12","male",7,14.246453254348,"Senior Lecturer / Reader",2023
+"ID13","male",3,0,"Other",2023
+"ID14","female",2,0,"Other",2023
+"ID16","female",18,470.270634920635,"Professor",2023
+"ID18","male",2,0,"Research Fellow",2023
+"ID21","female",7,2.15833333333333,"Lecturer",2023
+"ID23","female",0,0,"Other",2023
+"ID24","female",13,583.904832954558,"Professor",2023
+"ID26","male",7,396.904451757393,"Senior Lecturer / Reader",2023
+"ID27","male",0,0,"Research Fellow",2023
+"ID29","female",5,43.5022257135376,"Senior Lecturer / Reader",2023
+"ID30","male",2,0,"Research Assistant / Associate",2023
+"ID31","male",3,0,"Other",2023
+"ID33","male",15,1682.50997251674,"Professor",2023
+"ID35","male",0,0,"Research Assistant / Associate",2023
+"ID38","female",3,0,"Other",2023
+"ID39","female",1,0,"Other",2023
+"ID41","male",0,0,"Research Assistant / Associate",2023
+"ID42","female",1,0,"Research Assistant / Associate",2023
+"ID43","male",2,0,"Other",2023
+"ID46","female",3,0.5,"Other",2023
+"ID48","female",1,0,"Research Fellow",2023
+"ID49","male",2,0,"Research Fellow",2023
+"ID53","male",12,696.997301587302,"Research Assistant / Associate",2023
+"ID55","male",3,0,"Research Assistant / Associate",2023
+"ID56","male",3,0,"Senior Lecturer / Reader",2023
+"ID57","female",2,0,"Research Assistant / Associate",2023
+"ID59","female",8,411,"Senior Lecturer / Reader",2023
+"ID61","male",10,51,"Lecturer",2023
+"ID63","male",5,507.740027483266,"Professor",2023
+"ID69","male",7,0,"Research Fellow",2023
+"ID71","female",11,126.076767676768,"Other",2023
+"ID74","male",2,0,"Other",2023
+"ID78","female",7,115.161382017418,"Research Fellow",2023
+"ID83","male",6,7,"Professor",2023
+"ID84","female",1,0,"Research Assistant / Associate",2023
+"ID85","male",1,0,"Research Assistant / Associate",2023
+"ID91","male",11,1250.29247138688,"Professor",2023
+"ID93","female",1,0,"Research Assistant / Associate",2023
+"ID96","female",0,0,"Other",2023
+"ID99","male",3,0,"Research Assistant / Associate",2023
+"ID100","female",1,0,"Other",2023
+"ID102","male",2,0,"Other",2023
+"ID104","female",4,0,"Other",2023
+"ID105","female",3,0,"Senior Lecturer / Reader",2023
+"ID106","female",11,1113.07676767677,"Professor",2023
+"ID107","male",10,394.487588198344,"Research Assistant / Associate",2023
+"ID108","male",3,0,"Professor",2023
+"ID112","male",3,0,"Other",2023
+"ID115","female",11,1194,"Senior Lecturer / Reader",2023
+"ID116","male",1,0,"Research Fellow",2023
+"ID117","male",6,13,"Senior Lecturer / Reader",2023
+"ID119","male",12,3637,"Research Assistant / Associate",2023
+"ID120","male",8,167.116053391053,"Research Fellow",2023
+"ID121","male",3,0,"Research Assistant / Associate",2023
+"ID123","male",0,0,"Student",2023
+"ID126","female",3,0,"Other",2023
+"ID129","male",1,0,"Other",2023
+"ID130","male",0,0,"Research Fellow",2023
+"ID131","female",3,931,"Other",2023
+"ID139","male",0,0,"Research Assistant / Associate",2023
+"ID141","male",6,10.65,"Senior Lecturer / Reader",2023
+"ID142","female",0,0,"Other",2023
+"ID144","female",3,0,"Research Assistant / Associate",2023
+"ID145","male",0,0,"Professor",2023
+"ID147","female",1,0,"Research Fellow",2023
+"ID151","female",1,0,"Research Fellow",2023
+"ID152","female",0,0,"Lecturer",2023
+"ID154","male",17,901.013155845116,"Professor",2023
+"ID155","female",3,0,"Other",2023
+"ID157","female",6,8.15333333333334,"Research Fellow",2023
+"ID159","female",11,1250.29247138688,"Senior Lecturer / Reader",2023
+"ID162","male",8,139,"Senior Lecturer / Reader",2023
+"ID164","female",2,0,"Research Assistant / Associate",2023
+"ID165","female",0,0,"Lecturer",2023
+"ID166","male",15,1112.70047619048,"Professor",2023
+"ID168","male",7,283.833333333333,"Senior Lecturer / Reader",2023
+"ID169","male",0,0,"Senior Lecturer / Reader",2023
+"ID171","male",7,342.5,"Professor",2023
+"ID172","male",1,0,"Senior Lecturer / Reader",2023
+"ID173","female",1,0,"Research Assistant / Associate",2023
+"ID174","female",2,0.5,"Research Assistant / Associate",2023
+"ID175","male",3,0,"Other",2023
+"ID176","male",0,0,"Research Assistant / Associate",2023
+"ID178","male",2,0,"Research Fellow",2023
+"ID180","male",3,0,"Research Assistant / Associate",2023
+"ID186","male",4,24,"Research Fellow",2023
+"ID187","female",1,0,"Research Assistant / Associate",2023
+"ID189","female",6,0,"Other",2023
+"ID191","female",6,0,"Research Fellow",2023
+"ID194","male",0,0,"Student",2023
+"ID195","female",11,126.076767676768,"Professor",2023
+"ID196","female",1,0,"Research Assistant / Associate",2023
+"ID199","female",5,139,"Research Fellow",2023
+"ID201","male",1,0,"Lecturer",2023
+"ID203","female",3,0,"Research Assistant / Associate",2023
+"ID204","female",5,32.0760317460317,"Research Fellow",2023
+"ID206","female",2,0,"Other",2023
+"ID213","male",0,0,"Research Assistant / Associate",2023
+"ID214","female",3,0,"Lecturer",2023
+"ID216","male",2,0,"Senior Lecturer / Reader",2023
+"ID219","female",8,64.5131199210147,"Professor",2023
+"ID220","female",2,0,"Research Assistant / Associate",2023
+"ID221","female",3,2.59774436090226,"Other",2023
+"ID225","male",2,0,"Senior Lecturer / Reader",2023
+"ID226","male",3,3.875,"Professor",2023
+"ID227","male",4,1.33333333333333,"Research Assistant / Associate",2023
+"ID228","female",4,0,"Research Assistant / Associate",2023
+"ID229","male",0,0,"Other",2023
+"ID237","male",2,0,"Other",2023
+"ID241","male",1,0,"Research Assistant / Associate",2023
+"ID242","male",0,0,"Research Assistant / Associate",2023
+"ID243","male",2,1056,"Senior Lecturer / Reader",2023
+"ID244","male",3,0,"Lecturer",2023
+"ID245","male",5,0.166666666666667,"Research Assistant / Associate",2023
+"ID246","male",0,0,"Research Fellow",2023
+"ID254","female",10,3.93507936507937,"Research Fellow",2023
+"ID255","female",9,780.652222222224,"Professor",2023
+"ID256","male",10,3.93507936507937,"Research Assistant / Associate",2023
+"ID257","female",1,0,"Professor",2023
+"ID258","male",0,0,"Professor",2023
+"ID263","male",1,0,"Research Fellow",2023
+"ID268","male",19,2099.75610272046,"Senior Lecturer / Reader",2023
+"ID270","female",0,0,"Research Assistant / Associate",2023
+"ID271","male",2,139,"Senior Lecturer / Reader",2023
+"ID273","male",0,0,"Lecturer",2023
+"ID274","female",3,0,"Research Assistant / Associate",2023
+"ID276","female",1,0,"Other",2023
+"ID280","female",2,0,"Other",2023
+"ID282","female",0,0,"Other",2023
+"ID283","female",10,1179,"Other",2023
+"ID284","female",6,9,"Other",2023
+"ID285","male",8,89.9325330069516,"Professor",2023
+"ID287","female",4,68.5,"Research Assistant / Associate",2023
+"ID288","female",2,0,"Senior Lecturer / Reader",2023
+"ID294","female",3,139,"Professor",2023
+"ID296","male",5,0,"Senior Lecturer / Reader",2023
+"ID297","female",3,937,"Professor",2023
+"ID298","female",9,411,"Professor",2023
+"ID301","male",1,0,"Professor",2023
+"ID302","male",12,689.867533528563,"Professor",2023
+"ID305","female",1,0,"Other",2023
+"ID308","male",4,0,"Professor",2023
+"ID309","female",2,0,"Other",2023
+"ID310","male",13,1249,"Professor",2023
+"ID312","male",13,527.446191115035,"Professor",2023
+"ID314","male",2,3,"Senior Lecturer / Reader",2023
+"ID315","female",1,0,"Other",2023
+"ID317","male",0,0,"Other",2023
+"ID319","female",0,0,"Other",2023
+"ID325","female",0,0,"Research Fellow",2023
+"ID327","female",5,0,"Research Assistant / Associate",2023
+"ID329","male",4,675,"Research Fellow",2023
+"ID341","male",7,0,"Research Assistant / Associate",2023
+"ID343","male",2,149.756694149933,"Professor",2023
+"ID345","male",1,0,"Professor",2023
+"ID347","female",0,0,"Research Assistant / Associate",2023
+"ID348","female",1,0,"Research Assistant / Associate",2023
+"ID349","male",5,6,"Professor",2023
+"ID354","male",2,1,"Senior Lecturer / Reader",2023
+"ID359","female",5,2,"Professor",2023
+"ID360","female",2,0,"Research Assistant / Associate",2023
+"ID361","male",2,76.676138594377,"Professor",2023
+"ID362","female",2,0,"Research Assistant / Associate",2023
+"ID363","female",1,0,"Research Fellow",2023
+"ID366","male",0,0,"Research Assistant / Associate",2023
+"ID368","male",10,57.0767676767677,"Other",2023
+"ID369","male",1,0,"Lecturer",2023
+"ID375","male",0,0,"Lecturer",2023
+"ID376","male",11,637.657142857143,"Research Assistant / Associate",2023
+"ID378","male",28,4779.40602377186,"Professor",2023
+"ID384","male",7,54.7522257135376,"Professor",2023
+"ID386","male",0,0,"Lecturer",2023
+"ID387","male",13,742.890328578136,"Professor",2023
+"ID389","male",10,342.450476190477,"Research Fellow",2023
+"ID390","male",3,0,"Research Assistant / Associate",2023
+"ID391","male",11,547.328881575941,"Professor",2023
+"ID395","female",3,0,"Research Fellow",2023
+"ID396","male",0,0,"Student",2023
+"ID398","male",0,0,"Professor",2023
+"ID405","male",1,0,"Other",2023
+"ID407","female",3,0,"Research Assistant / Associate",2023
+"ID409","male",1,0,"Professor",2023
+"ID410","male",0,0,"Research Assistant / Associate",2023
+"ID411","male",6,0,"Research Fellow",2023
+"ID413","female",0,0,"Other",2023
+"ID414","male",0,0,"Other",2023
+"ID415","female",2,0,"Senior Lecturer / Reader",2023
+"ID416","male",0,0,"Research Assistant / Associate",2023
+"ID417","male",2,0,"Other",2023
+"ID419","female",7,0,"Other",2023
+"ID421","male",1,0,"Research Fellow",2023
+"ID422","female",3,0,"Research Assistant / Associate",2023
+"ID428","female",0,0,"Research Fellow",2023
+"ID430","male",3,0,"Professor",2023
+"ID432","female",0,0,"Lecturer",2023
+"ID433","female",6,8.5,"Other",2023
+"ID434","male",6,203.5,"Senior Lecturer / Reader",2023
+"ID435","male",0,0,"Research Assistant / Associate",2023
+"ID436","female",6,2.33333333333333,"Research Fellow",2023
+"ID437","female",2,139,"Senior Lecturer / Reader",2023
+"ID440","male",0,0,"Other",2023
+"ID442","male",5,0,"Other",2023
+"ID444","male",1,0,"Research Assistant / Associate",2023
+"ID448","male",8,44.1915873015873,"Professor",2023
+"ID449","male",0,0,"Other",2023
+"ID455","female",7,0,"Research Assistant / Associate",2023
+"ID459","male",3,277,"Professor",2023
+"ID460","male",7,0,"Professor",2023
+"ID462","female",0,0,"Research Assistant / Associate",2023
+"ID463","female",3,0,"Research Assistant / Associate",2023
+"ID464","female",1,0,"Professor",2023
+"ID465","male",1,0,"Other",2023
+"ID467","female",1,0,"Research Assistant / Associate",2023
+"ID469","female",0,0,"Lecturer",2023
+"ID470","male",5,133.581659684036,"Research Fellow",2023
+"ID473","male",5,206,"Professor",2023
+"ID476","male",0,0,"Lecturer",2023
+"ID477","male",1,0,"Other",2023
+"ID479","female",0,0,"Other",2023
+"ID481","female",0,0,"Other",2023
+"ID483","male",10,5.6,"Research Assistant / Associate",2023
+"ID484","male",6,8.15333333333334,"Professor",2023
+"ID487","male",4,0,"Research Fellow",2023
+"ID488","male",13,1249,"Other",2023
+"ID491","female",2,0,"Other",2023
+"ID492","female",6,683,"Professor",2023
+"ID493","male",1,0,"Research Assistant / Associate",2023
+"ID494","male",2,0,"Professor",2023
+"ID495","male",1,0,"Research Assistant / Associate",2023
+"ID498","female",2,0,"Research Assistant / Associate",2023
+"ID499","male",7,0,"Research Assistant / Associate",2023
+"ID501","female",5,0,"Lecturer",2023
+"ID506","male",12,19.8939682539682,"Other",2023
+"ID507","female",1,0,"Research Assistant / Associate",2023
+"ID510","male",1,0,"Research Assistant / Associate",2023
+"ID511","male",0,0,"Research Assistant / Associate",2023
+"ID513","male",0,0,"Other",2023
