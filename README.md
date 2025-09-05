@@ -1,97 +1,173 @@
-# Publications
+# Publication Data Analysis Codebase
 
-Cleaning and analyzing publications data January 2014 to March 2023.
+This README provides an overview of the R scripts used for analyzing publication data, including data preparation, descriptive statistics, visualization, and modeling. The codebase is structured to process and analyze publication data, focusing on metrics such as publication rates, authorship positions, and demographic factors like gender and ethnicity.
 
-## Directory - run scripts in this order
+## Code Structure
 
-```
-.
-├── gender_script.R                     # Assigns gender to each individual based on first name
-├── Data_cleaning.RMd                   # Cleaning (removes non-standard publications and IDs group authorship)
-├── webscrape_job.R                     # Webscrapes each individual's job
-├── ethnicity.R                         # Ethnicity
-├── summary_with_job_level.RDM          # Old analysis
-├── descriptives.R                      # Run descriptive stats underlying the manuscript
-├── models.R                            # Run models presented in manuscript
-├── plots.R                             # Create plots for paper
-└── README.md                         	# Overview
+The codebase consists of four main R scripts, each serving a distinct purpose in the data analysis pipeline:
 
-```
-## Analysis
-All analysis code can be found in the `analysis` subfolder.
+1. **prep_anonymous_dataset.R**: Prepares and anonymizes the raw publication dataset.
+2. **descriptives.R**: Generates descriptive statistics for the publication data.
+3. **plots.R**: Creates visualizations to explore publication patterns by gender, ethnicity, and job category.
+4. **models.R**: Fits statistical models to analyze publication rates and authorship positions.
 
-## Data
-Data is kept in the `data_cleaning` folder. Scripts used to clean the raw data are kept in this subfolder.
-There are 4 data types in this subfolder: `raw`, `interim`, `manual_checking`, and `shared`.
-`raw` contains the raw data used. `interim` contains the interim datasets created while cleaning the raw data.
-Estimating the missing author positions requires some manual checking, the files used to do this are stored in 
-`manual_checking`. The final dataset is stored in `shared`; all publication data shared across analyses should be stored here. 
+Below is a detailed description of each script, including its purpose, inputs, outputs, and key functionalities.
 
-For data up to 5 June 2023 downloaded from Symplectic, find on the Hackathon OneDrive or on Github. 
-The file is entitled: Publications_UserObjectPairs_From20140101_To20230605_School of Public Health_20230605.csv
+---
 
-Other data files:
+## 1. prep_anonymous_dataset.R
 
-```
-# Symplectic data
-.
-├── Journal articles_UserObjectPairs_From20141217_To20191217_School of Public Health_20191217.csv         # Original file
-├── Journal articles_UserObjectPairs_From20141217_To20191217_School of Public Health_20191217_gender.csv  # With gender variable added
-├── Publications_UserObjectPairs_From20140101_To20230605_School of Public Health_20230605.csv             # Original file
-└── Publications_UserObjectPairs_From20140101_To20230605_School of Public Health_20230605_gender.csv      # With gender variable added
+### Purpose
+This script loads the raw publication dataset, processes it by adding derived variables (e.g., time periods, pandemic indicator), anonymizes sensitive fields (e.g., usernames, publication titles), and prepares a network dataset for further analysis.
 
-# In-between files: gender_script.R
-.
-├── unknown_gender.csv            # Names with unmatched gender
-└── unknown_gender_reviewed.csv   # Manually matched genders (by hand)
+### Inputs
+- **clean_data_final.csv**: Raw publication dataset containing publication records with fields like `Title`, `Username`, `date`, `year`, `gender`, `race`, `job_cat`, `author_position`, and `N_authors`.
+- **centrality_measures_year.csv**: Network dataset with centrality measures (e.g., degree) by username and year.
 
-# In-between files: Data_cleaning.Rmd
-.
-└── clean_data.csv   # Cleaning out non-journal articles and assigning alphabetical authorship
+### Outputs
+- **clean_data_final_anon.csv**: Anonymized publication dataset with `Title` replaced by `Pub1`, `Pub2`, etc., and `Username` replaced by `ID1`, `ID2`, etc.
+- **centrality_measures_year_anon.csv**: Anonymized network dataset with usernames replaced by anonymized IDs.
 
-# In-between files: webscrape_job.R
-. 
-├── job_titles_scraped0.csv        # Data with job titles scraped from PWP and ICL A-Z staff directory
-├── names_unknown_job.csv          # Names with unknown job categories
-├── names_unknown_job_revised.csv  # Manually matched job categories (by hand)
-└── clean_data_job_title.csv       # Clean data with gender and job category
+### Key Functionalities
+- Loads and processes the raw publication data using `dplyr`.
+- Creates time period categories (e.g., "2014-2015", "2016-2017") and a pandemic indicator ("pandemic" or "not pandemic") based on the `date` and `year` fields.
+- Defines multiple job category variables (`job_cat_old`, `job_cat_simplified`, `job_cat_simplified2`, `job_cat_simplified3`, `job_cat_simplified4`, `job_cat_broad`) using `factor` and `fct_collapse` for different levels of aggregation.
+- Anonymizes `Title` and `Username` fields to protect identifiable information.
+- Merges and anonymizes the network dataset by mapping usernames to anonymized IDs.
 
-# In-between files: author_position_update.Rmd
-. 
-└── clean_data_job_title_author_pos.csv  # Estimates NA author positions
+---
 
-# In-between files: Analysis_gender_ethnicity_cleaning.R
-. 
-└── clean_data_job_title_author_pos_ethn.csv  # Clean dataset with ethnicity, simplified job categories, and covid time + search term
+## 2. descriptives.R
 
-# In-between files: adding_sjr_data.R
-.
-└── clean_data_job_title_author_pos_ethn_sjr.cs  # Clean dataset with sjr impact factor variables
+### Purpose
+This script computes descriptive statistics for the anonymized publication dataset, summarizing publication counts, authorship positions, and demographic distributions (gender, race, job category).
 
-# In-between files: outlier_filtering.R
-.
-└── clean_data_final.csv  # Final clean dataset with lower outlier Professors and Emeritus Readers/Professors removed
+### Inputs
+- **clean_data_final_anon.csv**: Anonymized publication dataset generated by `prep_anonymous_dataset.R`.
 
+### Outputs
+- Console output of various summary tables and statistics, including:
+  - Number of records, unique publications, and unique staff.
+  - Distributions of staff by gender, race, race group, and job category.
+  - Publication counts by gender, year, and job category.
+  - Median and quartile statistics for publications and co-authors by gender and job category.
 
-```
+### Key Functionalities
+- Loads required R packages (`tidyverse`, `dplyr`, `ggplot2`, `ggpubr`, `RColorBrewer`).
+- Defines a custom `ggplot2` theme (`theme1`) for consistent visualization styling.
+- Aggregates data by author (`anon_id`) to compute metrics like total publications (`N_publications`), median number of authors (`N_authors_median`), and median author position (`individual_position_median`).
+- Generates summary tables for:
+  - Job categories (`job_cat_simplified`, `job_cat_old`).
+  - Gender and race distributions.
+  - Publications by gender and year.
+  - Median and quartile statistics for publications and co-authors.
+- Computes statistics for author positions (first, middle, last) by gender and job category.
 
-## R package versions
+---
 
-gender: v0.6.0
+## 3. plots.R
 
-genderdata: v0.6.0
+### Purpose
+This script generates visualizations to explore publication patterns by gender, ethnicity, and job category, focusing on the number of people and annual publication rates.
 
-rvest: v1.0.3
+### Inputs
+- **clean_data_final_anon.csv**: Anonymized publication dataset.
 
-glmmTMB: v1.1.9
+### Outputs
+- PNG files saved to `/Users/paulachristen/SPH Pub Bias/Figures/`:
+  - `number_of_people_by_job_rg.png`: Bar plot of the number of people by job category, gender, and ethnicity.
+  - `pr_by_job_gender.png`: Boxplots of annual publication rates by job category and gender.
+  - `authorposition_annual_gender.png`: Boxplots of annual publication rates by author position and gender.
+  - `pr_by_job_rg.png`: Boxplots of annual publication rates by job category and ethnicity.
+  - `authorposition_annual_race.png`: Boxplots of annual publication rates by author position and ethnicity.
+  - `authorposition_annual_combined.png`: Combined plot stacking gender and ethnicity by author position.
+  - `pr_by_job_combined.png`: Combined plot stacking gender and ethnicity by job category.
 
-tidyverse: v2.0.0
+### Key Functionalities
+- Loads required R packages (`tidyverse`, `dplyr`, `ggtext`, `ggplot2`, `ggpubr`, `RColorBrewer`, `grid`).
+- Applies the same custom `ggplot2` theme (`theme1`) as in `descriptives.R`.
+- Transforms `race_group` ("white" to "Non-minoritized", others to "Minoritized") and `gender` ("male" to "Man", "female" to "Woman") for plotting.
+- Combines first and last author positions into a single "first/last" category.
+- Creates a `dat_annual` dataset aggregating publication counts by `anon_id`, `year`, `gender`, `race_group`, `job_cat_simplified3`, and `author_position`.
+- Adds zero-publication rows for missing years to ensure complete time series data.
+- Generates boxplots and bar plots with faceting by job category or author position, including summary statistics (median, quartiles, sample size) as text annotations.
+- Uses `ggarrange` and `annotate_figure` to create combined plots with shared legends and aligned axes.
 
-lubridate: v1.9.3
+---
 
-MASS: v7.3.60.2
+## 4. models.R
 
-broom: v1.0.5
+### Purpose
+This script fits negative binomial generalized linear mixed models (GLMMs) to analyze annual publication rates, authorship positions, and network centrality, accounting for individual-level random effects.
 
-dplyr: v1.1.4
+### Inputs
+- **clean_data_final_anon.csv**: Anonymized publication dataset.
+- **centrality_measures_year_anon.csv**: Anonymized network dataset with centrality measures.
 
+### Outputs
+- HTML files saved to `./regression_results/` containing regression tables for each model combination.
+- PNG files saved to `./regression_plots/` containing forest plots of model coefficients.
+
+### Key Functionalities
+- Loads required R packages (`glmmTMB`, `tidyverse`, `lubridate`, `MASS`, `broom`, `dplyr`, `sjPlot`).
+- Creates a `dat_annual` dataset aggregating publication counts by `anon_id`, `year`, `time`, `pandemic`, `gender`, `race_group`, `job_cat_broad`, `job_cat_simplified3`, and `author_position`.
+- Computes additional outcomes: `apos_firstlast` (first or last author publications) and `apos_middle` (middle author publications).
+- Merges with network data to include degree centrality (`deg`).
+- Adds zero-publication rows for missing years.
+- Centers the `year` variable at 2019 for regression (`year_reg`).
+- Defines a `model_function` to fit four GLMMs (`m_1` to `m_4`) with different interaction terms:
+  - `m_1`: Main effects of `time`, `gender`, `race_group`, and `job_cat_simplified3`.
+  - `m_2`: Adds `gender*race_group` interaction.
+  - `m_3`: Adds `time*gender` interaction.
+  - `m_4`: Adds `job_cat_simplified3*gender` interaction.
+- Fits models for four outcomes: `N_pub` (total publications), `apos_firstlast`, `apos_middle`, and `deg` (degree centrality).
+- Uses `glmmTMB` with a negative binomial family (`nbinom2`) and a random intercept for `anon_id`.
+- Saves regression tables using `sjPlot::tab_model` and forest plots using `sjPlot::plot_models`.
+- Runs models for specified combinations of reference groups (currently fixed to `non-white`, `female`, `2014-2015`, `Student / Research Assistant`).
+
+---
+
+## Dependencies
+All scripts rely on the following R packages:
+- `tidyverse` (data manipulation and visualization)
+- `dplyr` (data manipulation)
+- `ggplot2` (plotting)
+- `ggpubr` (plot arrangement)
+- `RColorBrewer` (color palettes)
+- `ggtext` (text annotations in plots, used in `plots.R`)
+- `grid` (plot annotations, used in `plots.R`)
+- `glmmTMB` (GLMM fitting, used in `models.R`)
+- `lubridate` (date handling, used in `models.R` and `prep_anonymous_dataset.R`)
+- `MASS` (statistical functions, used in `models.R`)
+- `broom` (model tidying, used in `models.R`)
+- `sjPlot` (model visualization, used in `models.R`)
+
+Scripts check for and install these packages if not already installed.
+
+---
+
+## Data Assumptions
+- The input datasets (`clean_data_final.csv`, `centrality_measures_year.csv`) are assumed to be in the `data_cleaning/manuscript_data/` directory. These datasets are not publicly available.
+- The publication dataset includes fields like `Title`, `Username`, `date`, `year`, `gender`, `race`, `race_group`, `job_cat`, `author_position`, and `N_authors`.
+- The network dataset includes `username`, `year`, and `deg` (degree centrality).
+- Missing years for individuals are filled with zero publications in `plots.R` and `models.R` to ensure complete time series.
+
+---
+
+## Usage Notes
+1. **File Paths**: Update file paths in `plots.R` (e.g., `/Users/paulachristen/SPH Pub Bias/Figures/`) to match your local directory structure.
+2. **Data Availability**: The raw datasets (`clean_data_final.csv`, `centrality_measures_year.csv`) are not publicly available due to identifiable information. Ensure you have access to these files or equivalent anonymized versions.
+3. **Customization**: Modify reference groups in `models.R` or job category levels in `prep_anonymous_dataset.R` to explore different analytical perspectives.
+4. **Output Directories**: The `regression_results` and `regression_plots` directories are created automatically by `models.R` if they do not exist.
+
+---
+
+## Running the Code
+1. Start with `prep_anonymous_dataset.R` to generate anonymized datasets.
+2. Run `descriptives.R` to compute summary statistics and inspect the data.
+3. Execute `plots.R` to generate visualizations.
+4. Run `models.R` to fit statistical models and produce regression tables and plots.
+
+Ensure all required packages are installed and input datasets are accessible before running the scripts.
+
+---
