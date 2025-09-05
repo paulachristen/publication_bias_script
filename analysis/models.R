@@ -1,67 +1,55 @@
-
-
 # Install R packages if not installed -------------------------------------
-
 if (!require("glmmTMB")) install.packages("glmmTMB")
 if (!require("tidyverse")) install.packages("tidyverse")
 if (!require("lubridate")) install.packages("lubridate")
 if (!require("MASS")) install.packages("MASS")
 if (!require("broom")) install.packages("broom")
 if (!require("dplyr")) install.packages("dplyr")
+if (!require("sjPlot")) install.packages("sjPlot")
 
 # Load R packages ---------------------------------------------------------
-
 library(glmmTMB)
 library(tidyverse)
 library(lubridate)
 library(MASS)
 library(broom)
 library(dplyr)
+library(sjPlot)
 
 ############################################################################
 ######################## Publication Data ##################################
 # Get Publication data (not in repository due to identifiable data) --------
-source("./data_cleaning/scripts/load_publication_data.R",
-       chdir=TRUE)
-
-dat <- dat |>
-  dplyr::select(Name, Username, Publication.type, Publication.date.OR.Presented.date.OR.Date.awarded.OR.Presentation.date,
-                Title, Title2, JCR.rank:SNIP.rank, first_name:job_cat,
-                Name, gender, race, race_group, job_title, job_cat, job_cat_clinical,
-                job_cat_clinical_flag, job_cat_old, job_cat_f,
-                job_cat_simplified, job_cat_simplified2, job_cat_simplified3, job_cat_broad,
-                year, Sub.types, time, pandemic, author_position, covid, citations, h_index,
-                pandemic, time, date)
+dat <- read.csv("data_cleaning/manuscript_data/clean_data_final_anon.csv",
+                stringsAsFactors = FALSE, encoding = "UTF-8")
 
 # Read in network data (not in repository due to identifiable data) --------
-nw_dat <- read.csv("/Users/paulachristen/Documents/publication bias manuscript/shared/centrality_measures_year.csv")
+nw_dat <- read.csv("data_cleaning/manuscript_data/centrality_measures_year_anon.csv")
 
 # Models -----------------------------------------------------------------------
 
 # < data: annual pubs and author position --------------------------------------
 dat_annual <- dat |>
-  group_by(Username, year, time, pandemic, gender, race_group, 
+  group_by(anon_id, year, time, pandemic, gender, race_group, 
            job_cat_broad, job_cat_simplified3, author_position) |>
   summarize(n = n()) |>
   ungroup() |>
   mutate(apos_firstlast = case_when(author_position %in% c("first","last") ~ n),
          apos_middle = case_when(author_position == "middle" ~ n)) |> 
-  group_by(Username, year, time, pandemic, gender, race_group, 
+  group_by(anon_id, year, time, pandemic, gender, race_group, 
            job_cat_broad, job_cat_simplified3) |>
   summarize(across(c(n, apos_firstlast:apos_middle), \(x) sum(x, na.rm = TRUE))) |>
   rename(N_pub = n)
 
 # merge formatted data with network data ---------------------------------------
 dat_annual <- merge(dat_annual, nw_dat[,c("username","year","deg")], 
-                    by.x = c("Username","year"), by.y = c("username","year"), 
+                    by.x = c("anon_id","year"), by.y = c("username","year"), 
                     all.x = TRUE)
 
 # Add rows with 0 outcomes for individuals with missing years 
 # (between min year and max year)
-
 dat_annual <- dat_annual |>
-  arrange(Username, year) |>
-  group_by(Username) %>%
+  arrange(anon_id, year) |>
+  group_by(anon_id) %>%
   complete(year = seq(min(year), max(year))) |>
   fill(gender:job_cat_simplified3) |>
   mutate(across(c(N_pub:deg), ~ifelse(is.na(.), 0, .)))
@@ -78,13 +66,13 @@ model_function <- function(model = "m_1",
                            ref_group_jobcat = "Student / Research Assistant") {
   
   if (model == "m_1") {
-    m <- "~ time + gender + race_group + job_cat_simplified3 + (1 | Username)"
+    m <- "~ time + gender + race_group + job_cat_simplified3 + (1 | anon_id)"
   } else if (model == "m_2") {
-    m <- "~ time + gender*race_group + job_cat_simplified3 + (1 | Username)"
+    m <- "~ time + gender*race_group + job_cat_simplified3 + (1 | anon_id)"
   } else if (model == "m_3") {
-    m <- "~ time*gender + race_group + job_cat_simplified3 + (1 | Username)"
+    m <- "~ time*gender + race_group + job_cat_simplified3 + (1 | anon_id)"
   } else if (model == "m_4") {
-    m <- "~ job_cat_simplified3*gender + race_group + time + (1 | Username)"
+    m <- "~ job_cat_simplified3*gender + race_group + time + (1 | anon_id)"
   }
   
   # Change reference groups
@@ -113,19 +101,23 @@ model_function <- function(model = "m_1",
   html_filepath <- paste0("./regression_results/", file_stub, ".html")
   png_filepath <- paste0("./regression_plots/", file_stub, ".png")
   
+  # Create output directories if they don't exist
+  dir.create("./regression_results", showWarnings = FALSE)
+  dir.create("./regression_plots", showWarnings = FALSE)
+  
   # Save regression table
-  print(sjPlot::tab_model(m1, m2, m3, m4,
-                          dv.labels = c("N_pub", "apos_firstlast", "apos_middle", "deg"),
-                          wrap.labels = 50,
-                          title = title,
-                          show.aic = TRUE,
-                          p.style = "stars", 
-                          file = html_filepath))
+  sjPlot::tab_model(m1, m2, m3, m4,
+                    dv.labels = c("N_pub", "apos_firstlast", "apos_middle", "deg"),
+                    wrap.labels = 50,
+                    title = title,
+                    show.aic = TRUE,
+                    p.style = "stars", 
+                    file = html_filepath)
   
   # Dynamic axis labels -------------------------------------------------------
   base_label <- c(
     "Time: 2016 - 2017", "Time: 2018 - 2019", "Time: 2020 - 2021", "Time: 2022 - 2023",
-    "Gender: Men", "Ethnicity: Non-minoritized",
+    "Gender: Male", "Ethnicity: Non-minoritized",
     "Job Category: Research Associate", "Job Category: Research Fellow",
     "Job Category: Lecturer", "Job Category: Senior Lecturer / Reader",
     "Job Category: Professor",
@@ -135,14 +127,14 @@ model_function <- function(model = "m_1",
   if (model == "m_1") {
     axis_labels <- base_label
   } else if (model == "m_2") {
-    axis_labels <- c(base_label, "Gender: Men x Ethnicity: Non-minoritized")
+    axis_labels <- c(base_label, "Gender: Male x Ethnicity: Non-minoritized")
   } else if (model == "m_3") {
     axis_labels <- c(
       base_label,
-      "Time: 2016 - 2017 x Gender: Men",
-      "Time: 2018 - 2019 x Gender: Men",
-      "Time: 2020 - 2021 x Gender: Men",
-      "Time: 2022 - 2023 x Gender: Men"
+      "Time: 2016 - 2017 x Gender: Male",
+      "Time: 2018 - 2019 x Gender: Male",
+      "Time: 2020 - 2021 x Gender: Male",
+      "Time: 2022 - 2023 x Gender: Male"
     )
   } else if (model == "m_4") {
     jobcats <- c("Research Associate", "Research Fellow", "Lecturer", "Senior Lecturer / Reader", "Professor", "Other")
@@ -172,19 +164,17 @@ model_function <- function(model = "m_1",
     ) +
     guides(color = guide_legend(nrow = 2))
   
-  
   ggsave(png_filepath, p, width = 12, height = 12, dpi = 300, units = "in")
 }
 
-
-#run model with all possible combinations -- apart from time -- keep 2014/15 as reference year
+# Run model with all possible combinations -- apart from time -- keep 2014/15 as reference year
 combinations <- expand.grid(m = c("m_1", "m_2", "m_3", "m_4"),
                             ref_group_race = "non-white",
                             ref_group_gender = "female",
                             ref_group_time = "2014-2015",
                             ref_group_jobcat = "Student / Research Assistant")
 
-#for loop over each iteration
+# For loop over each iteration
 for (i in 1:nrow(combinations)) {
   m_ <- as.character(combinations$m[[i]])
   r <- as.character(combinations$ref_group_race[[i]])
@@ -193,9 +183,9 @@ for (i in 1:nrow(combinations)) {
   j <- as.character(combinations$ref_group_jobcat[[i]])
   
   model_function(model = m_,
-                  dat_annual,
-                  ref_group_race = r, 
-                  ref_group_gender = g,
-                  ref_group_time = t, 
-                  ref_group_jobcat = j)
+                 data = dat_annual,
+                 ref_group_race = r, 
+                 ref_group_gender = g,
+                 ref_group_time = t, 
+                 ref_group_jobcat = j)
 }
